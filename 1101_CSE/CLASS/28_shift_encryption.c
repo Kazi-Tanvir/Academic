@@ -13,7 +13,7 @@ char decryption(char ch,int SHIFT){
 int main(int argC,char *argV[]){
     char ch;
     FILE *input = fopen("data/name_cg.txt","r");
-    FILE *output = fopen("data/name_cg_encrytion.txt","w");
+    FILE *output = fopen("data/name_cg_encryption.txt","w");
     if(input == NULL || output == NULL){
         printf("Unable to open file\n");
         return 1;
