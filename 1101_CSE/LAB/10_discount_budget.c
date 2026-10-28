@@ -3,7 +3,7 @@
 //Theory 
 
 //Input
-// the price and previous points of a costumer.
+// the price and previous points of a customer.
 
 // Discount (Taka) Conditions
 // 1. If the price is greater than or equal to 5000, the discount is 10% of the price, but it cannot exceed 2000.

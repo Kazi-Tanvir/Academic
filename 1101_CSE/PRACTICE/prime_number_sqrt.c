@@ -40,7 +40,7 @@ int main()
 }
 
 // Concept on why it work 
-// usual approach check eveyr every number from 1 to n | takes maximum n-1 times
+// usual approach check every number from 1 to n | takes maximum n-1 times
 // second approach check every number from 2 to n/2 | takes maximum n/2 - 1 times
 // third approach check every number from 2 to sqrt(n) | takes maximum sqrt(n) - 1 times
 // Why it works ?

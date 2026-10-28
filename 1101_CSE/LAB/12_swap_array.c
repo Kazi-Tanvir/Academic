@@ -33,7 +33,7 @@ int main(){
     }
     printf("\n");
 
-    // printf("Swaped Array Y\n");
+    // printf("Swapped Array Y\n");
     // for(int i = 0; i < n;i++){
     //     printf("%d ",y[i]);
     // }
