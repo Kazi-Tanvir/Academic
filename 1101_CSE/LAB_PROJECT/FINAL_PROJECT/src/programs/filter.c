@@ -114,8 +114,8 @@ Image *crop(const Image *img, int x1, int y1, int x2, int y2){
 Image *blur(const Image *img){
     if(!img || !img->data) return NULL;
 
-    Image *blured = create_image(img->width,img->height);
-    if(!blured) return NULL;
+    Image *blurred = create_image(img->width,img->height);
+    if(!blurred) return NULL;
 
     for(int y = 0 ; y < img->height; y++){
         for(int x = 0 ; x < img->width; x++){
@@ -140,12 +140,12 @@ Image *blur(const Image *img){
             }
 
             int idx = y*img->width + x;
-            blured->data[idx].r = clamp(r_sum/count);
-            blured->data[idx].g = clamp(g_sum/count);
-            blured->data[idx].b = clamp(b_sum/count);
+            blurred->data[idx].r = clamp(r_sum/count);
+            blurred->data[idx].g = clamp(g_sum/count);
+            blurred->data[idx].b = clamp(b_sum/count);
         }
     }
-    return blured;
+    return blurred;
 }
 
 Image *sharpen(const Image *img){
