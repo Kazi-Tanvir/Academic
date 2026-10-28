@@ -88,7 +88,7 @@ int main()
         float point_tk = pre_point / 40;
         discount = discountTK(real_price);
         int a;
-        printf("Do you want ot use Customer points 1 for yes ");
+        printf("Do you want to use Customer points 1 for yes ");
         if(a){
             pay = real_price - discount - point_tk;
         }

@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
         }
         byte++;
     }
-    match?printf("Files are the same.\n"):printf("char are not smae at byte no. %lu\n", byte);
+    match?printf("Files are the same.\n"):printf("char are not same at byte no. %lu\n", byte);
 
     if(fclose(from)==EOF) {
         printf("Error closing source file.\n");

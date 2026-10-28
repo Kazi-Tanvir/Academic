@@ -27,7 +27,7 @@ int main(){
         }
     }
 
-    printf("Swaped Array X\n");
+    printf("Swapped Array X\n");
     for(int i = 0; i < n;i++){
         printf("%d ",arr[i]);
     }
