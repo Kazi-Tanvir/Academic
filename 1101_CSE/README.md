@@ -396,7 +396,7 @@
         <td>📁 <a href="PRACTICE/LEETCODE/"><code>LEETCODE/</code></a> — LeetCode problem solutions in C</td>
       </tr>
       <tr>
-        <td>📁 <a href="PRACTICE/C%20BOOK/"><code>C BOOK/</code></a> — Herbert Schildt C Book exercises (Chapters 1–5)</td>
+        <td>📁 <a href="PRACTICE/C_BOOK/"><code>C_BOOK/</code></a> — Herbert Schildt C Book exercises (Chapters 1–5)</td>
       </tr>
     </tbody>
   </table>

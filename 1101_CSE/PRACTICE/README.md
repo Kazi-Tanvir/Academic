@@ -58,7 +58,7 @@
       <tr>
         <td>📁 <b>C Book (Herbert Schildt)</b></td>
         <td>Comprehensive exercise solutions from Chapters 1 through 5</td>
-        <td align="center"><a href="C%20BOOK/"><code>C BOOK/</code></a></td>
+        <td align="center"><a href="C_BOOK/"><code>C_BOOK/</code></a></td>
       </tr>
     </tbody>
   </table>

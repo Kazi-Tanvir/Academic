@@ -19,27 +19,27 @@
       <tr>
         <td align="center"><b>Chapter 1</b></td>
         <td>C Fundamentals: Data types, functions, variables, I/O &amp; debugging</td>
-        <td align="center">📁 <a href="CHAPTER%201/"><code>CHAPTER 1</code></a></td>
+        <td align="center">📁 <a href="CHAPTER_1/"><code>CHAPTER_1</code></a></td>
       </tr>
       <tr>
         <td align="center"><b>Chapter 2</b></td>
         <td>Control Statements: if, if-else, for loops &amp; basic branching logic</td>
-        <td align="center">📁 <a href="CHAPTER%202/"><code>CHAPTER 2</code></a></td>
+        <td align="center">📁 <a href="CHAPTER_2/"><code>CHAPTER_2</code></a></td>
       </tr>
       <tr>
         <td align="center"><b>Chapter 3</b></td>
         <td>Advanced Control: switch, while, do-while, break, continue &amp; goto</td>
-        <td align="center">📁 <a href="CHAPTER%203/"><code>CHAPTER 3</code></a></td>
+        <td align="center">📁 <a href="CHAPTER_3/"><code>CHAPTER_3</code></a></td>
       </tr>
       <tr>
         <td align="center"><b>Chapter 4</b></td>
         <td>Data Types &amp; Modifiers: Scope, type casting, format specifiers &amp; storage classes</td>
-        <td align="center">📁 <a href="CHAPTER%204/"><code>CHAPTER 4</code></a></td>
+        <td align="center">📁 <a href="CHAPTER_4/"><code>CHAPTER_4</code></a></td>
       </tr>
       <tr>
         <td align="center"><b>Chapter 5</b></td>
         <td>Arrays &amp; Strings: 1D/2D arrays, string operations, searching &amp; sorting</td>
-        <td align="center">📁 <a href="CHAPTER%205/"><code>CHAPTER 5</code></a></td>
+        <td align="center">📁 <a href="CHAPTER_5/"><code>CHAPTER_5</code></a></td>
       </tr>
     </tbody>
   </table>
