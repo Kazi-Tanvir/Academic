@@ -80,7 +80,7 @@
         <td align="center"><code>30/07/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/17_pointer_string_reverese.c"><code>17_pointer_string_reverese.c</code></a></td>
+        <td>📄 <a href="CLASS/17_pointer_string_reverse.c"><code>17_pointer_string_reverse.c</code></a></td>
         <td align="center"><code>30/07/2026</code></td>
       </tr>
       <tr>

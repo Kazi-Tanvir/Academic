@@ -115,7 +115,7 @@
       </tr>
       <tr>
         <td align="center">17</td>
-        <td>📄 <a href="17_pointer_string_reverese.c"><code>17_pointer_string_reverese.c</code></a></td>
+        <td>📄 <a href="17_pointer_string_reverse.c"><code>17_pointer_string_reverse.c</code></a></td>
         <td>Pointer — String Reverse</td>
         <td align="center"><code>30/07/2026</code></td>
       </tr>
