@@ -2,12 +2,12 @@
 
 int main() {
     FILE *input = fopen("data/name_cg.txt", "r");
-    FILE *ouput = fopen("data/sorted_cg.txt", "w"); 
+    FILE *output = fopen("data/sorted_cg.txt", "w"); 
 
-    if (input == NULL || ouput == NULL) {
+    if (input == NULL || output == NULL) {
         printf("Unable to open the file\n");
         if (input) fclose(input);
-        if (ouput) fclose(ouput);
+        if (output) fclose(output);
         return 1;
     }
 
@@ -36,11 +36,11 @@ int main() {
     }
 
     for (int i = 0; i < 50; i++) {
-        fprintf(ouput, "%d %d %s %.2f\n", i + 1, roll[merit[i]], name[merit[i]], cgpa[merit[i]]);
+        fprintf(output, "%d %d %s %.2f\n", i + 1, roll[merit[i]], name[merit[i]], cgpa[merit[i]]);
     }
 
     fclose(input);
-    fclose(ouput);
+    fclose(output);
 
     return 0;
 }
