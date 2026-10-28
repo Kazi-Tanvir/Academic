@@ -18,7 +18,7 @@ prev: "[[LAB 12 - swap array]]"
 next: "[[LAB 14 - merge array]]"
 related:
   - "[[LAB 20 - pointer remove]]"
-  - "[[PRAC LC 283 - move zeroes]]"
+  - "[[PRAC LC - Index]]"
 created: 2026-10-29
 status: draft
 ---
@@ -97,4 +97,4 @@ Array X
 
 ## Related
 - [[LAB 20 - pointer remove]]
-- [[PRAC LC 283 - move zeroes]]
+- [[PRAC LC - Index]]
