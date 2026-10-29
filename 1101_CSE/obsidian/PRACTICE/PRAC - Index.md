@@ -34,13 +34,18 @@ The `PRACTICE/` directory houses standalone utilities, focused pointer drills (`
 | Exam PYG | [[PRAC PYG 01 - final 23 2d]] | Prime factor tree ladder printing with indentation | `c/loops`, `c/math`, `level/intermediate` |
 | Exam PYG | [[PRAC PYG 02 - final 23 7d]] | Binary credential decryption and validation via command-line arguments | `c/file-io`, `c/encryption`, `c/cli-args`, `level/intermediate` |
 | LeetCode | [[PRAC LC - Index]] | Solutions to LeetCode 283 (Move Zeroes) and LeetCode 344 (Reverse String) | `type/index`, `c/arrays`, `c/strings` |
-| C Book | [[PRAC BOOK Ch01 - Index]] | Chapter 1: Introduction, basic syntax, and data representation | `type/index`, `c/control-flow`, `c/math` |
-| C Book | [[PRAC BOOK Ch02 - Index]] | Chapter 2: Operators, expressions, and type precedence | `type/index`, `c/math`, `c/control-flow` |
-| C Book | [[PRAC BOOK Ch03 - Index]] | Chapter 3: Program control statements, selection, and loops | `type/index`, `c/control-flow`, `c/loops` |
-| C Book | [[PRAC BOOK Ch04 - Index]] | Chapter 4: Data types, storage classes, and conversions | `type/index`, `c/math`, `c/cli-args` |
-| C Book | [[PRAC BOOK Ch05 - Index]] | Chapter 5: Arrays, multidimensional indexing, and strings | `type/index`, `c/arrays`, `c/strings` |
-| C Book | [[PRAC BOOK Ch06 - Index]] | Chapter 6: Pointers, memory addresses, and indirection | `type/index`, `c/pointers`, `c/pointer-arithmetic` |
-| C Book | [[PRAC BOOK Ch09 - Index]] | Chapter 9: File I/O, binary streams, and disk persistence | `type/index`, `c/file-io`, `c/binary-io` |
+| C Book | [[PRAC BOOK Ch01 - Index]] | Chapter 1: Introduction, basic syntax, and data representation | 	ype/index, c/control-flow, c/math |
+| C Book | [[PRAC BOOK Ch02 - Index]] | Chapter 2: Operators, expressions, and program control statements | 	ype/index, c/control-flow, c/loops |
+| C Book | [[PRAC BOOK Ch03 - Index]] | Chapter 3: Program control statements, nested loops, and switch | 	ype/index, c/control-flow, c/loops |
+| C Book | [[PRAC BOOK Ch04 - Index]] | Chapter 4: Data types, storage classes, and conversions | 	ype/index, c/math, c/cli-args |
+| C Book | [[PRAC BOOK Ch05 - Index]] | Chapter 5: Arrays, multidimensional indexing, and strings | 	ype/index, c/arrays, c/strings |
+| C Book | [[PRAC BOOK Ch06 - Index]] | Chapter 6: Pointers, memory addresses, and indirection | 	ype/index, c/pointers, c/pointer-arithmetic |
+| C Book | [[PRAC BOOK Ch07 - Index]] | Chapter 7: Functions, parameter passing, scope, and recursion | 	ype/index, c/functions, c/recursion |
+| C Book | [[PRAC BOOK Ch08 - Index]] | Chapter 8: Console I/O, character streams, and formatting | 	ype/index, c/control-flow, c/strings |
+| C Book | [[PRAC BOOK Ch09 - Index]] | Chapter 9: File I/O, binary streams, and disk persistence | 	ype/index, c/file-io, c/binary-io |
+| C Book | [[PRAC BOOK Ch10 - Index]] | Chapter 10: Structures, unions, bit-fields, and enumerations | 	ype/index, c/structs, c/bit-manipulation |
+| C Book | [[PRAC BOOK Ch11 - Index]] | Chapter 11: Advanced data types, typedef, sizeof, and bitwise operators | 	ype/index, c/bit-manipulation, c/math |
+| C Book | [[PRAC BOOK Ch12 - Index]] | Chapter 12: C preprocessor, macros, and conditional compilation | 	ype/index, c/functions, c/control-flow |
 | GUI Tutorial | [[PRAC GUI 01 to 05 - iup basics]] | IUP introduction: hello world, dialogs, buttons, and layout containers | `type/practice`, `c/gui-iup` |
 | GUI Tutorial | [[PRAC GUI 06 - red bmp]] | Binary BMP generation from scratch: headers, dimensions, and pure red canvas | `type/practice`, `c/bmp-format`, `c/binary-io` |
 | GUI Tutorial | [[PRAC GUI 07 - load]] | Interactive image viewer loading BMP files into native IUP canvas | `type/practice`, `c/gui-iup`, `c/bmp-format` |
