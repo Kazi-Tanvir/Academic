@@ -1,11 +1,6 @@
 public class ahOpeOrder {
     public static void main(String[] args) {
-        int a = 5;
-        int b = 10;
-        int c = 15;
-
         // Order of operations : PEMDAS (Parentheses, Exponents, Multiplication and Division, Addition and Subtraction)
-
 
         double result = 3 + 4 * ( 7 - 5 ) / 2.0; // Multiplication first, then addition
         // CALCULATION STEPS

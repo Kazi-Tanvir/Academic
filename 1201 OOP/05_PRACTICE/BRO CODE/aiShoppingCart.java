@@ -8,7 +8,7 @@ public class aiShoppingCart {
         double price;
         int quantity;
         char currency = '$';
-        double total;
+        double total ;
 
         System.out.println("Enter the item name : ");
         item = scanner.nextLine();
