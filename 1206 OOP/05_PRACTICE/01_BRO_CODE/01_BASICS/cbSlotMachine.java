@@ -1,4 +1,4 @@
-public class CBSlotMachine {
+public class cbSlotMachine {
     //     JAVA SLOT MACHINE
     // DECLARE VARIABLES
     // DISPLAY WELCOME MESSAGE
