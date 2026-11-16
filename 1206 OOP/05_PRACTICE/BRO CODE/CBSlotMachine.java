@@ -1,0 +1,15 @@
+public class CBSlotMachine {
+    //     JAVA SLOT MACHINE
+    // DECLARE VARIABLES
+    // DISPLAY WELCOME MESSAGE
+    // PLAY IF BALANCE > O
+    // ENTER BET AMOUNT
+    // VERIFY IF BET > BALANCE
+    // VERIFY IF BET > O
+    // SUBTRACT BET FROM BALANCE
+    // SPIN ROW
+    // PRINT ROW
+    // GET PAYOUT
+    // ASK Tot PLAY AGAIN
+    // DISPLAY EXIT MESSAGEI
+}

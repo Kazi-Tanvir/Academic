@@ -12,13 +12,17 @@ public class buArrayInput {
             System.out.println("Enter fruit name : ");
             fruits[i] = scanner.nextLine();
         }
-        // fruits[0] = "Pineapple";
-        // int numOffruits = fruits.length;
-        // Arrays.sort(fruits);
+        fruits[0] = "Pineapple";
+        int numOffruits = fruits.length;
+        Arrays.sort(fruits);
+
+        System.out.println(numOffruits);
 
         System.out.println("Array elements:");
         for (String fruit : fruits) {
             System.out.println(fruit);
         }
+
+        scanner.close();
     }
 }

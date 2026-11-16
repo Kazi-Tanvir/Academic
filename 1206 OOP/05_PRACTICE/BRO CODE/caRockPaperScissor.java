@@ -1,0 +1,8 @@
+public class caRockPaperScissor {
+    // ROCK PAPER SCISSOR
+    // DECALRE VARIABLES
+    // GET CHOICE FROM THE USER
+    // CHECK WIN CONDITIONS
+    // ASK TO PLAY AGAIN?
+    // GOODBYE MESSAGE
+}
