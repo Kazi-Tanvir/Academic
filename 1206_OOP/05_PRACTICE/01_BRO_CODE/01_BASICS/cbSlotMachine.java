@@ -48,9 +48,10 @@ public class cbSlotMachine {
         
     }
     static String[] spinRow() {
+        
         String[] symbols = {"Cherry", "Lemon", "Orange", "Plum", "Bell", "Bar"};
-
         String[] row = new String[3];
+
         for (int i = 0; i < 3; i++) {
             row[i] = symbols[random.nextInt(symbols.length)];
         }
