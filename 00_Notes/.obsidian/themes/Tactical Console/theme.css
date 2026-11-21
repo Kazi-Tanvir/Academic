@@ -1,0 +1,722 @@
+/* ==========================================================================
+   TACTICAL CONSOLE  —  Obsidian theme
+   Cyber-neobrutalist console · obsidian black / onyx · dark mode only
+   90° geometry · 2px white dividers · hard 4px shadows · film grain
+
+   Optional font: install JetBrains Mono locally, or uncomment the next line.
+   ========================================================================== */
+/* @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&display=swap"); */
+
+/* @settings
+name: Tactical Console
+id: tactical-console
+settings:
+    -
+        id: tc-no-grain
+        title: Disable film grain
+        type: class-toggle
+        default: false
+    -
+        id: tc-shadow
+        title: Hard shadow offset
+        description: Offset of the unblurred drop shadows
+        type: variable-number
+        default: 4
+        format: px
+        min: 0
+        max: 10
+        step: 1
+*/
+
+/* ---------- 1. Tokens ---------------------------------------------------- */
+body {
+  --tc-void: #070709;      /* obsidian */
+  --tc-onyx: #0e0e14;      /* onyx */
+  --tc-panel: #14141c;
+  --tc-key: #1c1c27;       /* keycap top face */
+  --tc-line: #2c2c3a;      /* quiet 1px lines */
+  --tc-white: #ffffff;
+  --tc-text: #e6e6ee;
+  --tc-muted: #9a9aae;
+  --tc-faint: #5f5f74;
+
+  --tc-purple: #8b5cf6;
+  --tc-cyan: #00f0ff;
+  --tc-lime: #00ff66;
+  --tc-amber: #ffee00;
+  --tc-red: #ff003c;
+
+  --tc-off: var(--tc-shadow, 4px);
+  --tc-hard: var(--tc-off) var(--tc-off) 0 0 var(--tc-purple);
+
+  --tc-mono: "JetBrains Mono", "IBM Plex Mono", "Cascadia Code", "SF Mono",
+    "Fira Code", Menlo, Consolas, "Noto Sans Mono CJK JP",
+    "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, monospace;
+}
+
+/* ---------- 2. Obsidian variable overrides ------------------------------- */
+body.theme-dark,
+body.theme-light {
+  color-scheme: dark;
+
+  /* fonts */
+  --font-interface-theme: var(--tc-mono);
+  --font-text-theme: var(--tc-mono);
+  --font-monospace-theme: var(--tc-mono);
+  --line-height-normal: 1.65;
+
+  /* accent */
+  --accent-h: 183;
+  --accent-s: 100%;
+  --accent-l: 50%;
+  --color-accent: var(--tc-cyan);
+  --color-accent-1: #5cf6ff;
+  --color-accent-2: #00b8c4;
+  --interactive-accent: var(--tc-cyan);
+  --interactive-accent-hover: #5cf6ff;
+  --interactive-normal: var(--tc-key);
+  --interactive-hover: var(--tc-panel);
+  --text-on-accent: #000000;
+  --text-on-accent-inverted: #000000;
+
+  /* palette used by graph, callouts, syntax */
+  --color-red: var(--tc-red);
+  --color-orange: #ffaa00;
+  --color-yellow: var(--tc-amber);
+  --color-green: var(--tc-lime);
+  --color-cyan: var(--tc-cyan);
+  --color-blue: #3d8bff;
+  --color-purple: var(--tc-purple);
+  --color-pink: #ff2bd6;
+  --color-red-rgb: 255, 0, 60;
+  --color-orange-rgb: 255, 170, 0;
+  --color-yellow-rgb: 255, 238, 0;
+  --color-green-rgb: 0, 255, 102;
+  --color-cyan-rgb: 0, 240, 255;
+  --color-blue-rgb: 61, 139, 255;
+  --color-purple-rgb: 139, 92, 246;
+  --color-pink-rgb: 255, 43, 214;
+
+  /* surfaces */
+  --background-primary: var(--tc-void);
+  --background-primary-alt: var(--tc-onyx);
+  --background-secondary: var(--tc-onyx);
+  --background-secondary-alt: var(--tc-void);
+  --background-modifier-border: var(--tc-line);
+  --background-modifier-border-hover: var(--tc-cyan);
+  --background-modifier-border-focus: var(--tc-cyan);
+  --background-modifier-hover: rgba(139, 92, 246, 0.18);
+  --background-modifier-active-hover: rgba(139, 92, 246, 0.3);
+  --background-modifier-form-field: var(--tc-void);
+  --background-modifier-cover: rgba(0, 0, 0, 0.82);
+  --background-modifier-error: var(--tc-red);
+  --background-modifier-error-hover: #ff3363;
+  --background-modifier-success: var(--tc-lime);
+  --background-modifier-message: var(--tc-panel);
+
+  /* text */
+  --text-normal: var(--tc-text);
+  --text-muted: var(--tc-muted);
+  --text-faint: var(--tc-faint);
+  --text-accent: var(--tc-cyan);
+  --text-accent-hover: #5cf6ff;
+  --text-error: var(--tc-red);
+  --text-success: var(--tc-lime);
+  --text-warning: var(--tc-amber);
+  --text-selection: rgba(139, 92, 246, 0.5);
+  --text-highlight-bg: rgba(255, 238, 0, 0.26);
+  --text-highlight-bg-active: rgba(255, 238, 0, 0.5);
+  --caret-color: var(--tc-cyan);
+  --bold-color: var(--tc-white);
+  --bold-weight: 800;
+  --italic-color: var(--tc-purple);
+
+  /* structure: 2px stark white dividers */
+  --divider-color: var(--tc-white);
+  --divider-color-hover: var(--tc-cyan);
+  --divider-width: 2px;
+  --divider-width-hover: 4px;
+  --tab-outline-color: var(--tc-white);
+  --tab-outline-width: 2px;
+  --titlebar-background: var(--tc-void);
+  --titlebar-background-focused: var(--tc-void);
+  --titlebar-text-color: var(--tc-faint);
+  --titlebar-text-color-focused: var(--tc-white);
+  --ribbon-background: var(--tc-void);
+  --ribbon-background-collapsed: var(--tc-void);
+  --tab-container-background: var(--tc-onyx);
+  --tab-background-active: var(--tc-void);
+  --tab-text-color: var(--tc-muted);
+  --tab-text-color-focused: var(--tc-white);
+  --tab-text-color-focused-active: var(--tc-cyan);
+  --nav-item-background-hover: rgba(139, 92, 246, 0.18);
+  --nav-item-background-active: rgba(0, 240, 255, 0.12);
+  --nav-item-color-active: var(--tc-cyan);
+  --nav-item-color-hover: var(--tc-white);
+
+  /* zero rounded corners */
+  --radius-s: 0;
+  --radius-m: 0;
+  --radius-l: 0;
+  --radius-xl: 0;
+  --checkbox-radius: 0;
+  --clickable-icon-radius: 0;
+  --input-radius: 0;
+  --tag-radius: 0;
+  --callout-radius: 0;
+  --code-radius: 0;
+  --toggle-radius: 0;
+  --toggle-thumb-radius: 0;
+  --slider-thumb-radius: 0;
+  --slider-track-height: 4px;
+  --embed-border-radius: 0;
+  --scrollbar-radius: 0;
+
+  /* hard unblurred shadows */
+  --shadow-s: none;
+  --shadow-l: var(--tc-hard);
+  --input-shadow: none;
+  --input-shadow-hover: none;
+
+  /* scrollbars */
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb-bg: var(--tc-line);
+  --scrollbar-active-thumb-bg: var(--tc-cyan);
+
+  /* headings */
+  --h1-size: 1.7em;
+  --h2-size: 1.4em;
+  --h3-size: 1.18em;
+  --h4-size: 1.02em;
+  --h5-size: 0.95em;
+  --h6-size: 0.9em;
+  --h1-weight: 800;
+  --h2-weight: 800;
+  --h3-weight: 700;
+  --h4-weight: 700;
+  --h5-weight: 700;
+  --h6-weight: 700;
+  --h1-line-height: 1.25;
+  --h2-line-height: 1.25;
+  --h3-line-height: 1.3;
+  --h1-color: var(--tc-white);
+  --h2-color: var(--tc-cyan);
+  --h3-color: var(--tc-purple);
+  --h4-color: var(--tc-lime);
+  --h5-color: var(--tc-amber);
+  --h6-color: var(--tc-muted);
+  --inline-title-size: 2em;
+  --inline-title-weight: 800;
+  --inline-title-color: var(--tc-white);
+
+  /* links */
+  --link-color: var(--tc-cyan);
+  --link-color-hover: #5cf6ff;
+  --link-decoration: underline;
+  --link-decoration-hover: underline;
+  --link-decoration-thickness: 2px;
+  --link-external-color: var(--tc-purple);
+  --link-external-color-hover: #a78bfa;
+  --link-unresolved-color: var(--tc-red);
+  --link-unresolved-opacity: 0.85;
+  --link-unresolved-decoration-style: dashed;
+
+  /* rules, quotes, lists, tasks */
+  --hr-color: var(--tc-white);
+  --hr-thickness: 2px;
+  --blockquote-border-thickness: 4px;
+  --blockquote-border-color: var(--tc-purple);
+  --blockquote-color: var(--tc-muted);
+  --blockquote-background-color: var(--tc-onyx);
+  --blockquote-style: normal;
+  --list-marker-color: var(--tc-cyan);
+  --list-marker-color-hover: var(--tc-white);
+  --list-marker-color-collapsed: var(--tc-amber);
+  --checkbox-size: 1.1em;
+  --checkbox-color: var(--tc-lime);
+  --checkbox-color-hover: #66ffa0;
+  --checkbox-border-color: var(--tc-white);
+  --checkbox-border-color-hover: var(--tc-cyan);
+  --checkbox-marker-color: #000000;
+  --checklist-done-color: var(--tc-faint);
+  --checklist-done-decoration: line-through;
+
+  /* tables */
+  --table-border-width: 2px;
+  --table-border-color: var(--tc-white);
+  --table-header-border-width: 2px;
+  --table-header-border-color: var(--tc-white);
+  --table-header-background: var(--tc-panel);
+  --table-header-background-hover: var(--tc-key);
+  --table-header-color: var(--tc-cyan);
+  --table-header-weight: 700;
+  --table-header-size: 0.85em;
+  --table-row-background-hover: rgba(139, 92, 246, 0.12);
+
+  /* code */
+  --code-background: var(--tc-onyx);
+  --code-normal: var(--tc-text);
+  --code-comment: var(--tc-faint);
+  --code-function: var(--tc-cyan);
+  --code-important: var(--tc-amber);
+  --code-keyword: var(--tc-purple);
+  --code-operator: var(--color-pink);
+  --code-property: var(--tc-cyan);
+  --code-punctuation: var(--tc-muted);
+  --code-string: var(--tc-lime);
+  --code-tag: var(--tc-red);
+  --code-value: var(--tc-amber);
+
+  /* callouts: type -> accent */
+  --callout-default: 0, 240, 255;
+  --callout-info: 0, 240, 255;
+  --callout-todo: 0, 240, 255;
+  --callout-summary: 0, 240, 255;
+  --callout-tip: 0, 255, 102;
+  --callout-success: 0, 255, 102;
+  --callout-question: 255, 238, 0;
+  --callout-warning: 255, 238, 0;
+  --callout-failure: 255, 0, 60;
+  --callout-danger: 255, 0, 60;
+  --callout-bug: 255, 0, 60;
+  --callout-example: 139, 92, 246;
+  --callout-quote: 230, 230, 238;
+  --callout-padding: 0;
+  --callout-title-padding: 0.55em 1em;
+  --callout-content-padding: 0.8em 1em;
+  --callout-title-weight: 800;
+  --callout-title-size: 0.9em;
+  --callout-blend-mode: normal;
+
+  /* tags (base; keycap look is below) */
+  --tag-color: var(--tc-cyan);
+  --tag-background: var(--tc-key);
+  --tag-border-width: 2px;
+  --tag-weight: 700;
+
+  /* graph */
+  --graph-line: #3a3a4c;
+  --graph-node: var(--tc-muted);
+  --graph-node-focused: var(--tc-cyan);
+  --graph-node-tag: var(--tc-lime);
+  --graph-node-attachment: var(--tc-amber);
+  --graph-node-unresolved: var(--tc-red);
+  --graph-text: var(--tc-text);
+
+  /* form controls */
+  --toggle-border-width: 2px;
+  --slider-thumb-border-width: 2px;
+  --slider-thumb-border-color: var(--tc-white);
+}
+
+/* ---------- 3. Zero rounded corners, everywhere -------------------------- */
+*,
+*::before,
+*::after {
+  border-radius: 0 !important;
+}
+*::-webkit-scrollbar-thumb,
+*::-webkit-scrollbar-track,
+*::-webkit-slider-thumb {
+  border-radius: 0 !important;
+}
+
+/* ---------- 4. Film grain (fine, matte, fractal) ------------------------- */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  pointer-events: none;
+  opacity: 0.08;
+  background-size: 220px 220px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n' color-interpolation-filters='sRGB'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+body.tc-no-grain::after {
+  display: none;
+}
+
+::selection {
+  background: rgba(139, 92, 246, 0.55);
+  color: var(--tc-white);
+}
+
+/* ---------- 5. Workspace chrome ------------------------------------------ */
+body .workspace-tab-header::before,
+body .workspace-tab-header::after,
+body .workspace-tab-header-inner::after {
+  display: none;
+}
+body .workspace-tab-header.is-active {
+  box-shadow: inset 0 4px 0 0 var(--tc-cyan);
+}
+body .workspace-tab-header.is-active .workspace-tab-header-inner-title {
+  font-weight: 700;
+}
+body .nav-file-title.is-active,
+body .nav-folder-title.is-active {
+  box-shadow: inset 4px 0 0 0 var(--tc-cyan);
+}
+body .status-bar {
+  background: var(--tc-void);
+  border: 0;
+  border-top: 2px solid var(--tc-white);
+  border-left: 2px solid var(--tc-white);
+  box-shadow: none;
+  color: var(--tc-muted);
+}
+body .status-bar-item.mod-clickable:hover {
+  background: var(--tc-cyan);
+  color: #000000;
+}
+body .view-header-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* floating layers: white outline + hard shadow */
+body .modal,
+body .menu,
+body .prompt,
+body .popover,
+body .suggestion-container {
+  border: 2px solid var(--tc-white);
+  box-shadow: var(--tc-hard);
+}
+body .suggestion-item.is-selected,
+body .menu-item.selected,
+body .menu-item:hover {
+  box-shadow: inset 4px 0 0 0 var(--tc-purple);
+}
+body .tooltip {
+  background: var(--tc-white);
+  color: #000000;
+  box-shadow: var(--tc-hard);
+}
+body .tooltip .tooltip-arrow {
+  display: none;
+}
+
+/* ---------- 6. Buttons, inputs, hotkeys as physical keycaps -------------- */
+body button:not(.clickable-icon):not(.copy-code-button),
+body .setting-hotkey,
+body kbd {
+  background: var(--tc-key);
+  color: var(--tc-white);
+  border: 2px solid var(--tc-white);
+  box-shadow: 0 4px 0 0 #666672;
+  font-family: var(--tc-mono);
+  font-weight: 700;
+  transition: transform 60ms linear, box-shadow 60ms linear;
+}
+body button:not(.clickable-icon):not(.copy-code-button):hover {
+  background: var(--tc-panel);
+  color: var(--tc-cyan);
+  border-color: var(--tc-cyan);
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 0 #00757d;
+}
+body button:not(.clickable-icon):not(.copy-code-button):active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 0 transparent;
+}
+body button.mod-cta:not(.clickable-icon):not(.copy-code-button) {
+  background: var(--tc-cyan);
+  color: #000000;
+  border-color: var(--tc-cyan);
+  box-shadow: 0 4px 0 0 #00757d;
+}
+body button.mod-cta:not(.clickable-icon):not(.copy-code-button):hover {
+  background: #5cf6ff;
+  color: #000000;
+}
+body button.mod-warning:not(.clickable-icon):not(.copy-code-button) {
+  background: var(--tc-red);
+  color: #000000;
+  border-color: var(--tc-red);
+  box-shadow: 0 4px 0 0 #7a0020;
+}
+body kbd {
+  padding: 0 0.5em;
+  margin: 0 0.15em 4px;
+  font-size: 0.8em;
+  line-height: 1.6;
+  display: inline-block;
+  text-transform: uppercase;
+}
+body .setting-hotkey {
+  padding: 0 0.5em;
+  margin-bottom: 4px;
+}
+
+body input[type="text"],
+body input[type="search"],
+body input[type="number"],
+body input[type="email"],
+body input[type="password"],
+body input[type="date"],
+body textarea,
+body select,
+body .dropdown {
+  background: var(--tc-void);
+  color: var(--tc-text);
+  border: 2px solid var(--tc-line);
+  box-shadow: none;
+}
+body input[type="text"]:focus,
+body input[type="search"]:focus,
+body input[type="number"]:focus,
+body textarea:focus,
+body select:focus,
+body .dropdown:focus {
+  border-color: var(--tc-cyan);
+  box-shadow: var(--tc-off) var(--tc-off) 0 0 var(--tc-cyan);
+}
+body input[type="checkbox"] {
+  border-width: 2px;
+}
+
+/* ---------- 7. Headings -------------------------------------------------- */
+body .inline-title {
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-bottom: 4px solid var(--tc-white);
+  padding-bottom: 0.2em;
+  margin-bottom: 0.7em;
+}
+body .markdown-rendered h1,
+body .markdown-rendered h2,
+body .HyperMD-header-1,
+body .HyperMD-header-2 {
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+body .markdown-rendered h1 {
+  border-bottom: 2px solid var(--tc-white);
+  padding-bottom: 0.25em;
+}
+body .markdown-rendered h2 {
+  border-left: 6px solid currentColor;
+  padding-left: 0.6em;
+}
+/* terminal prefix, reading view only */
+body .markdown-rendered h1::before,
+body .markdown-rendered h2::before {
+  content: "// ";
+  color: var(--tc-purple);
+}
+
+/* ---------- 8. Dividers -------------------------------------------------- */
+body hr {
+  position: relative;
+  height: 2px;
+  border: 0;
+  background: var(--tc-white);
+  overflow: visible;
+  margin: 2em 0;
+}
+body hr::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 4.5rem;
+  height: 4px;
+  background: var(--tc-purple);
+}
+
+/* ---------- 9. Callouts -------------------------------------------------- */
+body .callout {
+  background-color: var(--tc-onyx);
+  mix-blend-mode: normal;
+  border: 2px solid var(--tc-white);
+  border-left: 8px solid rgb(var(--callout-color));
+  box-shadow: var(--tc-off) var(--tc-off) 0 0 rgb(var(--callout-color));
+  margin: 1.2em var(--tc-off) calc(1.2em + var(--tc-off)) 0;
+}
+body .callout-title {
+  border-bottom: 2px solid var(--tc-white);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+body .callout.is-collapsed .callout-title {
+  border-bottom-color: transparent;
+}
+body .callout-title-inner {
+  color: rgb(var(--callout-color));
+}
+
+/* ---------- 10. Quotes, code, tables, lists ------------------------------ */
+body .markdown-rendered blockquote {
+  padding: 0.4em 1em;
+}
+
+/* inline code */
+body .markdown-rendered :not(pre) > code,
+body .cm-s-obsidian span.cm-inline-code {
+  color: var(--tc-lime);
+  background: var(--tc-panel);
+  border: 1px solid var(--tc-line);
+  padding: 0 0.35em;
+}
+
+/* code blocks: reading view */
+body .markdown-rendered pre {
+  background: var(--tc-onyx);
+  border: 2px solid var(--tc-white);
+  box-shadow: var(--tc-hard);
+  margin: 1.2em var(--tc-off) calc(1.2em + var(--tc-off)) 0;
+}
+body .markdown-rendered pre code {
+  background: transparent;
+  border: 0;
+  color: var(--code-normal);
+}
+body .markdown-rendered .code-block-flair {
+  background: var(--tc-purple);
+  color: #000000;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 0 0.5em;
+}
+body .markdown-rendered pre .copy-code-button {
+  background: var(--tc-key);
+  color: var(--tc-white);
+  border: 2px solid var(--tc-white);
+  box-shadow: none;
+}
+body .markdown-rendered pre .copy-code-button:hover {
+  background: var(--tc-cyan);
+  color: #000000;
+}
+
+/* code blocks: live preview */
+body .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock {
+  background: var(--tc-onyx);
+  border-left: 2px solid var(--tc-white);
+  border-right: 2px solid var(--tc-white);
+}
+body .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock-begin {
+  border-top: 2px solid var(--tc-white);
+}
+body .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock-end {
+  border-bottom: 2px solid var(--tc-white);
+}
+
+/* tables */
+body .markdown-rendered table,
+body .markdown-source-view .cm-table-widget table {
+  box-shadow: var(--tc-hard);
+}
+body .markdown-rendered th,
+body .markdown-source-view .cm-table-widget th {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* task lists: a checked parent must not strike its unchecked children */
+body .markdown-rendered li.task-list-item.is-checked > ul,
+body .markdown-rendered li.task-list-item.is-checked > ol {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: var(--text-normal);
+}
+
+/* highlights */
+body mark,
+body .cm-s-obsidian span.cm-highlight {
+  color: var(--tc-white);
+  border-bottom: 2px solid var(--tc-amber);
+}
+
+/* ---------- 11. Tags as tactile keycaps ---------------------------------- */
+body a.tag,
+body .cm-s-obsidian span.cm-hashtag {
+  --k: var(--tc-cyan);
+  color: var(--k);
+  background: var(--tc-key);
+  border: 2px solid var(--k);
+  box-shadow: 0 4px 0 0 color-mix(in srgb, var(--k) 40%, #000000);
+  font-weight: 700;
+  text-decoration: none;
+}
+body a.tag {
+  display: inline-block;
+  padding: 0 0.55em;
+  margin: 0 0.1em 4px;
+  font-size: 0.82em;
+  line-height: 1.5;
+  transition: transform 60ms linear, box-shadow 60ms linear;
+}
+body a.tag:hover {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 0 color-mix(in srgb, var(--k) 40%, #000000);
+}
+body a.tag:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 0 transparent;
+}
+/* live preview splits a tag into two spans */
+body .cm-s-obsidian span.cm-hashtag-begin {
+  border-right: 0;
+  padding-left: 0.4em;
+}
+body .cm-s-obsidian span.cm-hashtag-end {
+  border-left: 0;
+  padding-right: 0.4em;
+}
+/* semantic colors (reading view) */
+body a.tag[href^="#todo" i],
+body a.tag[href^="#urgent" i],
+body a.tag[href^="#bug" i] {
+  --k: var(--tc-red);
+}
+body a.tag[href^="#wip" i],
+body a.tag[href^="#draft" i],
+body a.tag[href^="#doing" i],
+body a.tag[href^="#working" i] {
+  --k: var(--tc-amber);
+}
+body a.tag[href^="#idea" i],
+body a.tag[href^="#done" i],
+body a.tag[href^="#brainstorm" i] {
+  --k: var(--tc-lime);
+}
+body a.tag[href^="#knowledge" i],
+body a.tag[href^="#archive" i],
+body a.tag[href^="#ref" i] {
+  --k: var(--tc-purple);
+}
+
+/* ---------- 12. Small details -------------------------------------------- */
+body .cm-s-obsidian .cm-cursor,
+body .cm-cursor {
+  border-left: 2px solid var(--tc-cyan);
+}
+body .metadata-container {
+  border-left: 4px solid var(--tc-purple);
+  padding-left: 0.75em;
+}
+body .checkbox-container {
+  border: 2px solid var(--tc-white);
+}
+body .checkbox-container.is-enabled {
+  background: var(--tc-lime);
+}
+body .checkbox-container::after {
+  background: var(--tc-white);
+}
+body .checkbox-container.is-enabled::after {
+  background: #000000;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body button,
+  body a.tag,
+  body kbd {
+    transition: none;
+  }
+}
