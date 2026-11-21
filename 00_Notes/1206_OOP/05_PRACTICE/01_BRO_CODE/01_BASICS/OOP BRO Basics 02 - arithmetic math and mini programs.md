@@ -24,7 +24,7 @@ files:
   - alMath.java
   - amHyp.java
   - anCircle.java
-  - apCompundinterest.java
+  - apCompoundinterest.java
   - atWeightConverter.java
 up: "[[OOP BRO - Index]]"
 prev: "[[OOP BRO Basics 01 - output types and input]]"
@@ -54,7 +54,7 @@ status: draft
 | `alMath.java` | `Math` class methods | `Math.pow()`, `Math.abs()`, `Math.sqrt()`, `Math.round()`, `Math.ceil()`, `Math.floor()`, `Math.max()`, `Math.min()`. |
 | `amHyp.java` | Hypotenuse calculation | Solves Pythagorean theorem $c = \sqrt{a^2 + b^2}$ using `Math.sqrt()` and `Math.pow()`. |
 | `anCircle.java` | Circle geometry | Circumference, area, and volume calculation using `Math.PI`. |
-| `apCompundinterest.java` | Financial mathematics | Compound interest formula $A = P(1 + r/n)^{nt}$ with loop/power evaluation. |
+| `apCompoundinterest.java` | Financial mathematics | Compound interest formula $A = P(1 + r/n)^{nt}$ with loop/power evaluation. |
 | `atWeightConverter.java` | Unit conversion | Converts pounds (lbs) to kilograms (kg) and vice versa. |
 
 ---
@@ -152,13 +152,13 @@ public class akRandomNum {
 
 ---
 
-## 3. Applied Mathematical Programs (`aeArea.java`, `amHyp.java`, `anCircle.java`, `apCompundinterest.java`, `atWeightConverter.java`, `aiShoppingCart.java`, `afMadLib.java`)
+## 3. Applied Mathematical Programs (`aeArea.java`, `amHyp.java`, `anCircle.java`, `apCompoundinterest.java`, `atWeightConverter.java`, `aiShoppingCart.java`, `afMadLib.java`)
 
-### Code Excerpt: Compound Interest (`apCompundinterest.java`)
+### Code Excerpt: Compound Interest (`apCompoundinterest.java`)
 ```java
 import java.util.Scanner;
 
-public class apCompundinterest {
+public class apCompoundinterest {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -238,7 +238,7 @@ public class anCircle {
 
 ---
 
-## Sample Run (`apCompundinterest.java`)
+## Sample Run (`apCompoundinterest.java`)
 ```text
 Enter the Principal amount: 1000
 Enter the rate (in %): 5
