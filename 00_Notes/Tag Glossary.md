@@ -5,7 +5,7 @@ aliases:
   - Category Index
 tags:
   - type/reference
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
 up: "[[CSE 1101 - Index]]"
 created: 2026-10-29

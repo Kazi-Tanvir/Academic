@@ -5,9 +5,9 @@ aliases:
   - LeetCode Practice
 tags:
   - type/index
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/04_LEETCODE/"
+source: "1101_CSE/05_PRACTICE/04_LEETCODE/"
 up: "[[PRAC - Index]]"
 related:
   - "[[PRAC CW 07 - pointer move zero end]]"

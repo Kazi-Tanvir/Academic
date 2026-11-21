@@ -9,9 +9,9 @@ tags:
   - c/image-processing
   - c/bmp-format
   - level/advanced
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "04_LAB_PROJECT/05_FINAL_PROJECT/"
+source: "1101_CSE/04_LAB_PROJECT/05_FINAL_PROJECT/"
 up: "[[PROJ - Index]]"
 prev: "[[PROJ Midterm Practice - hotel reservation]]"
 next: "[[PROJ Image Editor - main]]"

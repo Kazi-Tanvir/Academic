@@ -5,9 +5,9 @@ aliases:
   - Chapter 7 Index
 tags:
   - type/index
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/01_C_BOOK/CHAPTER_07/"
+source: "1101_CSE/05_PRACTICE/01_C_BOOK/CHAPTER_07/"
 up: "[[PRAC - Index]]"
 prev: "[[PRAC BOOK Ch06 - Index]]"
 next: "[[PRAC BOOK Ch08 - Index]]"

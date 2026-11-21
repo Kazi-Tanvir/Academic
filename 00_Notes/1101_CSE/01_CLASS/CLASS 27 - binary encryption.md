@@ -10,9 +10,9 @@ tags:
   - c/binary-io
   - c/structs
   - level/advanced
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/27_binary_encryption.c"
+source: "1101_CSE/01_CLASS/27_binary_encryption.c"
 number: 27
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 26 - struct student info]]"

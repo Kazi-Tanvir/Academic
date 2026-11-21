@@ -9,9 +9,9 @@ tags:
   - c/binary-io
   - c/strings
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/21_file_basic.c"
+source: "1101_CSE/01_CLASS/21_file_basic.c"
 number: 21
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 20 - cmd arg]]"

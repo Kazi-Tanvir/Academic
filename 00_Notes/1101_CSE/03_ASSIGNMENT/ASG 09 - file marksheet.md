@@ -9,9 +9,9 @@ tags:
   - c/structs
   - c/strings
   - level/advanced
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "03_ASSIGNMENT/09_ASSIGNMENT/file_marksheet.c"
+source: "1101_CSE/03_ASSIGNMENT/09_ASSIGNMENT/file_marksheet.c"
 number: 9
 up: "[[ASG - Index]]"
 prev: "[[ASG 08 - recursion practice]]"

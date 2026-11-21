@@ -9,9 +9,9 @@ tags:
   - c/sorting
   - c/arrays
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/06_BUET_CSE_101/offline/offline4_A1_p1.c"
+source: "1101_CSE/05_PRACTICE/06_BUET_CSE_101/offline/offline4_A1_p1.c"
 up: "[[BUET - Index]]"
 prev: "[[BUET Offline 1 - p2]]"
 related:

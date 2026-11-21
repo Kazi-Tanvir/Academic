@@ -8,9 +8,9 @@ tags:
   - c/math
   - c/functions
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/06_BUET_CSE_101/2025/solve_equation.c"
+source: "1101_CSE/05_PRACTICE/06_BUET_CSE_101/2025/solve_equation.c"
 up: "[[BUET - Index]]"
 related:
   - "[[BUET 2025 - find root]]"

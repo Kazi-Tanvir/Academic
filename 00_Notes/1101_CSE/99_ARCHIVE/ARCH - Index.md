@@ -5,9 +5,9 @@ aliases:
   - Historical Archives Index
 tags:
   - type/index
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "99_ARCHIVE/"
+source: "1101_CSE/99_ARCHIVE/"
 up: "[[CSE 1101 - Index]]"
 prev: "[[BUET - Index]]"
 created: 2026-10-29

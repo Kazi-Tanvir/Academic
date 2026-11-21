@@ -9,9 +9,13 @@ tags:
   - c/pointers
   - c/math
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "03_ASSIGNMENT/08_ASSIGNMENT/"
+source: "1101_CSE/03_ASSIGNMENT/08_ASSIGNMENT/"
+files:
+  - rec_fibonacci.c
+  - rec_prime.c
+  - rec_ptr_reverse_str.c
 number: 8
 up: "[[ASG - Index]]"
 prev: "[[ASG 07 - book reservation]]"

@@ -9,9 +9,9 @@ tags:
   - c/pointers
   - c/math
   - level/advanced
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "04_LAB_PROJECT/05_FINAL_PROJECT/src/programs/filter.c"
+source: "1101_CSE/04_LAB_PROJECT/05_FINAL_PROJECT/src/programs/filter.c"
 up: "[[PROJ - Index]]"
 prev: "[[PROJ Image Editor - image]]"
 next: "[[PROJ Image Editor - gui]]"

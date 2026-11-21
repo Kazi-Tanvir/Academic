@@ -8,9 +8,9 @@ tags:
   - c/math
   - c/functions
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/02_change_var_no_temp.c"
+source: "1101_CSE/02_LAB/02_change_var_no_temp.c"
 number: 2
 up: "[[LAB - Index]]"
 prev: "[[LAB 01 - change var temp]]"

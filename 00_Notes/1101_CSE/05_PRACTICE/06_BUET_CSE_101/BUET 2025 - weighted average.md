@@ -8,9 +8,9 @@ tags:
   - c/math
   - c/arrays
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/06_BUET_CSE_101/2025/weighted_average.c"
+source: "1101_CSE/05_PRACTICE/06_BUET_CSE_101/2025/weighted_average.c"
 up: "[[BUET - Index]]"
 related:
   - "[[BUET 2025 - weighted avg]]"

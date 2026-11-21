@@ -10,9 +10,9 @@ tags:
   - c/strings
   - c/control-flow
   - level/advanced
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "04_LAB_PROJECT/06_FINAL_EXAM/code.c"
+source: "1101_CSE/04_LAB_PROJECT/06_FINAL_EXAM/code.c"
 up: "[[PROJ - Index]]"
 prev: "[[PROJ Final Exam - Overview]]"
 next: "[[PROJ Final Exam - grader harness]]"

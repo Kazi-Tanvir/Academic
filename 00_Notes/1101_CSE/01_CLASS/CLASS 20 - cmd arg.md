@@ -9,9 +9,9 @@ tags:
   - c/strings
   - c/arrays
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/20_cmd_arg.c"
+source: "1101_CSE/01_CLASS/20_cmd_arg.c"
 number: 20
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 19 - pointer row sum]]"

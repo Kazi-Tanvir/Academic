@@ -9,9 +9,9 @@ tags:
   - c/bmp-format
   - c/image-processing
   - level/advanced
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "99_ARCHIVE/Image Manipulation Software/Image Manipulation Software/logs.md"
+source: "1101_CSE/99_ARCHIVE/Image Manipulation Software/Image Manipulation Software/logs.md"
 up: "[[ARCH - Index]]"
 related:
   - "[[ARCH - Image editor bugs]]"

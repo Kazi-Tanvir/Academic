@@ -9,9 +9,9 @@ tags:
   - c/arrays
   - c/loops
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "04_LAB_PROJECT/04_MIDTERM_EXAM/q2.c"
+source: "1101_CSE/04_LAB_PROJECT/04_MIDTERM_EXAM/q2.c"
 number: 2
 up: "[[PROJ - Index]]"
 prev: "[[PROJ Midterm Exam - q1]]"

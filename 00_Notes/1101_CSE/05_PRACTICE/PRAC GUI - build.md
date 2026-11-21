@@ -8,9 +8,9 @@ tags:
   - c/testing
   - c/cli-args
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/05_IMAGE_EDITOR/gui/build.bat"
+source: "1101_CSE/05_PRACTICE/05_IMAGE_EDITOR/gui/build.bat"
 up: "[[PRAC - Index]]"
 related:
   - "[[PROJ Image Editor - build]]"

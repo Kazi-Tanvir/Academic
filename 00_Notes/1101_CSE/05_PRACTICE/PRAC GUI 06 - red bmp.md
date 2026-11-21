@@ -9,9 +9,9 @@ tags:
   - c/binary-io
   - c/structs
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/05_IMAGE_EDITOR/gui/06_red_bmp.c"
+source: "1101_CSE/05_PRACTICE/05_IMAGE_EDITOR/gui/06_red_bmp.c"
 up: "[[PRAC - Index]]"
 related:
   - "[[LAB 29 - grayscale]]"

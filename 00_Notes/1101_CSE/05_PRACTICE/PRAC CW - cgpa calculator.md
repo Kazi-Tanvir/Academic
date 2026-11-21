@@ -8,9 +8,9 @@ tags:
   - c/arrays
   - c/loops
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/02_CONCEPT_WISE/cgpa_calculator.c"
+source: "1101_CSE/05_PRACTICE/02_CONCEPT_WISE/cgpa_calculator.c"
 up: "[[PRAC - Index]]"
 related:
   - "[[LAB 05 - cgpa]]"

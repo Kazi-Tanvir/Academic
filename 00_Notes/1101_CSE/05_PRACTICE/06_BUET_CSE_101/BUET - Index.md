@@ -5,9 +5,9 @@ aliases:
   - BUET Practice Index
 tags:
   - type/index
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/06_BUET_CSE_101/"
+source: "1101_CSE/05_PRACTICE/06_BUET_CSE_101/"
 up: "[[CSE 1101 - Index]]"
 prev: "[[PRAC - Index]]"
 next: "[[ARCH - Index]]"

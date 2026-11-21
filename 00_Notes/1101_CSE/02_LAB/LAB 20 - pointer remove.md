@@ -9,9 +9,9 @@ tags:
   - c/pointer-arithmetic
   - c/dynamic-memory
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/20_pointer_remove.c"
+source: "1101_CSE/02_LAB/20_pointer_remove.c"
 number: 20
 up: "[[LAB - Index]]"
 prev: "[[LAB 19 - pointer swap]]"

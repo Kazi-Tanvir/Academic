@@ -9,9 +9,9 @@ tags:
   - c/encryption
   - c/cli-args
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/03_PYG/02_Final_23_7d.c"
+source: "1101_CSE/05_PRACTICE/03_PYG/02_Final_23_7d.c"
 up: "[[PRAC - Index]]"
 related:
   - "[[CLASS 27 - binary encryption]]"

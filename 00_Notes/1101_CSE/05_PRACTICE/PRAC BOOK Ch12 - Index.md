@@ -5,9 +5,9 @@ aliases:
   - Chapter 12 Index
 tags:
   - type/index
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/01_C_BOOK/CHAPTER_12/"
+source: "1101_CSE/05_PRACTICE/01_C_BOOK/CHAPTER_12/"
 up: "[[PRAC - Index]]"
 prev: "[[PRAC BOOK Ch11 - Index]]"
 created: 2026-10-29

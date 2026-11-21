@@ -8,9 +8,9 @@ tags:
   - c/control-flow
   - c/math
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/02_grade.c"
+source: "1101_CSE/01_CLASS/02_grade.c"
 number: 2
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 01 - calculator]]"

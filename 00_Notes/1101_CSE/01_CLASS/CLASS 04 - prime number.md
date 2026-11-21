@@ -9,9 +9,9 @@ tags:
   - c/loops
   - c/control-flow
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/04_prime_number.c"
+source: "1101_CSE/01_CLASS/04_prime_number.c"
 number: 4
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 03 - number game]]"

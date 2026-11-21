@@ -9,9 +9,9 @@ tags:
   - c/sorting
   - c/loops
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/14_merge_array.c"
+source: "1101_CSE/02_LAB/14_merge_array.c"
 number: 14
 up: "[[LAB - Index]]"
 prev: "[[LAB 13 - remove item]]"

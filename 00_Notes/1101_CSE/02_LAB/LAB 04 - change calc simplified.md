@@ -8,9 +8,9 @@ tags:
   - c/math
   - c/control-flow
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/04_change_calc_simplified.c"
+source: "1101_CSE/02_LAB/04_change_calc_simplified.c"
 number: 4
 up: "[[LAB - Index]]"
 prev: "[[LAB 03 - age calc simple]]"

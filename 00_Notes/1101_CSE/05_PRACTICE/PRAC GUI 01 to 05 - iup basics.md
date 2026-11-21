@@ -8,9 +8,15 @@ tags:
   - c/gui-iup
   - c/functions
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/05_IMAGE_EDITOR/gui/"
+source: "1101_CSE/05_PRACTICE/05_IMAGE_EDITOR/gui/"
+files:
+  - 01_hello_world.c
+  - 02_dialog.c
+  - 03_button.c
+  - 04_vbox_hbox.c
+  - 05_practice.c
 up: "[[PRAC - Index]]"
 next: "[[PRAC GUI 06 - red bmp]]"
 related:

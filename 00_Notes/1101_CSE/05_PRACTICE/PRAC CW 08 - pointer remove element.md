@@ -8,9 +8,9 @@ tags:
   - c/pointers
   - c/arrays
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/02_CONCEPT_WISE/08_pointer_remove_element.c"
+source: "1101_CSE/05_PRACTICE/02_CONCEPT_WISE/08_pointer_remove_element.c"
 up: "[[PRAC - Index]]"
 related:
   - "[[LAB 20 - pointer remove]]"

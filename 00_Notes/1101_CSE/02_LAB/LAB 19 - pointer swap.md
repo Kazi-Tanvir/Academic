@@ -9,9 +9,9 @@ tags:
   - c/pointer-arithmetic
   - c/dynamic-memory
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/19_pointer_swap.c"
+source: "1101_CSE/02_LAB/19_pointer_swap.c"
 number: 19
 up: "[[LAB - Index]]"
 prev: "[[LAB 18 - pointer sort]]"

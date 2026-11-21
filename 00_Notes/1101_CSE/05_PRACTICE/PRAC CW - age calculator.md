@@ -8,9 +8,9 @@ tags:
   - c/control-flow
   - c/math
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/02_CONCEPT_WISE/age_calculator.c"
+source: "1101_CSE/05_PRACTICE/02_CONCEPT_WISE/age_calculator.c"
 up: "[[PRAC - Index]]"
 related:
   - "[[LAB 03 - age calc simple]]"

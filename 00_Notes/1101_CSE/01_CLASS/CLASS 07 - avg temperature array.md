@@ -9,9 +9,9 @@ tags:
   - c/loops
   - c/math
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/07_avg_temperature_array.c"
+source: "1101_CSE/01_CLASS/07_avg_temperature_array.c"
 number: 7
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 06 - calc menu switch]]"

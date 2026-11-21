@@ -9,9 +9,9 @@ tags:
   - c/image-processing
   - c/binary-io
   - level/advanced
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/29_grayscale.c"
+source: "1101_CSE/02_LAB/29_grayscale.c"
 number: 29
 up: "[[LAB - Index]]"
 prev: "[[LAB 28 - matrix]]"

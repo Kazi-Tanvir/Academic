@@ -9,9 +9,9 @@ tags:
   - c/pointers
   - c/recursion
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/24_merge_sort.c"
+source: "1101_CSE/02_LAB/24_merge_sort.c"
 number: 24
 up: "[[LAB - Index]]"
 prev: "[[LAB 23 - pointer array reverse]]"

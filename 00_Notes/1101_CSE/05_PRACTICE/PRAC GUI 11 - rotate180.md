@@ -9,9 +9,9 @@ tags:
   - c/arrays
   - c/bmp-format
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/05_IMAGE_EDITOR/gui/11_rotate180.c"
+source: "1101_CSE/05_PRACTICE/05_IMAGE_EDITOR/gui/11_rotate180.c"
 up: "[[PRAC - Index]]"
 related:
   - "[[PROJ Image Editor - filter]]"

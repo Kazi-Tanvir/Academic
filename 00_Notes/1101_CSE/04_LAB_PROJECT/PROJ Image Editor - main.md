@@ -8,9 +8,9 @@ tags:
   - c/gui-iup
   - c/cli-args
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "04_LAB_PROJECT/05_FINAL_PROJECT/src/main.c"
+source: "1101_CSE/04_LAB_PROJECT/05_FINAL_PROJECT/src/main.c"
 up: "[[PROJ - Index]]"
 prev: "[[PROJ Image Editor - Overview]]"
 next: "[[PROJ Image Editor - image]]"

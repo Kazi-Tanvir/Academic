@@ -5,7 +5,7 @@ aliases:
   - Coursework Assignments Index
 tags:
   - type/index
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
 up: "[[CSE 1101 - Index]]"
 prev: "[[LAB - Index]]"

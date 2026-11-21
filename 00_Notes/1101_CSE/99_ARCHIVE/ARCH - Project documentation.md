@@ -9,9 +9,9 @@ tags:
   - c/image-processing
   - c/structs
   - level/advanced
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "99_ARCHIVE/project_documentation.md"
+source: "1101_CSE/99_ARCHIVE/project_documentation.md"
 up: "[[ARCH - Index]]"
 related:
   - "[[PROJ Image Editor - Overview]]"

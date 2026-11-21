@@ -9,9 +9,9 @@ tags:
   - c/functions
   - c/math
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/06_calc_menu_switch.c"
+source: "1101_CSE/01_CLASS/06_calc_menu_switch.c"
 number: 6
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 05 - vowel switch]]"

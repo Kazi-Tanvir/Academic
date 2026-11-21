@@ -9,9 +9,9 @@ tags:
   - c/strings
   - c/searching
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/23_mid_word.c"
+source: "1101_CSE/01_CLASS/23_mid_word.c"
 number: 23
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 22 - space finder]]"

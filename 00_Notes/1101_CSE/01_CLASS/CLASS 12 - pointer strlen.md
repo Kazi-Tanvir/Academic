@@ -9,9 +9,9 @@ tags:
   - c/strings
   - c/pointer-arithmetic
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/12_pointer_strlen.c"
+source: "1101_CSE/01_CLASS/12_pointer_strlen.c"
 number: 12
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 11 - string merge]]"

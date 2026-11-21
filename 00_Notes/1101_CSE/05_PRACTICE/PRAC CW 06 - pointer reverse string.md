@@ -8,9 +8,9 @@ tags:
   - c/pointers
   - c/strings
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/02_CONCEPT_WISE/06_pointer_reverse_string.c"
+source: "1101_CSE/05_PRACTICE/02_CONCEPT_WISE/06_pointer_reverse_string.c"
 up: "[[PRAC - Index]]"
 related:
   - "[[CLASS 17 - pointer string reverse]]"

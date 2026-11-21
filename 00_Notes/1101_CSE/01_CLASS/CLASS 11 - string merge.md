@@ -9,9 +9,9 @@ tags:
   - c/arrays
   - c/loops
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/11_string_merge.c"
+source: "1101_CSE/01_CLASS/11_string_merge.c"
 number: 11
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 10 - string check equal]]"

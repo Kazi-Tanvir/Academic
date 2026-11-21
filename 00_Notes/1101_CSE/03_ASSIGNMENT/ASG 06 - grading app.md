@@ -9,9 +9,9 @@ tags:
   - c/functions
   - c/control-flow
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "03_ASSIGNMENT/06_ASSIGNMENT/grading_app.c"
+source: "1101_CSE/03_ASSIGNMENT/06_ASSIGNMENT/grading_app.c"
 number: 6
 up: "[[ASG - Index]]"
 prev: "[[ASG 05 - dictionary sort lexicographic]]"

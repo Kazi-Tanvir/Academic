@@ -8,9 +8,9 @@ tags:
   - c/loops
   - c/math
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/03_PYG/01_Final_23_2d.c"
+source: "1101_CSE/05_PRACTICE/03_PYG/01_Final_23_2d.c"
 up: "[[PRAC - Index]]"
 related:
   - "[[CLASS 04 - prime number]]"

@@ -9,9 +9,9 @@ tags:
   - c/arrays
   - c/loops
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/09_string_copy.c"
+source: "1101_CSE/01_CLASS/09_string_copy.c"
 number: 9
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 08 - string length]]"

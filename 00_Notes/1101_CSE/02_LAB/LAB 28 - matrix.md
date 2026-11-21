@@ -9,9 +9,9 @@ tags:
   - c/pointers
   - c/dynamic-memory
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/28_matrix.c"
+source: "1101_CSE/02_LAB/28_matrix.c"
 number: 28
 up: "[[LAB - Index]]"
 prev: "[[LAB 27 - titanic p3]]"

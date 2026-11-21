@@ -8,9 +8,9 @@ tags:
   - c/strings
   - c/searching
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "03_ASSIGNMENT/05_ASSIGNMENT/dictionary_sort_lexicographic.c"
+source: "1101_CSE/03_ASSIGNMENT/05_ASSIGNMENT/dictionary_sort_lexicographic.c"
 number: 5
 up: "[[ASG - Index]]"
 prev: "[[ASG 04 - sort student by cgpa]]"

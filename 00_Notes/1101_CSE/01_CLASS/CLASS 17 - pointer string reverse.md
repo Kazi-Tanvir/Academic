@@ -9,9 +9,9 @@ tags:
   - c/strings
   - c/pointer-arithmetic
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/17_pointer_string_reverse.c"
+source: "1101_CSE/01_CLASS/17_pointer_string_reverse.c"
 number: 17
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 16 - pointer min max]]"

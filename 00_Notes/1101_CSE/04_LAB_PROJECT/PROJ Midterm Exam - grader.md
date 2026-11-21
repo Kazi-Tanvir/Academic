@@ -8,9 +8,9 @@ tags:
   - c/testing
   - c/cli-args
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "04_LAB_PROJECT/04_MIDTERM_EXAM/grader.sh"
+source: "1101_CSE/04_LAB_PROJECT/04_MIDTERM_EXAM/grader.sh"
 up: "[[PROJ - Index]]"
 prev: "[[PROJ Midterm Exam - q3]]"
 next: "[[PROJ Midterm Practice - hotel reservation]]"

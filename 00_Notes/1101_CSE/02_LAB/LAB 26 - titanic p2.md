@@ -9,9 +9,9 @@ tags:
   - c/file-io
   - c/strings
   - level/advanced
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/26_titanic_p2.c"
+source: "1101_CSE/02_LAB/26_titanic_p2.c"
 number: 26
 up: "[[LAB - Index]]"
 prev: "[[LAB 25 - titanic p1]]"

@@ -9,9 +9,9 @@ tags:
   - c/searching
   - c/control-flow
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/30_student_app.c"
+source: "1101_CSE/02_LAB/30_student_app.c"
 number: 30
 up: "[[LAB - Index]]"
 prev: "[[LAB 29 - grayscale]]"

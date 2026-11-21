@@ -8,9 +8,9 @@ tags:
   - c/loops
   - c/control-flow
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/07_hollow_triangle.c"
+source: "1101_CSE/02_LAB/07_hollow_triangle.c"
 number: 7
 up: "[[LAB - Index]]"
 prev: "[[LAB 06 - discount]]"

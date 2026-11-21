@@ -9,9 +9,9 @@ tags:
   - c/strings
   - c/arrays
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/26_struct_student_info.c"
+source: "1101_CSE/01_CLASS/26_struct_student_info.c"
 number: 26
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 25 - file sort cg]]"

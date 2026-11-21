@@ -9,9 +9,9 @@ tags:
   - c/pointer-arithmetic
   - c/recursion
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/22_pointer_recursion_array_sum.c"
+source: "1101_CSE/02_LAB/22_pointer_recursion_array_sum.c"
 number: 22
 up: "[[LAB - Index]]"
 prev: "[[LAB 21 - pointer merge]]"

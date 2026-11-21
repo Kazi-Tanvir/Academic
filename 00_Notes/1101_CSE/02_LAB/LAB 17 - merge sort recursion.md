@@ -9,9 +9,9 @@ tags:
   - c/sorting
   - c/arrays
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/17_merge_sort_recursion.c"
+source: "1101_CSE/02_LAB/17_merge_sort_recursion.c"
 number: 17
 up: "[[LAB - Index]]"
 prev: "[[LAB 16 - reverse array recursion]]"

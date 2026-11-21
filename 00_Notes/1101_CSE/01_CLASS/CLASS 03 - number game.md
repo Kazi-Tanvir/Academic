@@ -9,9 +9,9 @@ tags:
   - c/loops
   - c/control-flow
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/03_number_game.c"
+source: "1101_CSE/01_CLASS/03_number_game.c"
 number: 3
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 02 - grade]]"

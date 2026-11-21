@@ -8,9 +8,9 @@ tags:
   - c/control-flow
   - c/strings
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/05_vowel_switch.c"
+source: "1101_CSE/01_CLASS/05_vowel_switch.c"
 number: 5
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 04 - prime number]]"

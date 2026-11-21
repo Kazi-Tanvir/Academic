@@ -8,9 +8,15 @@ tags:
   - c/loops
   - c/control-flow
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "03_ASSIGNMENT/02_ASSIGNMENT/"
+source: "1101_CSE/03_ASSIGNMENT/02_ASSIGNMENT/"
+files:
+  - pyramid1.c
+  - pyramid2.c
+  - pyramid3.c
+  - pyramid4.c
+  - pyramid5.c
 number: 2
 up: "[[ASG - Index]]"
 prev: "[[ASG 01 - user defined calc]]"

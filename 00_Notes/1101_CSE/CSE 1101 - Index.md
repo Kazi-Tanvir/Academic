@@ -5,7 +5,7 @@ aliases:
   - Course Overview
 tags:
   - type/index
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
 created: 2026-10-29
 status: draft

@@ -8,9 +8,9 @@ tags:
   - c/control-flow
   - c/math
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/06_discount.c"
+source: "1101_CSE/02_LAB/06_discount.c"
 number: 6
 up: "[[LAB - Index]]"
 prev: "[[LAB 05 - cgpa]]"

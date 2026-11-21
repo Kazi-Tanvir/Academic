@@ -9,9 +9,9 @@ tags:
   - c/math
   - c/pointers
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/05_IMAGE_EDITOR/gui/12_edge_detection.c"
+source: "1101_CSE/05_PRACTICE/05_IMAGE_EDITOR/gui/12_edge_detection.c"
 up: "[[PRAC - Index]]"
 related:
   - "[[PROJ Image Editor - filter]]"

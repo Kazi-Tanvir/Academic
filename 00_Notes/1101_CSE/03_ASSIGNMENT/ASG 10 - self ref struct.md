@@ -10,9 +10,9 @@ tags:
   - c/file-io
   - c/dynamic-memory
   - level/advanced
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "03_ASSIGNMENT/10_ASSIGNMENT/self_ref_struct.c"
+source: "1101_CSE/03_ASSIGNMENT/10_ASSIGNMENT/self_ref_struct.c"
 number: 10
 up: "[[ASG - Index]]"
 prev: "[[ASG 09 - file marksheet]]"

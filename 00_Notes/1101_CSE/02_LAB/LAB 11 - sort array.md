@@ -9,9 +9,9 @@ tags:
   - c/arrays
   - c/loops
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/11_sort_array.c"
+source: "1101_CSE/02_LAB/11_sort_array.c"
 number: 11
 up: "[[LAB - Index]]"
 prev: "[[LAB 10 - discount budget]]"
