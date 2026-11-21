@@ -1,0 +1,13 @@
+{
+  "cssTheme": "Obsidianite",
+  "accentColor": "",
+  "theme": "obsidian",
+  "baseFontSize": 16,
+  "interfaceFontFamily": "JetBrains Mono",
+  "textFontFamily": "JetBrains Mono",
+  "monospaceFontFamily": "JetBrains Mono",
+  "showRibbon": true,
+  "enabledCssSnippets": [
+    "shin-tactical-console"
+  ]
+}

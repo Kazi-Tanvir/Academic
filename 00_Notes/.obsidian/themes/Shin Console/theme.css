@@ -1,0 +1,412 @@
+/* ==========================================================
+   SHIN CONSOLE — cyber-neobrutalist tactical theme for Obsidian
+   Dark only. Zero radius. 2px white rules. 4px hard shadows.
+   ========================================================== */
+
+body {
+  /* Palette */
+  --sc-black: #050507;
+  --sc-onyx: #0c0c10;
+  --sc-slate: #14141a;
+  --sc-steel: #1d1d26;
+  --sc-white: #ffffff;
+  --sc-dim: #9a9aab;
+  --sc-purple: #8b5cf6;
+  --sc-cyan: #00f0ff;
+  --sc-lime: #00ff66;
+  --sc-amber: #ffee00;
+  --sc-red: #ff003c;
+  --sc-gold: #e8a33d;
+
+  --sc-rule: 2px solid var(--sc-white);
+  --sc-shadow: 4px 4px 0 var(--sc-black);
+  --sc-shadow-accent: 4px 4px 0 var(--sc-purple);
+
+  /* Fonts */
+  --font-interface-theme: "JetBrains Mono", "IBM Plex Mono", "Cascadia Mono", Consolas, monospace;
+  --font-text-theme: "JetBrains Mono", "IBM Plex Mono", "Cascadia Mono", Consolas, monospace;
+  --font-monospace-theme: "JetBrains Mono", "IBM Plex Mono", "Cascadia Mono", Consolas, monospace;
+
+  /* Zero rounded corners everywhere */
+  --radius-s: 0;
+  --radius-m: 0;
+  --radius-l: 0;
+  --radius-xl: 0;
+  --checkbox-radius: 0;
+  --clickable-icon-radius: 0;
+
+  /* Borders */
+  --divider-color: var(--sc-white);
+  --divider-width: 2px;
+  --tab-outline-color: var(--sc-white);
+  --tab-outline-width: 2px;
+  --modal-border-color: var(--sc-white);
+  --modal-border-width: 2px;
+  --input-shadow: none;
+  --input-shadow-hover: none;
+  --shadow-s: 4px 4px 0 var(--sc-black);
+  --shadow-l: 6px 6px 0 var(--sc-black);
+
+  --line-height-normal: 1.65;
+  --file-line-width: 760px;
+}
+
+.theme-dark,
+.theme-light {
+  color-scheme: dark;
+
+  --background-primary: var(--sc-black);
+  --background-primary-alt: var(--sc-onyx);
+  --background-secondary: var(--sc-onyx);
+  --background-secondary-alt: var(--sc-slate);
+  --background-modifier-border: var(--sc-steel);
+  --background-modifier-border-hover: var(--sc-white);
+  --background-modifier-border-focus: var(--sc-cyan);
+  --background-modifier-hover: rgba(139, 92, 246, 0.18);
+  --background-modifier-active-hover: rgba(139, 92, 246, 0.3);
+  --background-modifier-form-field: var(--sc-slate);
+  --background-modifier-cover: rgba(0, 0, 0, 0.85);
+  --background-modifier-success: var(--sc-lime);
+  --background-modifier-error: var(--sc-red);
+  --background-modifier-message: var(--sc-slate);
+
+  --text-normal: #ececf4;
+  --text-muted: var(--sc-dim);
+  --text-faint: #5d5d6e;
+  --text-on-accent: #000000;
+  --text-accent: var(--sc-cyan);
+  --text-accent-hover: var(--sc-lime);
+  --text-error: var(--sc-red);
+  --text-success: var(--sc-lime);
+  --text-warning: var(--sc-amber);
+  --text-selection: rgba(139, 92, 246, 0.45);
+  --text-highlight-bg: rgba(255, 238, 0, 0.3);
+
+  --interactive-normal: var(--sc-steel);
+  --interactive-hover: var(--sc-purple);
+  --interactive-accent: var(--sc-purple);
+  --interactive-accent-hover: var(--sc-cyan);
+  --interactive-accent-hsl: 258, 90%, 66%;
+
+  --color-accent: var(--sc-purple);
+  --color-accent-1: var(--sc-purple);
+  --color-accent-2: var(--sc-cyan);
+  --color-red: var(--sc-red);
+  --color-green: var(--sc-lime);
+  --color-yellow: var(--sc-amber);
+  --color-cyan: var(--sc-cyan);
+  --color-purple: var(--sc-purple);
+  --color-orange: var(--sc-gold);
+
+  --h1-color: var(--sc-white);
+  --h2-color: var(--sc-cyan);
+  --h3-color: var(--sc-lime);
+  --h4-color: var(--sc-amber);
+  --h5-color: var(--sc-purple);
+  --h6-color: var(--sc-red);
+  --h1-weight: 800;
+  --h2-weight: 700;
+  --h3-weight: 700;
+  --h4-weight: 700;
+  --h1-size: 1.9em;
+  --h2-size: 1.5em;
+  --h3-size: 1.25em;
+  --h4-size: 1.1em;
+
+  --link-color: var(--sc-cyan);
+  --link-color-hover: var(--sc-lime);
+  --link-external-color: var(--sc-purple);
+  --link-external-color-hover: var(--sc-cyan);
+  --link-unresolved-color: var(--sc-red);
+  --link-unresolved-opacity: 0.9;
+
+  --bold-color: var(--sc-white);
+  --italic-color: var(--sc-amber);
+  --code-background: var(--sc-slate);
+  --code-normal: var(--sc-lime);
+  --blockquote-border-color: var(--sc-purple);
+  --blockquote-border-thickness: 4px;
+  --blockquote-background-color: var(--sc-onyx);
+  --hr-color: var(--sc-white);
+  --hr-thickness: 2px;
+  --list-marker-color: var(--sc-cyan);
+  --tag-color: var(--sc-black);
+  --tag-background: var(--sc-lime);
+  --tag-radius: 0;
+  --checkbox-color: var(--sc-lime);
+  --checkbox-border-color: var(--sc-white);
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb-bg: var(--sc-steel);
+  --scrollbar-active-thumb-bg: var(--sc-purple);
+  --icon-color: var(--sc-dim);
+  --icon-color-hover: var(--sc-white);
+  --icon-color-active: var(--sc-cyan);
+  --icon-color-focused: var(--sc-white);
+  --nav-item-color-active: var(--sc-black);
+  --nav-item-background-active: var(--sc-cyan);
+  --nav-item-background-hover: rgba(139, 92, 246, 0.2);
+  --titlebar-background: var(--sc-black);
+  --titlebar-background-focused: var(--sc-black);
+  --titlebar-text-color-focused: var(--sc-white);
+}
+
+/* ---------- Film grain overlay ---------- */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0.09;
+  mix-blend-mode: screen;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 1.1 -0.1'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+
+/* ---------- Hard geometry: strip all rounding ---------- */
+.theme-dark *,
+.theme-light * {
+  border-radius: 0 !important;
+}
+/* Exception: the emblem ring below is a true circle */
+.sc-ring, .workspace-leaf-content[data-type="empty"] .empty-state::before {
+  border-radius: 50% !important;
+}
+
+/* ---------- Dividers: 2px stark white ---------- */
+.workspace-split.mod-vertical > * > .workspace-leaf-resize-handle,
+.workspace-split.mod-left-split > .workspace-leaf-resize-handle,
+.workspace-split.mod-right-split > .workspace-leaf-resize-handle {
+  background: var(--sc-white);
+  width: 2px;
+}
+.workspace-split.mod-horizontal > * > .workspace-leaf-resize-handle { background: var(--sc-white); height: 2px; }
+.workspace-tabs .workspace-tab-header-container { border-bottom: var(--sc-rule); background: var(--sc-onyx); }
+.horizontal-main-container, .workspace { background: var(--sc-black); }
+.mod-left-split .workspace-tabs, .mod-right-split .workspace-tabs { background: var(--sc-onyx); }
+.mod-left-split { border-right: var(--sc-rule); }
+.mod-right-split { border-left: var(--sc-rule); }
+.view-header { border-bottom: var(--sc-rule); background: var(--sc-onyx); }
+.status-bar {
+  border-top: var(--sc-rule);
+  background: var(--sc-black);
+  color: var(--sc-lime);
+  font-family: var(--font-monospace-theme);
+  font-size: 11px;
+}
+.status-bar-item { color: var(--sc-lime); }
+.status-bar::before { content: "SHIN//ONLINE ▮"; color: var(--sc-amber); margin-right: 12px; font-weight: 700; }
+
+/* ---------- Tabs ---------- */
+.workspace-tab-header { border-right: 2px solid var(--sc-steel); }
+.workspace-tab-header.is-active {
+  background: var(--sc-black);
+  box-shadow: inset 0 3px 0 var(--sc-cyan);
+}
+.workspace-tab-header.is-active .workspace-tab-header-inner-title { color: var(--sc-white); font-weight: 700; }
+.workspace-tab-header:hover { background: var(--sc-slate); }
+
+/* ---------- File explorer ---------- */
+.nav-file-title, .nav-folder-title { font-family: var(--font-monospace-theme); font-size: 12.5px; }
+.nav-file-title.is-active, .nav-file-title.is-active:hover {
+  background: var(--sc-cyan);
+  color: var(--sc-black);
+  box-shadow: var(--sc-shadow-accent);
+  font-weight: 700;
+}
+.nav-folder-title:hover, .nav-file-title:hover { background: rgba(139, 92, 246, 0.2); }
+.nav-folder-title::before { content: "▸ "; color: var(--sc-amber); }
+.nav-folder:not(.is-collapsed) > .nav-folder-title::before { content: "▾ "; }
+.nav-folder-collapse-indicator { display: none; }
+
+/* ---------- Keycap buttons ---------- */
+button, .clickable-icon.nav-action-button, .mod-cta, .mod-warning {
+  border: var(--sc-rule);
+  box-shadow: var(--sc-shadow);
+  background: var(--sc-steel);
+  color: var(--sc-white);
+  font-family: var(--font-monospace-theme);
+  font-weight: 700;
+  transition: transform 0.05s, box-shadow 0.05s;
+}
+button:hover { background: var(--sc-purple); color: var(--sc-white); }
+button:active { transform: translate(4px, 4px); box-shadow: 0 0 0 var(--sc-black); }
+button.mod-cta { background: var(--sc-purple); color: var(--sc-white); box-shadow: 4px 4px 0 var(--sc-cyan); }
+button.mod-cta:hover { background: var(--sc-cyan); color: var(--sc-black); }
+button.mod-warning { background: var(--sc-red); box-shadow: 4px 4px 0 var(--sc-black); color: var(--sc-white); }
+
+/* ---------- Inputs ---------- */
+input[type="text"], input[type="search"], input[type="number"], input[type="email"], input[type="password"], select, textarea, .dropdown {
+  border: 2px solid var(--sc-steel);
+  background: var(--sc-slate);
+  color: var(--sc-white);
+  font-family: var(--font-monospace-theme);
+}
+input:focus, select:focus, textarea:focus { border-color: var(--sc-cyan) !important; box-shadow: 4px 4px 0 var(--sc-purple) !important; }
+input[type="checkbox"] { border: 2px solid var(--sc-white); }
+input[type="checkbox"]:checked { background: var(--sc-lime); border-color: var(--sc-lime); }
+.checkbox-container { border: 2px solid var(--sc-white); background: var(--sc-slate); }
+.checkbox-container.is-enabled { background: var(--sc-lime); border-color: var(--sc-lime); }
+.checkbox-container::after { background: var(--sc-white); }
+
+/* ---------- Modals, menus, popovers: hard shadow ---------- */
+.modal, .menu, .suggestion-container, .popover, .prompt, .notice, .tooltip {
+  border: var(--sc-rule);
+  box-shadow: 6px 6px 0 var(--sc-purple);
+  background: var(--sc-onyx);
+}
+.menu-item:hover, .menu-item.selected, .suggestion-item.is-selected {
+  background: var(--sc-cyan);
+  color: var(--sc-black);
+}
+.menu-item.selected .menu-item-icon, .menu-item:hover .menu-item-icon { color: var(--sc-black); }
+.modal-title { color: var(--sc-cyan); font-family: var(--font-monospace-theme); border-bottom: var(--sc-rule); padding-bottom: 8px; }
+.prompt-input { border-bottom: var(--sc-rule); }
+.notice { background: var(--sc-slate); border-left: 6px solid var(--sc-lime); }
+
+/* ---------- Note content ---------- */
+.markdown-preview-view, .markdown-source-view.mod-cm6 .cm-scroller { font-family: var(--font-text-theme); }
+h1, .HyperMD-header-1 {
+  border-bottom: var(--sc-rule);
+  padding-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+h1::before, .markdown-preview-view h1::before { content: "// "; color: var(--sc-purple); }
+h2::before { content: "> "; color: var(--sc-amber); }
+h3::before { content: "$ "; color: var(--sc-purple); }
+.markdown-rendered strong { text-shadow: 0 0 0 var(--sc-white); }
+.markdown-rendered blockquote, .cm-s-obsidian .HyperMD-quote {
+  border-left: 4px solid var(--sc-purple);
+  background: var(--sc-onyx);
+  padding: 8px 16px;
+  box-shadow: 4px 4px 0 var(--sc-black);
+}
+.markdown-rendered code, .cm-s-obsidian span.cm-inline-code {
+  background: var(--sc-slate);
+  color: var(--sc-lime);
+  border: 1px solid var(--sc-steel);
+  padding: 0 4px;
+}
+.markdown-rendered pre {
+  background: var(--sc-black);
+  border: var(--sc-rule);
+  box-shadow: 4px 4px 0 var(--sc-cyan);
+  position: relative;
+}
+.markdown-rendered pre code { color: #e0e0ff; border: none; background: transparent; }
+.markdown-rendered pre::before {
+  content: "● ● ●  TERMINAL";
+  display: block;
+  padding: 4px 10px;
+  background: var(--sc-white);
+  color: var(--sc-black);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+}
+.markdown-rendered table, .markdown-rendered th, .markdown-rendered td { border: 2px solid var(--sc-steel); }
+.markdown-rendered th { background: var(--sc-purple); color: var(--sc-white); text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.85em; }
+.markdown-rendered tr:nth-child(even) td { background: var(--sc-onyx); }
+.markdown-rendered hr { border-top: 2px solid var(--sc-white); }
+.tag, a.tag { background: var(--sc-lime); color: var(--sc-black); font-weight: 700; border: 2px solid var(--sc-black); box-shadow: 2px 2px 0 var(--sc-white); padding: 0 6px; }
+.cm-s-obsidian span.cm-formatting-list, .markdown-rendered ul > li::marker { color: var(--sc-cyan); }
+.task-list-item-checkbox { border: 2px solid var(--sc-white); background: var(--sc-slate); }
+.task-list-item-checkbox:checked { background: var(--sc-lime); border-color: var(--sc-lime); }
+.markdown-rendered mark, .cm-s-obsidian span.cm-highlight { background: var(--sc-amber); color: var(--sc-black); padding: 0 3px; }
+.internal-link.is-unresolved { text-decoration: line-through; }
+.markdown-rendered img { border: var(--sc-rule); box-shadow: 4px 4px 0 var(--sc-purple); }
+
+/* ---------- Callouts: tactical alerts ---------- */
+.callout {
+  border: 2px solid var(--callout-color-solid, var(--sc-cyan));
+  border-left-width: 8px;
+  background: var(--sc-onyx);
+  box-shadow: 4px 4px 0 var(--sc-black);
+  --callout-color: 0, 240, 255;
+}
+.callout-title { text-transform: uppercase; letter-spacing: 0.08em; font-weight: 800; }
+.callout[data-callout="note"], .callout[data-callout="info"] { --callout-color: 0, 240, 255; }
+.callout[data-callout="tip"], .callout[data-callout="success"], .callout[data-callout="check"] { --callout-color: 0, 255, 102; }
+.callout[data-callout="warning"], .callout[data-callout="caution"] { --callout-color: 255, 238, 0; }
+.callout[data-callout="danger"], .callout[data-callout="bug"], .callout[data-callout="failure"] { --callout-color: 255, 0, 60; }
+.callout[data-callout="quote"], .callout[data-callout="example"], .callout[data-callout="abstract"] { --callout-color: 139, 92, 246; }
+.callout { border-color: rgb(var(--callout-color)); }
+.callout-title, .callout-icon { color: rgb(var(--callout-color)); }
+
+/* ---------- Emblem: 真 in a thin circle ---------- */
+.workspace-leaf-content[data-type="empty"] .empty-state {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.workspace-leaf-content[data-type="empty"] .empty-state::before {
+  content: "真";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 190px;
+  height: 190px;
+  margin-bottom: 28px;
+  border: 2px solid var(--sc-gold);
+  box-shadow:
+    0 0 0 6px var(--sc-black),
+    0 0 0 8px rgba(255, 255, 255, 0.55),
+    inset 0 0 28px rgba(232, 163, 61, 0.25),
+    4px 4px 0 var(--sc-purple);
+  font-family: "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", "MS Mincho", serif;
+  font-weight: 900;
+  font-size: 118px;
+  line-height: 1;
+  background:
+    linear-gradient(135deg, #f4f4f8 0%, #9fa3ad 28%, #ffffff 48%, #6c707b 70%, #d9dbe2 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: none;
+  filter: drop-shadow(2px 0 0 rgba(232, 163, 61, 0.8)) drop-shadow(-1px -1px 0 rgba(0, 0, 0, 0.9));
+}
+.empty-state-title { color: var(--sc-white); font-family: var(--font-monospace-theme); letter-spacing: 0.2em; text-transform: uppercase; }
+.empty-state-action {
+  border: var(--sc-rule);
+  background: var(--sc-steel);
+  box-shadow: var(--sc-shadow-accent);
+  color: var(--sc-white);
+  padding: 6px 16px;
+  min-width: 240px;
+  text-align: center;
+}
+.empty-state-action:hover { background: var(--sc-cyan); color: var(--sc-black); }
+.empty-state-action::before { content: "[ ] "; color: var(--sc-amber); }
+
+/* ---------- Graph view ---------- */
+.graph-view.color-fill { color: var(--sc-purple); }
+.graph-view.color-circle { color: var(--sc-cyan); }
+.graph-view.color-line { color: var(--sc-steel); }
+.graph-view.color-text { color: var(--sc-white); }
+.graph-view.color-fill-highlight { color: var(--sc-lime); }
+.graph-view.color-fill-tag { color: var(--sc-amber); }
+.graph-view.color-fill-attachment { color: var(--sc-red); }
+
+/* ---------- Scrollbars: square ---------- */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--sc-black); }
+::-webkit-scrollbar-thumb { background: var(--sc-steel); border: 2px solid var(--sc-black); }
+::-webkit-scrollbar-thumb:hover { background: var(--sc-purple); }
+
+/* ---------- Selection & focus ---------- */
+::selection { background: var(--sc-purple); color: var(--sc-white); }
+:focus-visible { outline: 2px solid var(--sc-cyan); outline-offset: 2px; }
+.cm-cursor { border-left: 3px solid var(--sc-lime) !important; }
+.cm-active.cm-line { background: rgba(139, 92, 246, 0.08); }
+.cm-s-obsidian span.cm-header { color: inherit; }
+
+/* ---------- Mobile ---------- */
+.is-mobile .workspace-drawer { border-right: var(--sc-rule); }
+.is-mobile .mobile-navbar { border-top: var(--sc-rule); background: var(--sc-black); }
+
+@media (prefers-reduced-motion: reduce) {
+  button { transition: none; }
+}
