@@ -4,10 +4,12 @@ aliases:
   - C Book Chapter 5 Index
   - Chapter 5 Index
 tags:
+  - course/1101-cse
+  - lang/c
   - type/index
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/01_C_BOOK/CHAPTER_05/"
+source: "1101_CSE/05_PRACTICE/01_C_BOOK/CHAPTER_05/"
 up: "[[PRAC - Index]]"
 prev: "[[PRAC BOOK Ch04 - Index]]"
 next: "[[PRAC BOOK Ch06 - Index]]"

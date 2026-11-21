@@ -4,14 +4,16 @@ aliases:
   - merge sort recursion
   - 17_merge_sort_recursion
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/recursion
-  - c/sorting
-  - c/arrays
+  - topic/arrays
+  - topic/recursion
+  - topic/sorting
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/17_merge_sort_recursion.c"
+source: "1101_CSE/02_LAB/17_merge_sort_recursion.c"
 number: 17
 up: "[[LAB - Index]]"
 prev: "[[LAB 16 - reverse array recursion]]"

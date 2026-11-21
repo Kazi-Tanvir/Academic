@@ -4,14 +4,16 @@ aliases:
   - sort array
   - 11_sort_array
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/sorting
-  - c/arrays
-  - c/loops
+  - topic/arrays
+  - topic/loops
+  - topic/sorting
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/11_sort_array.c"
+source: "1101_CSE/02_LAB/11_sort_array.c"
 number: 11
 up: "[[LAB - Index]]"
 prev: "[[LAB 10 - discount budget]]"

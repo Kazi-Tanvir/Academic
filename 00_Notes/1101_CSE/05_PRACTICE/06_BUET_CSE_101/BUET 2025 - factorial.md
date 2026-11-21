@@ -4,13 +4,15 @@ aliases:
   - BUET factorial
   - factorial
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/recursion
-  - c/math
+  - topic/math
+  - topic/recursion
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/06_BUET_CSE_101/2025/factorial.c"
+source: "1101_CSE/05_PRACTICE/06_BUET_CSE_101/2025/factorial.c"
 up: "[[BUET - Index]]"
 related:
   - "[[BUET 2025 - pascal]]"

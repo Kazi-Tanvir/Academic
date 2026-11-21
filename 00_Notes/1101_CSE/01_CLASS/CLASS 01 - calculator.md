@@ -4,13 +4,15 @@ aliases:
   - calculator
   - 01_calculator
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/functions
-  - c/control-flow
+  - topic/control-flow
+  - topic/functions
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/01_calculator.c"
+source: "1101_CSE/01_CLASS/01_calculator.c"
 number: 1
 up: "[[CLASS - Index]]"
 next: "[[CLASS 02 - grade]]"

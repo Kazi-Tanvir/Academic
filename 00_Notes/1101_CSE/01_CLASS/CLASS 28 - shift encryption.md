@@ -4,14 +4,16 @@ aliases:
   - shift encryption
   - 28_shift_encryption
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/encryption
-  - c/functions
-  - c/strings
+  - topic/encryption
+  - topic/functions
+  - topic/strings
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/28_shift_encryption.c"
+source: "1101_CSE/01_CLASS/28_shift_encryption.c"
 number: 28
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 27 - binary encryption]]"

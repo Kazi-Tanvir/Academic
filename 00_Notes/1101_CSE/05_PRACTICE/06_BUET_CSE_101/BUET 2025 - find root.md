@@ -4,17 +4,19 @@ aliases:
   - BUET find root
   - find_root
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/math
-  - c/loops
+  - topic/loops
+  - topic/math
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/06_BUET_CSE_101/2025/find_root.c"
+source: "1101_CSE/05_PRACTICE/06_BUET_CSE_101/2025/find_root.c"
 up: "[[BUET - Index]]"
 related:
   - "[[CLASS 04 - prime number]]"
-  - "[[PRAC - prime number sqrt]]"
+  - "[[PRAC CW - prime number sqrt]]"
 created: 2026-10-29
 status: draft
 ---
@@ -84,4 +86,4 @@ Enter your guess : 1.5
 
 ## Related
 - [[CLASS 04 - prime number]]
-- [[PRAC - prime number sqrt]]
+- [[PRAC CW - prime number sqrt]]

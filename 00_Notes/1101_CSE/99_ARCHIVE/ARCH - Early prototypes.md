@@ -4,14 +4,20 @@ aliases:
   - Early prototypes
   - Prototype archive
 tags:
+  - course/1101-cse
+  - lang/c
   - type/archive
-  - c/image-processing
-  - c/bmp-format
-  - c/loops
+  - topic/bmp-format
+  - topic/image-processing
+  - topic/loops
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "99_ARCHIVE/"
+source: "1101_CSE/99_ARCHIVE/"
+files:
+  - grayscale.c
+  - invert.c
+  - invert_grayscale.c
 up: "[[ARCH - Index]]"
 related:
   - "[[LAB 29 - grayscale]]"

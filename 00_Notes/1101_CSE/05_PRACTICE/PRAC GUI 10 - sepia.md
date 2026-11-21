@@ -4,14 +4,16 @@ aliases:
   - sepia
   - 10_sepia
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/image-processing
-  - c/math
-  - c/bmp-format
+  - topic/bmp-format
+  - topic/image-processing
+  - topic/math
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/05_IMAGE_EDITOR/gui/10_sepia.c"
+source: "1101_CSE/05_PRACTICE/05_IMAGE_EDITOR/gui/10_sepia.c"
 up: "[[PRAC - Index]]"
 related:
   - "[[PROJ Image Editor - filter]]"

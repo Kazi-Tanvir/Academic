@@ -1,16 +1,18 @@
 ---
-title: "PRAC - prime number sqrt"
+title: "PRAC CW - prime number sqrt"
 aliases:
   - prime number sqrt
   - prime_number_sqrt
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/math
-  - c/loops
+  - topic/loops
+  - topic/math
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/02_CONCEPT_WISE/prime_number_sqrt.c"
+source: "1101_CSE/05_PRACTICE/02_CONCEPT_WISE/prime_number_sqrt.c"
 up: "[[PRAC - Index]]"
 related:
   - "[[CLASS 04 - prime number]]"

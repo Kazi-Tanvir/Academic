@@ -4,13 +4,15 @@ aliases:
   - vowel switch
   - 05_vowel_switch
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/control-flow
-  - c/strings
+  - topic/control-flow
+  - topic/strings
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/05_vowel_switch.c"
+source: "1101_CSE/01_CLASS/05_vowel_switch.c"
 number: 5
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 04 - prime number]]"

@@ -1,11 +1,13 @@
 ---
-title: "00 - Index"
+title: "CSE 1101 - Index"
 aliases:
   - Master Index
   - Course Overview
 tags:
+  - course/1101-cse
+  - lang/c
   - type/index
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
 created: 2026-10-29
 status: draft

@@ -4,10 +4,12 @@ aliases:
   - C Book Chapter 8 Index
   - Chapter 8 Index
 tags:
+  - course/1101-cse
+  - lang/c
   - type/index
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/01_C_BOOK/CHAPTER_08/"
+source: "1101_CSE/05_PRACTICE/01_C_BOOK/CHAPTER_08/"
 up: "[[PRAC - Index]]"
 prev: "[[PRAC BOOK Ch07 - Index]]"
 next: "[[PRAC BOOK Ch09 - Index]]"
@@ -31,8 +33,8 @@ Chapter 8 explores console input and output: unbuffered and buffered character I
 | `09_Example_812.c` | Defining macros in terms of other macros | Implemented |
 | `10_Example_813.c` | Macro name inside a quoted string is not replaced | Implemented |
 | `11_Exercise_811.c` | Count from 0 to MAX-1 by COUNTBY | Implemented |
-| `12_Exercise_812.c` | Conceptual review: Is this fragment correct? #define MAX MIN+100 #define MIN 10 | Implemented |
-| `13_Exercise_813.c` | Conceptual review: Is this fragment correct? #define STR this is a test printf(STR); | Implemented |
+| `12_Exercise_812.c` | Conceptual review: Is this fragment correct? `#define` MAX MIN+100 `#define` MIN 10 | Implemented |
+| `13_Exercise_813.c` | Conceptual review: Is this fragment correct? `#define` STR this is a test printf(STR); | Implemented |
 | `14_Exercise_814.c` | Macro defining header name | Implemented |
 | `15_Example_821.c` | Line-buffered character input with getchar() | Implemented |
 | `16_Example_822.c` | Using backslash escape sequences with putchar() | Implemented |
@@ -47,7 +49,7 @@ Chapter 8 explores console input and output: unbuffered and buffered character I
 | `25_Example_843.c` | Conceptual review: Why does calling gets(p) with an uninitialized pointer cause program failure? | Implemented |
 | `26_Example_844.c` | Outputting lines of text using puts() | Implemented |
 | `27_Exercise_841.c` | Comparing puts() vs printf() output | Implemented |
-| `28_Exercise_842.c` | Conceptual review: Is this program correct? If not, why not? #include <stdio.h> int main(void) { char *p, *q; printf(... | Implemented |
+| `28_Exercise_842.c` | Conceptual review: Is this program correct? If not, why not? `#include` <stdio.h> int main(void) { char *p, *q; printf(... | Implemented |
 | `29_Example_851.c` | Precision specifier with printf() | Implemented |
 | `30_Example_852.c` | Minimum field width for column alignment | Implemented |
 | `31_Example_853.c` | Printing integers in dec, oct, hex and floats in scientific notation | Implemented |

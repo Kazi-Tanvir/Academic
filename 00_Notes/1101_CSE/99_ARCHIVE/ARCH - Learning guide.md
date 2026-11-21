@@ -4,14 +4,16 @@ aliases:
   - Learning guide
   - Image Editor Learning Guide
 tags:
+  - course/1101-cse
+  - lang/c
   - type/archive
-  - c/gui-iup
-  - c/image-processing
-  - c/bmp-format
+  - topic/bmp-format
+  - topic/gui-iup
+  - topic/image-processing
   - level/advanced
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "99_ARCHIVE/learning_guide.md"
+source: "1101_CSE/99_ARCHIVE/learning_guide.md"
 up: "[[ARCH - Index]]"
 related:
   - "[[PROJ Image Editor - Overview]]"

@@ -4,14 +4,16 @@ aliases:
   - number game
   - 03_number_game
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/game-logic
-  - c/loops
-  - c/control-flow
+  - topic/control-flow
+  - topic/game-logic
+  - topic/loops
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/03_number_game.c"
+source: "1101_CSE/01_CLASS/03_number_game.c"
 number: 3
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 02 - grade]]"

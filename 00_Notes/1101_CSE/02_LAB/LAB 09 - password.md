@@ -4,13 +4,15 @@ aliases:
   - password
   - 09_password
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/loops
-  - c/strings
+  - topic/loops
+  - topic/strings
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/09_password.c"
+source: "1101_CSE/02_LAB/09_password.c"
 number: 9
 up: "[[LAB - Index]]"
 prev: "[[LAB 08 - pascal]]"

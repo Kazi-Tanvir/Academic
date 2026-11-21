@@ -4,14 +4,16 @@ aliases:
   - pointer strcat
   - 15_pointer_strcat
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/pointers
-  - c/strings
-  - c/pointer-arithmetic
+  - topic/pointer-arithmetic
+  - topic/pointers
+  - topic/strings
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/15_pointer_strcat.c"
+source: "1101_CSE/01_CLASS/15_pointer_strcat.c"
 number: 15
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 14 - pointer strcmp]]"

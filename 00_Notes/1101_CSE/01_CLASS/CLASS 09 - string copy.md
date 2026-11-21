@@ -4,14 +4,16 @@ aliases:
   - string copy
   - 09_string_copy
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/strings
-  - c/arrays
-  - c/loops
+  - topic/arrays
+  - topic/loops
+  - topic/strings
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/09_string_copy.c"
+source: "1101_CSE/01_CLASS/09_string_copy.c"
 number: 9
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 08 - string length]]"

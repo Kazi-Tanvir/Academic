@@ -4,13 +4,15 @@ aliases:
   - change var no temp
   - 02_change_var_no_temp
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/math
-  - c/functions
+  - topic/functions
+  - topic/math
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/02_change_var_no_temp.c"
+source: "1101_CSE/02_LAB/02_change_var_no_temp.c"
 number: 2
 up: "[[LAB - Index]]"
 prev: "[[LAB 01 - change var temp]]"

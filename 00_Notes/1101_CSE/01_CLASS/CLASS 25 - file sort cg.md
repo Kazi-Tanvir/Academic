@@ -4,14 +4,16 @@ aliases:
   - file sort cg
   - 25_file_sort_cg
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/file-io
-  - c/sorting
-  - c/arrays
+  - topic/arrays
+  - topic/file-io
+  - topic/sorting
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/25_file_sort_cg.c"
+source: "1101_CSE/01_CLASS/25_file_sort_cg.c"
 number: 25
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 24 - take cg file]]"

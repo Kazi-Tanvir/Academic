@@ -4,15 +4,17 @@ aliases:
   - self ref struct
   - self_ref_struct
 tags:
+  - course/1101-cse
+  - lang/c
   - type/assignment
-  - c/structs
-  - c/linked-list
-  - c/file-io
-  - c/dynamic-memory
+  - topic/dynamic-memory
+  - topic/file-io
+  - topic/linked-list
+  - topic/structs
   - level/advanced
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "03_ASSIGNMENT/10_ASSIGNMENT/self_ref_struct.c"
+source: "1101_CSE/03_ASSIGNMENT/10_ASSIGNMENT/self_ref_struct.c"
 number: 10
 up: "[[ASG - Index]]"
 prev: "[[ASG 09 - file marksheet]]"

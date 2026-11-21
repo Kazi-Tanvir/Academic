@@ -4,14 +4,16 @@ aliases:
   - Hangman
   - hangman
 tags:
+  - course/1101-cse
+  - lang/c
   - type/project
-  - c/game-logic
-  - c/strings
-  - c/arrays
+  - topic/arrays
+  - topic/game-logic
+  - topic/strings
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "04_LAB_PROJECT/02_HANGMAN/hangman.c"
+source: "1101_CSE/04_LAB_PROJECT/02_HANGMAN/hangman.c"
 up: "[[PROJ - Index]]"
 prev: "[[PROJ TicTacToe - no array]]"
 next: "[[PROJ Midterm Exam - q1]]"

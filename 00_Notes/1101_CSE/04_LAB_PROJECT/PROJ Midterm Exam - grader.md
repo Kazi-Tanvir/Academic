@@ -4,13 +4,15 @@ aliases:
   - Midterm Exam grader
   - grader.sh
 tags:
+  - course/1101-cse
+  - lang/bash
   - type/project
-  - c/testing
-  - c/cli-args
+  - topic/cli-args
+  - topic/testing
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "04_LAB_PROJECT/04_MIDTERM_EXAM/grader.sh"
+source: "1101_CSE/04_LAB_PROJECT/04_MIDTERM_EXAM/grader.sh"
 up: "[[PROJ - Index]]"
 prev: "[[PROJ Midterm Exam - q3]]"
 next: "[[PROJ Midterm Practice - hotel reservation]]"

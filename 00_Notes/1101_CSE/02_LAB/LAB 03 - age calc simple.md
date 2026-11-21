@@ -4,19 +4,21 @@ aliases:
   - age calc simple
   - 03_age_calc_simple
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/control-flow
-  - c/math
+  - topic/control-flow
+  - topic/math
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/03_age_calc_simple.c"
+source: "1101_CSE/02_LAB/03_age_calc_simple.c"
 number: 3
 up: "[[LAB - Index]]"
 prev: "[[LAB 02 - change var no temp]]"
 next: "[[LAB 04 - change calc simplified]]"
 related:
-  - "[[PRAC - age calculator]]"
+  - "[[PRAC CW - age calculator]]"
   - "[[LAB 04 - change calc simplified]]"
 created: 2026-10-29
 status: draft
@@ -108,5 +110,5 @@ Your Age is : 26 Years, 2 Months, and 14 Days
 > [!question]- My notes
 
 ## Related
-- [[PRAC - age calculator]] - Standalone practice age calculator
+- [[PRAC CW - age calculator]] - Standalone practice age calculator
 - [[LAB 04 - change calc simplified]] - Denomination decomposition logic

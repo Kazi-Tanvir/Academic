@@ -4,14 +4,16 @@ aliases:
   - avg temperature array
   - 07_avg_temperature_array
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/arrays
-  - c/loops
-  - c/math
+  - topic/arrays
+  - topic/loops
+  - topic/math
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/07_avg_temperature_array.c"
+source: "1101_CSE/01_CLASS/07_avg_temperature_array.c"
 number: 7
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 06 - calc menu switch]]"

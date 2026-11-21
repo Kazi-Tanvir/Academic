@@ -4,14 +4,16 @@ aliases:
   - calc menu switch
   - 06_calc_menu_switch
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/control-flow
-  - c/functions
-  - c/math
+  - topic/control-flow
+  - topic/functions
+  - topic/math
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/06_calc_menu_switch.c"
+source: "1101_CSE/01_CLASS/06_calc_menu_switch.c"
 number: 6
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 05 - vowel switch]]"

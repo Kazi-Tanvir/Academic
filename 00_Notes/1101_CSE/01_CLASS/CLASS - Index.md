@@ -4,10 +4,12 @@ aliases:
   - Class Index
   - Lecture Notes Index
 tags:
+  - course/1101-cse
+  - lang/c
   - type/index
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-up: "[[00 - Index]]"
+up: "[[CSE 1101 - Index]]"
 next: "[[LAB - Index]]"
 created: 2026-10-29
 status: draft
@@ -60,7 +62,7 @@ The `01_CLASS/` directory contains 28 lecture programs demonstrating the core cu
 ---
 
 ## ?? Navigation
-- [[00 - Index]]
+- [[CSE 1101 - Index]]
 - [[LAB - Index]]
 - [[ASG - Index]]
 - [[PROJ - Index]]

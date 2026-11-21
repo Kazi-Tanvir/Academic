@@ -4,14 +4,16 @@ aliases:
   - final 23 7d
   - 02_Final_23_7d
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/file-io
-  - c/encryption
-  - c/cli-args
+  - topic/cli-args
+  - topic/encryption
+  - topic/file-io
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/03_PYG/02_Final_23_7d.c"
+source: "1101_CSE/05_PRACTICE/03_PYG/02_Final_23_7d.c"
 up: "[[PRAC - Index]]"
 related:
   - "[[CLASS 27 - binary encryption]]"

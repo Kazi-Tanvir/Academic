@@ -4,14 +4,16 @@ aliases:
   - sort student by cgpa
   - sort_student_by_cgpa
 tags:
+  - course/1101-cse
+  - lang/c
   - type/assignment
-  - c/arrays
-  - c/sorting
-  - c/functions
+  - topic/arrays
+  - topic/functions
+  - topic/sorting
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "03_ASSIGNMENT/04_ASSIGNMENT/sort_student_by_cgpa.c"
+source: "1101_CSE/03_ASSIGNMENT/04_ASSIGNMENT/sort_student_by_cgpa.c"
 number: 4
 up: "[[ASG - Index]]"
 prev: "[[ASG 03 - hollow box and butterfly]]"

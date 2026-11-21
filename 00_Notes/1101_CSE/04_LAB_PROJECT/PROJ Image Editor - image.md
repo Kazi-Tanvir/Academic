@@ -4,15 +4,17 @@ aliases:
   - Image Editor image
   - image.c
 tags:
+  - course/1101-cse
+  - lang/c
   - type/project
-  - c/bmp-format
-  - c/binary-io
-  - c/dynamic-memory
-  - c/structs
+  - topic/binary-io
+  - topic/bmp-format
+  - topic/dynamic-memory
+  - topic/structs
   - level/advanced
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "04_LAB_PROJECT/05_FINAL_PROJECT/src/programs/image.c"
+source: "1101_CSE/04_LAB_PROJECT/05_FINAL_PROJECT/src/programs/image.c"
 up: "[[PROJ - Index]]"
 prev: "[[PROJ Image Editor - main]]"
 next: "[[PROJ Image Editor - filter]]"

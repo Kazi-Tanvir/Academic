@@ -4,13 +4,15 @@ aliases:
   - pointer remove element
   - 08_pointer_remove_element
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/pointers
-  - c/arrays
+  - topic/arrays
+  - topic/pointers
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/02_CONCEPT_WISE/08_pointer_remove_element.c"
+source: "1101_CSE/05_PRACTICE/02_CONCEPT_WISE/08_pointer_remove_element.c"
 up: "[[PRAC - Index]]"
 related:
   - "[[LAB 20 - pointer remove]]"

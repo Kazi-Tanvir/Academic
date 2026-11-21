@@ -4,14 +4,16 @@ aliases:
   - space finder
   - 22_space_finder
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/file-io
-  - c/strings
-  - c/loops
+  - topic/file-io
+  - topic/loops
+  - topic/strings
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/22_space_finder.c"
+source: "1101_CSE/01_CLASS/22_space_finder.c"
 number: 22
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 21 - file basic]]"

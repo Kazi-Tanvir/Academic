@@ -4,14 +4,16 @@ aliases:
   - reverse array recursion
   - 16_reverse_array_recursion
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/recursion
-  - c/arrays
-  - c/functions
+  - topic/arrays
+  - topic/functions
+  - topic/recursion
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/16_reverse_array_recursion.c"
+source: "1101_CSE/02_LAB/16_reverse_array_recursion.c"
 number: 16
 up: "[[LAB - Index]]"
 prev: "[[LAB 15 - sum array recursion]]"

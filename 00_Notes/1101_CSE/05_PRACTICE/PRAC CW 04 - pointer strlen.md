@@ -4,13 +4,15 @@ aliases:
   - pointer strlen
   - 04_pointer_strlen
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/pointers
-  - c/strings
+  - topic/pointers
+  - topic/strings
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/02_CONCEPT_WISE/04_pointer_strlen.c"
+source: "1101_CSE/05_PRACTICE/02_CONCEPT_WISE/04_pointer_strlen.c"
 up: "[[PRAC - Index]]"
 related:
   - "[[CLASS 12 - pointer strlen]]"

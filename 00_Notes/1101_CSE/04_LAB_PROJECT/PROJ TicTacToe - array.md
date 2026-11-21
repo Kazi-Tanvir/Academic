@@ -4,14 +4,16 @@ aliases:
   - TicTacToe array
   - tictactoe
 tags:
+  - course/1101-cse
+  - lang/c
   - type/project
-  - c/game-logic
-  - c/arrays
-  - c/control-flow
+  - topic/arrays
+  - topic/control-flow
+  - topic/game-logic
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "04_LAB_PROJECT/01_TICTACTOE/tictactoe.c"
+source: "1101_CSE/04_LAB_PROJECT/01_TICTACTOE/tictactoe.c"
 up: "[[PROJ - Index]]"
 next: "[[PROJ TicTacToe - no array]]"
 related:

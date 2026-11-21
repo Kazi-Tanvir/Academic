@@ -4,14 +4,16 @@ aliases:
   - hotel reservation
   - hotelReservation
 tags:
+  - course/1101-cse
+  - lang/c
   - type/project
-  - c/arrays
-  - c/strings
-  - c/control-flow
+  - topic/arrays
+  - topic/control-flow
+  - topic/strings
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "04_LAB_PROJECT/03_MIDTERM_PRACTICE/hotelReservation.c"
+source: "1101_CSE/04_LAB_PROJECT/03_MIDTERM_PRACTICE/hotelReservation.c"
 up: "[[PROJ - Index]]"
 prev: "[[PROJ Midterm Exam - grader]]"
 next: "[[PROJ Image Editor - Overview]]"

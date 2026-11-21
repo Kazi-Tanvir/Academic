@@ -4,13 +4,15 @@ aliases:
   - pointer min max
   - 16_pointer_min_max
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/pointers
-  - c/arrays
+  - topic/arrays
+  - topic/pointers
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/16_pointer_min_max.c"
+source: "1101_CSE/01_CLASS/16_pointer_min_max.c"
 number: 16
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 15 - pointer strcat]]"

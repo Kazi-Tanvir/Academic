@@ -1,16 +1,18 @@
 ---
-title: "PRAC - cgpa calculator"
+title: "PRAC CW - cgpa calculator"
 aliases:
   - cgpa calculator
   - cgpa_calculator
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/arrays
-  - c/loops
+  - topic/arrays
+  - topic/loops
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/02_CONCEPT_WISE/cgpa_calculator.c"
+source: "1101_CSE/05_PRACTICE/02_CONCEPT_WISE/cgpa_calculator.c"
 up: "[[PRAC - Index]]"
 related:
   - "[[LAB 05 - cgpa]]"

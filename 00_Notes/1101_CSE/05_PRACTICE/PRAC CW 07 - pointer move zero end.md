@@ -4,13 +4,15 @@ aliases:
   - pointer move zero end
   - 07_pointer_move_zero_end
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/pointers
-  - c/arrays
+  - topic/arrays
+  - topic/pointers
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/02_CONCEPT_WISE/07_pointer_move_zero_end.c"
+source: "1101_CSE/05_PRACTICE/02_CONCEPT_WISE/07_pointer_move_zero_end.c"
 up: "[[PRAC - Index]]"
 related:
   - "[[PRAC LC - Index]]"

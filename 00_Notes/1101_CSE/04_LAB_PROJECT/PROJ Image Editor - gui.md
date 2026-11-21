@@ -4,14 +4,16 @@ aliases:
   - Image Editor gui
   - gui.c
 tags:
+  - course/1101-cse
+  - lang/c
   - type/project
-  - c/gui-iup
-  - c/pointers
-  - c/structs
+  - topic/gui-iup
+  - topic/pointers
+  - topic/structs
   - level/advanced
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "04_LAB_PROJECT/05_FINAL_PROJECT/src/programs/gui.c"
+source: "1101_CSE/04_LAB_PROJECT/05_FINAL_PROJECT/src/programs/gui.c"
 up: "[[PROJ - Index]]"
 prev: "[[PROJ Image Editor - filter]]"
 next: "[[PROJ Image Editor - ucrt compat]]"

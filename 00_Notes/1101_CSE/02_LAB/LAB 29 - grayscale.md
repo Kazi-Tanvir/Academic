@@ -4,14 +4,16 @@ aliases:
   - grayscale
   - 29_grayscale
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/bmp-format
-  - c/image-processing
-  - c/binary-io
+  - topic/binary-io
+  - topic/bmp-format
+  - topic/image-processing
   - level/advanced
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/29_grayscale.c"
+source: "1101_CSE/02_LAB/29_grayscale.c"
 number: 29
 up: "[[LAB - Index]]"
 prev: "[[LAB 28 - matrix]]"

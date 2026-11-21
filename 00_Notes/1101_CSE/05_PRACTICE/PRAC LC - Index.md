@@ -4,10 +4,12 @@ aliases:
   - LeetCode Index
   - LeetCode Practice
 tags:
+  - course/1101-cse
+  - lang/c
   - type/index
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/04_LEETCODE/"
+source: "1101_CSE/05_PRACTICE/04_LEETCODE/"
 up: "[[PRAC - Index]]"
 related:
   - "[[PRAC CW 07 - pointer move zero end]]"
@@ -42,4 +44,4 @@ The `05_PRACTICE/04_LEETCODE/` directory contains solutions to standard competit
 
 ## 🧭 Navigation
 - [[PRAC - Index]]
-- [[00 - Index]]
+- [[CSE 1101 - Index]]

@@ -4,14 +4,16 @@ aliases:
   - pointer strcpy
   - 13_pointer_strcpy
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/pointers
-  - c/strings
-  - c/pointer-arithmetic
+  - topic/pointer-arithmetic
+  - topic/pointers
+  - topic/strings
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/13_pointer_strcpy.c"
+source: "1101_CSE/01_CLASS/13_pointer_strcpy.c"
 number: 13
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 12 - pointer strlen]]"

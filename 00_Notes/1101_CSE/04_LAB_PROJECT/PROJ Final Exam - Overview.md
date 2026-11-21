@@ -4,14 +4,19 @@ aliases:
   - Final Exam Overview
   - BSSE18 Final Exam
 tags:
+  - course/1101-cse
+  - lang/c
   - type/project
-  - c/structs
-  - c/file-io
-  - c/testing
+  - topic/file-io
+  - topic/structs
+  - topic/testing
   - level/advanced
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "04_LAB_PROJECT/06_FINAL_EXAM/"
+source: "1101_CSE/04_LAB_PROJECT/06_FINAL_EXAM/"
+files:
+  - code.c
+  - grader.c
 up: "[[PROJ - Index]]"
 prev: "[[PROJ Image Editor - build]]"
 next: "[[PROJ Final Exam - food ordering system]]"

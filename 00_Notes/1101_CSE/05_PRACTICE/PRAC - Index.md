@@ -4,10 +4,12 @@ aliases:
   - Practice Index
   - Practice Directory Index
 tags:
+  - course/1101-cse
+  - lang/c
   - type/index
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-up: "[[00 - Index]]"
+up: "[[CSE 1101 - Index]]"
 prev: "[[PROJ - Index]]"
 next: "[[BUET - Index]]"
 created: 2026-10-29
@@ -19,9 +21,9 @@ The `05_PRACTICE/` directory houses standalone utilities, focused pointer drills
 
 | Category | Note | What it teaches | Tags |
 |---|---|---|---|
-| Standalone | [[PRAC - age calculator]] | Exact birth date calculations handling day borrowing and calendar months | `c/control-flow`, `c/math`, `level/basic` |
-| Standalone | [[PRAC - cgpa calculator]] | Cumulative GPA averaging across variable course credits | `c/arrays`, `c/loops`, `level/basic` |
-| Standalone | [[PRAC - prime number sqrt]] | Optimized primality testing running in $O(\sqrt{n})$ time | `c/math`, `c/loops`, `level/basic` |
+| Standalone | [[PRAC CW - age calculator]] | Exact birth date calculations handling day borrowing and calendar months | `c/control-flow`, `c/math`, `level/basic` |
+| Standalone | [[PRAC CW - cgpa calculator]] | Cumulative GPA averaging across variable course credits | `c/arrays`, `c/loops`, `level/basic` |
+| Standalone | [[PRAC CW - prime number sqrt]] | Optimized primality testing running in $O(\sqrt{n})$ time | `c/math`, `c/loops`, `level/basic` |
 | Concept Drills | [[PRAC CW 01 - pointer swap]] | In-place variable exchange using pointer indirection | `c/pointers`, `c/functions`, `level/basic` |
 | Concept Drills | [[PRAC CW 02 - pointer min max]] | Single-pass extrema detection in arrays via pointer traversal | `c/pointers`, `c/arrays`, `level/basic` |
 | Concept Drills | [[PRAC CW 03 - pointer reverse]] | In-place array reversal using converging pointer offsets | `c/pointers`, `c/arrays`, `level/basic` |
@@ -62,7 +64,7 @@ The `05_PRACTICE/` directory houses standalone utilities, focused pointer drills
 ---
 
 ## 🧭 Navigation
-- [[00 - Index]]
+- [[CSE 1101 - Index]]
 - [[CLASS - Index]]
 - [[LAB - Index]]
 - [[ASG - Index]]

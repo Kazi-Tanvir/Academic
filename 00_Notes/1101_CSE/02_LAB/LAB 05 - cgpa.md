@@ -4,21 +4,23 @@ aliases:
   - cgpa
   - 05_cgpa
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/arrays
-  - c/loops
-  - c/math
+  - topic/arrays
+  - topic/loops
+  - topic/math
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/05_cgpa.c"
+source: "1101_CSE/02_LAB/05_cgpa.c"
 number: 5
 up: "[[LAB - Index]]"
 prev: "[[LAB 04 - change calc simplified]]"
 next: "[[LAB 06 - discount]]"
 related:
   - "[[CLASS 02 - grade]]"
-  - "[[PRAC - cgpa calculator]]"
+  - "[[PRAC CW - cgpa calculator]]"
 created: 2026-10-29
 status: draft
 ---
@@ -154,4 +156,4 @@ enter Your Marks : (Format is 110X)
 
 ## Related
 - [[CLASS 02 - grade]] - Letter grade classification
-- [[PRAC - cgpa calculator]] - Standalone practice CGPA script
+- [[PRAC CW - cgpa calculator]] - Standalone practice CGPA script

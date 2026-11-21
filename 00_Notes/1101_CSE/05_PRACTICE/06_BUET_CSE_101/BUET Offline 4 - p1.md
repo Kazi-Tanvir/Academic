@@ -4,14 +4,16 @@ aliases:
   - BUET Offline 4 p1
   - offline4_A1_p1
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/pointers
-  - c/sorting
-  - c/arrays
+  - topic/arrays
+  - topic/pointers
+  - topic/sorting
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/06_BUET_CSE_101/offline/offline4_A1_p1.c"
+source: "1101_CSE/05_PRACTICE/06_BUET_CSE_101/offline/offline4_A1_p1.c"
 up: "[[BUET - Index]]"
 prev: "[[BUET Offline 1 - p2]]"
 related:

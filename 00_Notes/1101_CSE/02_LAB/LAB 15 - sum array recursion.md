@@ -4,14 +4,16 @@ aliases:
   - sum array recursion
   - 15_sum_array_recursion
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/recursion
-  - c/arrays
-  - c/functions
+  - topic/arrays
+  - topic/functions
+  - topic/recursion
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/15_sum_array_recursion.c"
+source: "1101_CSE/02_LAB/15_sum_array_recursion.c"
 number: 15
 up: "[[LAB - Index]]"
 prev: "[[LAB 14 - merge array]]"

@@ -4,14 +4,16 @@ aliases:
   - pointer row sum
   - 19_pointer_row_sum
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/pointers
-  - c/arrays
-  - c/math
+  - topic/arrays
+  - topic/math
+  - topic/pointers
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/19_pointer_row_sum.c"
+source: "1101_CSE/01_CLASS/19_pointer_row_sum.c"
 number: 19
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 18 - pointer books 2d arr]]"

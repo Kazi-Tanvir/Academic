@@ -4,14 +4,16 @@ aliases:
   - load
   - 07_load
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/gui-iup
-  - c/bmp-format
-  - c/binary-io
+  - topic/binary-io
+  - topic/bmp-format
+  - topic/gui-iup
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/05_IMAGE_EDITOR/gui/07_load.c"
+source: "1101_CSE/05_PRACTICE/05_IMAGE_EDITOR/gui/07_load.c"
 up: "[[PRAC - Index]]"
 related:
   - "[[PROJ Image Editor - image]]"

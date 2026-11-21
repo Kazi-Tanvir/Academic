@@ -4,14 +4,16 @@ aliases:
   - grading app
   - grading_app
 tags:
+  - course/1101-cse
+  - lang/c
   - type/assignment
-  - c/arrays
-  - c/functions
-  - c/control-flow
+  - topic/arrays
+  - topic/control-flow
+  - topic/functions
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "03_ASSIGNMENT/06_ASSIGNMENT/grading_app.c"
+source: "1101_CSE/03_ASSIGNMENT/06_ASSIGNMENT/grading_app.c"
 number: 6
 up: "[[ASG - Index]]"
 prev: "[[ASG 05 - dictionary sort lexicographic]]"

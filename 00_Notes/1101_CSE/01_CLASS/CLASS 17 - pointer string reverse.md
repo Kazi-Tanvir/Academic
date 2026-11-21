@@ -4,14 +4,16 @@ aliases:
   - pointer string reverse
   - 17_pointer_string_reverse
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/pointers
-  - c/strings
-  - c/pointer-arithmetic
+  - topic/pointer-arithmetic
+  - topic/pointers
+  - topic/strings
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/17_pointer_string_reverse.c"
+source: "1101_CSE/01_CLASS/17_pointer_string_reverse.c"
 number: 17
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 16 - pointer min max]]"
@@ -70,7 +72,7 @@ int main(){
 ```
 
 ## How it works
-1. **Signature**: `reverseString(char* s, int sSize)` matches the LeetCode #344 problem signature.
+1. **Signature**: `reverseString(char* s, int sSize)` matches the LeetCode `#344` problem signature.
 2. **Guard Clause**: Evaluates size constraints.
 3. **Swap Loop**:
    - `for (int i = 0; i < sSize / 2; i++)`
@@ -97,5 +99,5 @@ rivnaT
 
 ## Related
 - [[LAB 23 - pointer array reverse]] - Recursive pointer-based array reversal
-- [[PRAC LC - Index]] - LeetCode #344 solution
+- [[PRAC LC - Index]] - LeetCode `#344` solution
 - [[PRAC CW 06 - pointer reverse string]] - Concept-wise pointer string reverse

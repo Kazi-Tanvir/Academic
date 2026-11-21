@@ -4,14 +4,16 @@ aliases:
   - pointer swap
   - 19_pointer_swap
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/pointers
-  - c/pointer-arithmetic
-  - c/dynamic-memory
+  - topic/dynamic-memory
+  - topic/pointer-arithmetic
+  - topic/pointers
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/19_pointer_swap.c"
+source: "1101_CSE/02_LAB/19_pointer_swap.c"
 number: 19
 up: "[[LAB - Index]]"
 prev: "[[LAB 18 - pointer sort]]"

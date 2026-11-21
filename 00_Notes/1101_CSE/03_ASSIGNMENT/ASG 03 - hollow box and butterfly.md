@@ -4,13 +4,18 @@ aliases:
   - hollow box and butterfly
   - hollow_box and butterfly
 tags:
+  - course/1101-cse
+  - lang/c
   - type/assignment
-  - c/loops
-  - c/control-flow
+  - topic/control-flow
+  - topic/loops
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "03_ASSIGNMENT/03_ASSIGNMENT/"
+source: "1101_CSE/03_ASSIGNMENT/03_ASSIGNMENT/"
+files:
+  - butterfly.c
+  - hollow_box.c
 number: 3
 up: "[[ASG - Index]]"
 prev: "[[ASG 02 - pyramid patterns]]"

@@ -4,14 +4,16 @@ aliases:
   - string length
   - 08_string_length
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/strings
-  - c/loops
-  - c/arrays
+  - topic/arrays
+  - topic/loops
+  - topic/strings
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/08_string_length.c"
+source: "1101_CSE/01_CLASS/08_string_length.c"
 number: 8
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 07 - avg temperature array]]"

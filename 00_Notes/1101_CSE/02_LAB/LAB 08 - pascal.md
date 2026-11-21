@@ -4,13 +4,15 @@ aliases:
   - pascal
   - 08_pascal
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/loops
-  - c/math
+  - topic/loops
+  - topic/math
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/08_pascal.c"
+source: "1101_CSE/02_LAB/08_pascal.c"
 number: 8
 up: "[[LAB - Index]]"
 prev: "[[LAB 07 - hollow triangle]]"

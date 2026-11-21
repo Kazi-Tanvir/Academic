@@ -4,15 +4,17 @@ aliases:
   - food ordering system
   - final exam code
 tags:
+  - course/1101-cse
+  - lang/c
   - type/project
-  - c/structs
-  - c/file-io
-  - c/strings
-  - c/control-flow
+  - topic/control-flow
+  - topic/file-io
+  - topic/strings
+  - topic/structs
   - level/advanced
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "04_LAB_PROJECT/06_FINAL_EXAM/code.c"
+source: "1101_CSE/04_LAB_PROJECT/06_FINAL_EXAM/code.c"
 up: "[[PROJ - Index]]"
 prev: "[[PROJ Final Exam - Overview]]"
 next: "[[PROJ Final Exam - grader harness]]"

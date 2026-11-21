@@ -4,14 +4,16 @@ aliases:
   - Midterm Exam q3
   - q3
 tags:
+  - course/1101-cse
+  - lang/c
   - type/project
-  - c/recursion
-  - c/math
-  - c/functions
+  - topic/functions
+  - topic/math
+  - topic/recursion
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "04_LAB_PROJECT/04_MIDTERM_EXAM/q3.c"
+source: "1101_CSE/04_LAB_PROJECT/04_MIDTERM_EXAM/q3.c"
 number: 3
 up: "[[PROJ - Index]]"
 prev: "[[PROJ Midterm Exam - q2]]"

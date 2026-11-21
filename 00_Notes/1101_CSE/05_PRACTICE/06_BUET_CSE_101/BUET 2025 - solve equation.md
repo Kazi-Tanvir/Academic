@@ -4,13 +4,15 @@ aliases:
   - BUET solve equation
   - solve_equation
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/math
-  - c/functions
+  - topic/functions
+  - topic/math
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/06_BUET_CSE_101/2025/solve_equation.c"
+source: "1101_CSE/05_PRACTICE/06_BUET_CSE_101/2025/solve_equation.c"
 up: "[[BUET - Index]]"
 related:
   - "[[BUET 2025 - find root]]"

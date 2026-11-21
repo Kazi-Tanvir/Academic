@@ -4,14 +4,16 @@ aliases:
   - string check equal
   - 10_string_check_equal
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/strings
-  - c/arrays
-  - c/loops
+  - topic/arrays
+  - topic/loops
+  - topic/strings
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/10_string_check_equal.c"
+source: "1101_CSE/01_CLASS/10_string_check_equal.c"
 number: 10
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 09 - string copy]]"

@@ -4,10 +4,12 @@ aliases:
   - Lab Index
   - Lab Experiments Index
 tags:
+  - course/1101-cse
+  - lang/c
   - type/index
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-up: "[[00 - Index]]"
+up: "[[CSE 1101 - Index]]"
 prev: "[[CLASS - Index]]"
 next: "[[ASG - Index]]"
 created: 2026-10-29
@@ -68,7 +70,7 @@ The `02_LAB/` directory contains 30 hands-on structured laboratory experiments. 
 ---
 
 ## ?? Navigation
-- [[00 - Index]]
+- [[CSE 1101 - Index]]
 - [[CLASS - Index]]
 - [[ASG - Index]]
 - [[PROJ - Index]]

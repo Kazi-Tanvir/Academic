@@ -4,14 +4,16 @@ aliases:
   - Midterm Exam q2
   - q2
 tags:
+  - course/1101-cse
+  - lang/c
   - type/project
-  - c/sorting
-  - c/arrays
-  - c/loops
+  - topic/arrays
+  - topic/loops
+  - topic/sorting
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "04_LAB_PROJECT/04_MIDTERM_EXAM/q2.c"
+source: "1101_CSE/04_LAB_PROJECT/04_MIDTERM_EXAM/q2.c"
 number: 2
 up: "[[PROJ - Index]]"
 prev: "[[PROJ Midterm Exam - q1]]"

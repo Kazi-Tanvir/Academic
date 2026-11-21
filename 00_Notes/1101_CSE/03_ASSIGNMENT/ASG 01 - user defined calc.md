@@ -4,13 +4,15 @@ aliases:
   - user defined calc
   - user_defined_calc
 tags:
+  - course/1101-cse
+  - lang/c
   - type/assignment
-  - c/functions
-  - c/math
+  - topic/functions
+  - topic/math
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "03_ASSIGNMENT/01_ASSIGNMENT/user_defined_calc.c"
+source: "1101_CSE/03_ASSIGNMENT/01_ASSIGNMENT/user_defined_calc.c"
 number: 1
 up: "[[ASG - Index]]"
 next: "[[ASG 02 - pyramid patterns]]"

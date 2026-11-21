@@ -4,13 +4,15 @@ aliases:
   - Image Editor build
   - build.bat
 tags:
+  - course/1101-cse
+  - lang/batch
   - type/project
-  - c/testing
-  - c/cli-args
+  - topic/cli-args
+  - topic/testing
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "04_LAB_PROJECT/05_FINAL_PROJECT/build.bat"
+source: "1101_CSE/04_LAB_PROJECT/05_FINAL_PROJECT/build.bat"
 up: "[[PROJ - Index]]"
 prev: "[[PROJ Image Editor - ucrt compat]]"
 next: "[[PROJ Final Exam - Overview]]"

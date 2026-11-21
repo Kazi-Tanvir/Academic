@@ -4,17 +4,19 @@ aliases:
   - final 23 2d
   - 01_Final_23_2d
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/loops
-  - c/math
+  - topic/loops
+  - topic/math
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/03_PYG/01_Final_23_2d.c"
+source: "1101_CSE/05_PRACTICE/03_PYG/01_Final_23_2d.c"
 up: "[[PRAC - Index]]"
 related:
   - "[[CLASS 04 - prime number]]"
-  - "[[PRAC - prime number sqrt]]"
+  - "[[PRAC CW - prime number sqrt]]"
 created: 2026-10-29
 status: draft
 ---
@@ -91,4 +93,4 @@ int main(void){
 
 ## Related
 - [[CLASS 04 - prime number]]
-- [[PRAC - prime number sqrt]]
+- [[PRAC CW - prime number sqrt]]

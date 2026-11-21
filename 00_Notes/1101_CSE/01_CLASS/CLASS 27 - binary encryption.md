@@ -4,15 +4,17 @@ aliases:
   - binary encryption
   - 27_binary_encryption
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/bit-manipulation
-  - c/encryption
-  - c/binary-io
-  - c/structs
+  - topic/binary-io
+  - topic/bit-manipulation
+  - topic/encryption
+  - topic/structs
   - level/advanced
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/27_binary_encryption.c"
+source: "1101_CSE/01_CLASS/27_binary_encryption.c"
 number: 27
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 26 - struct student info]]"

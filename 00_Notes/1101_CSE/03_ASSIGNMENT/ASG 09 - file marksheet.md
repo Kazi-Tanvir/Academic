@@ -4,14 +4,16 @@ aliases:
   - file marksheet
   - file_marksheet
 tags:
+  - course/1101-cse
+  - lang/c
   - type/assignment
-  - c/file-io
-  - c/structs
-  - c/strings
+  - topic/file-io
+  - topic/strings
+  - topic/structs
   - level/advanced
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "03_ASSIGNMENT/09_ASSIGNMENT/file_marksheet.c"
+source: "1101_CSE/03_ASSIGNMENT/09_ASSIGNMENT/file_marksheet.c"
 number: 9
 up: "[[ASG - Index]]"
 prev: "[[ASG 08 - recursion practice]]"

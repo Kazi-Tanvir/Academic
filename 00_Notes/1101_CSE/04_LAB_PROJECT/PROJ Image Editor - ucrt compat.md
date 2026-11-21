@@ -4,13 +4,15 @@ aliases:
   - Image Editor ucrt compat
   - ucrt_compat.c
 tags:
+  - course/1101-cse
+  - lang/c
   - type/project
-  - c/pointers
-  - c/cli-args
+  - topic/cli-args
+  - topic/pointers
   - level/advanced
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "04_LAB_PROJECT/05_FINAL_PROJECT/src/programs/ucrt_compat.c"
+source: "1101_CSE/04_LAB_PROJECT/05_FINAL_PROJECT/src/programs/ucrt_compat.c"
 up: "[[PROJ - Index]]"
 prev: "[[PROJ Image Editor - gui]]"
 next: "[[PROJ Image Editor - build]]"

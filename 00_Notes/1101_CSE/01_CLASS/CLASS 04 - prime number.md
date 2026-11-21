@@ -4,20 +4,22 @@ aliases:
   - prime number
   - 04_prime_number
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/math
-  - c/loops
-  - c/control-flow
+  - topic/control-flow
+  - topic/loops
+  - topic/math
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/04_prime_number.c"
+source: "1101_CSE/01_CLASS/04_prime_number.c"
 number: 4
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 03 - number game]]"
 next: "[[CLASS 05 - vowel switch]]"
 related:
-  - "[[PRAC - prime number sqrt]]"
+  - "[[PRAC CW - prime number sqrt]]"
   - "[[ASG 08 - recursion practice]]"
   - "[[BUET 2025 - prime number]]"
 created: 2026-10-29
@@ -108,12 +110,12 @@ Enter a number: 1
 ## Gotchas
 > [!warning] Edge Cases <= 1 and Algorithmic Complexity
 > 1. **Input 1**: Mathematically, 1 is neither prime nor composite. However, for `num = 1`, the loop condition `i <= 1/2` ($2 <= 0$) is immediately false. The loop never executes, leaving `isPrime = 1`, which falsely reports 1 as prime!
-> 2. **Algorithmic Inefficiency**: Checking divisors up to $n/2$ takes $O(n)$ time. Any composite number must have a factor <= sqrt(n); checking up to sqrt(n) drops complexity to $O(\sqrt{n})$ (see [[PRAC - prime number sqrt]]).
+> 2. **Algorithmic Inefficiency**: Checking divisors up to $n/2$ takes $O(n)$ time. Any composite number must have a factor <= sqrt(n); checking up to sqrt(n) drops complexity to $O(\sqrt{n})$ (see [[PRAC CW - prime number sqrt]]).
 
 ## My notes
 > [!question]- My notes
 
 ## Related
-- [[PRAC - prime number sqrt]] - Optimized primality testing using sqrt(n)
+- [[PRAC CW - prime number sqrt]] - Optimized primality testing using sqrt(n)
 - [[ASG 08 - recursion practice]] - Recursive primality checking
 - [[BUET 2025 - prime number]] - External university primality problem

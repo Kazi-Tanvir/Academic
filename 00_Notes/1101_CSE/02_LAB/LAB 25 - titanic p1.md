@@ -4,14 +4,16 @@ aliases:
   - titanic p1
   - 25_titanic_p1
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/csv-parsing
-  - c/file-io
-  - c/strings
+  - topic/csv-parsing
+  - topic/file-io
+  - topic/strings
   - level/advanced
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "02_LAB/25_titanic_p1.c"
+source: "1101_CSE/02_LAB/25_titanic_p1.c"
 number: 25
 up: "[[LAB - Index]]"
 prev: "[[LAB 24 - merge sort]]"

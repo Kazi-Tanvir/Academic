@@ -4,14 +4,16 @@ aliases:
   - Image editor bugs
   - BUGS.md
 tags:
+  - course/1101-cse
+  - lang/c
   - type/archive
-  - c/testing
-  - c/bmp-format
-  - c/image-processing
+  - topic/bmp-format
+  - topic/image-processing
+  - topic/testing
   - level/advanced
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "99_ARCHIVE/Image Manipulation Software/Image Manipulation Software/BUGS.md"
+source: "1101_CSE/99_ARCHIVE/Image Manipulation Software/Image Manipulation Software/BUGS.md"
 up: "[[ARCH - Index]]"
 related:
   - "[[ARCH - Image editor logs]]"

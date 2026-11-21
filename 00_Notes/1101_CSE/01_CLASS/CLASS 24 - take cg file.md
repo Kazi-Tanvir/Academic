@@ -4,14 +4,16 @@ aliases:
   - take cg file
   - 24_take_cg_file
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/file-io
-  - c/arrays
-  - c/structs
+  - topic/arrays
+  - topic/file-io
+  - topic/structs
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "01_CLASS/24_take_cg_file.c"
+source: "1101_CSE/01_CLASS/24_take_cg_file.c"
 number: 24
 up: "[[CLASS - Index]]"
 prev: "[[CLASS 23 - mid word]]"

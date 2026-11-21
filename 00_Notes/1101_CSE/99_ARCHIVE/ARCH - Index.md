@@ -4,11 +4,13 @@ aliases:
   - Archive Index
   - Historical Archives Index
 tags:
+  - course/1101-cse
+  - lang/c
   - type/index
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "99_ARCHIVE/"
-up: "[[00 - Index]]"
+source: "1101_CSE/99_ARCHIVE/"
+up: "[[CSE 1101 - Index]]"
 prev: "[[BUET - Index]]"
 created: 2026-10-29
 status: draft
@@ -37,7 +39,7 @@ The `99_ARCHIVE/` directory preserves the developmental evolution of the coursew
 ---
 
 ## 🧭 Navigation
-- [[00 - Index]]
+- [[CSE 1101 - Index]]
 - [[CLASS - Index]]
 - [[LAB - Index]]
 - [[ASG - Index]]

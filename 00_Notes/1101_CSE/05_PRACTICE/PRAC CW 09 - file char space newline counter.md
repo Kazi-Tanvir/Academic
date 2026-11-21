@@ -4,13 +4,15 @@ aliases:
   - file char space newline counter
   - 09_file_char_space_newline_counter
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/file-io
-  - c/strings
+  - topic/file-io
+  - topic/strings
   - level/basic
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/02_CONCEPT_WISE/09_file_char_space_newline_counter.c"
+source: "1101_CSE/05_PRACTICE/02_CONCEPT_WISE/09_file_char_space_newline_counter.c"
 up: "[[PRAC - Index]]"
 related:
   - "[[CLASS 22 - space finder]]"

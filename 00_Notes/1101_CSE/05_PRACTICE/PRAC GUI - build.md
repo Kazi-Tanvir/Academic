@@ -4,13 +4,15 @@ aliases:
   - GUI build script
   - tutorial build
 tags:
+  - course/1101-cse
+  - lang/batch
   - type/practice
-  - c/testing
-  - c/cli-args
+  - topic/cli-args
+  - topic/testing
   - level/intermediate
-course: "CSE 1101"
+course: "1101_CSE"
 semester: "1.1"
-source: "05_PRACTICE/05_IMAGE_EDITOR/gui/build.bat"
+source: "1101_CSE/05_PRACTICE/05_IMAGE_EDITOR/gui/build.bat"
 up: "[[PRAC - Index]]"
 related:
   - "[[PROJ Image Editor - build]]"
