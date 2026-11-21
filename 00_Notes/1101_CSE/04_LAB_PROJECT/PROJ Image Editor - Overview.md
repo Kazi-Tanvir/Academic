@@ -108,6 +108,43 @@ Launches the native desktop window featuring the Lena test image, showing intera
 ## My notes
 > [!question]- My notes
 
+## Screenshots
+![[01_ui_overview.png|600]]
+Application interface and main control panel overview.
+
+![[02_image_loaded.png|600]]
+Uncompressed 24-bit BMP image loaded into the preview canvas.
+
+![[03_grayscale.png|600]]
+Grayscale conversion applying luminosity weighting to RGB color channels.
+
+![[04_brightness_plus100.png|600]]
+Positive brightness adjustment increasing pixel channel intensities (+100).
+
+![[05_brightness_minus100.png|600]]
+Negative brightness adjustment decreasing pixel channel intensities (-100).
+
+![[06_invert.png|600]]
+Color inversion calculating the photographic negative of each pixel.
+
+![[07_horizontal_flip.png|600]]
+Horizontal mirror reflection swapping pixels along the vertical axis.
+
+![[08_vertical_flip.png|600]]
+Vertical reflection swapping pixel rows across the horizontal axis.
+
+![[09_rotate_90.png|600]]
+Clockwise 90-degree orthogonal rotation with image dimension transposition.
+
+![[10_crop.png|600]]
+Rectangular bounding box cropping extracting a region of interest.
+
+![[11_blur.png|600]]
+Box blur spatial filter convolving pixel neighborhoods with a 3x3 kernel.
+
+![[12_sharpen.png|600]]
+Sharpening filter enhancing edge contrast using a 3x3 spatial convolution matrix.
+
 ## Related
 - [[PROJ Image Editor - main]]
 - [[PROJ Image Editor - image]]
