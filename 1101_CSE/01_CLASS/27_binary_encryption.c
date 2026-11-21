@@ -14,7 +14,7 @@ union Data {
     } Bits;
 };
 
-char enryption_bit(char x) {
+char encryption_bit(char x) {
     union Data d;
     d.x = x;
     int temp = d.Bits.a;
@@ -41,7 +41,7 @@ int main() {
         return 1;
     }
     while((ch=fgetc(input)) != EOF){
-        fprintf(output,"%c",enryption_bit(ch));
+        fprintf(output,"%c",encryption_bit(ch));
     }
 
     fclose(input);
