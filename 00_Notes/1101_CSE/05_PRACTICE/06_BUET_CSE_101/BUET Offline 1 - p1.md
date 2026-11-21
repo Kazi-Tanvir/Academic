@@ -4,10 +4,12 @@ aliases:
   - BUET Offline 1 p1
   - offline1_A1_p1
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/control-flow
-  - c/math
-  - c/arrays
+  - topic/arrays
+  - topic/control-flow
+  - topic/math
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

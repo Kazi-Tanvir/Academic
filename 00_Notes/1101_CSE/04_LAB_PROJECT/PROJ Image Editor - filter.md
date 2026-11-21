@@ -4,10 +4,12 @@ aliases:
   - Image Editor filter
   - filter.c
 tags:
+  - course/1101-cse
+  - lang/c
   - type/project
-  - c/image-processing
-  - c/pointers
-  - c/math
+  - topic/image-processing
+  - topic/math
+  - topic/pointers
   - level/advanced
 course: "1101_CSE"
 semester: "1.1"

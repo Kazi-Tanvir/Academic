@@ -4,10 +4,12 @@ aliases:
   - Early prototypes
   - Prototype archive
 tags:
+  - course/1101-cse
+  - lang/c
   - type/archive
-  - c/image-processing
-  - c/bmp-format
-  - c/loops
+  - topic/bmp-format
+  - topic/image-processing
+  - topic/loops
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

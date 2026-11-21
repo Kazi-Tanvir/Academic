@@ -4,10 +4,12 @@ aliases:
   - Final Exam grader
   - grader.c
 tags:
+  - course/1101-cse
+  - lang/c
   - type/project
-  - c/testing
-  - c/file-io
-  - c/structs
+  - topic/file-io
+  - topic/structs
+  - topic/testing
   - level/advanced
 course: "1101_CSE"
 semester: "1.1"

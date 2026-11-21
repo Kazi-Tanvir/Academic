@@ -4,6 +4,8 @@ aliases:
   - C Book Chapter 12 Index
   - Chapter 12 Index
 tags:
+  - course/1101-cse
+  - lang/c
   - type/index
 course: "1101_CSE"
 semester: "1.1"
@@ -26,25 +28,25 @@ Chapter 12 details the C preprocessor and advanced compiler controls: object-lik
 | `05_RSC_5.c` | How can these statements be written differently? | Implemented |
 | `06_RSC_6.c` | Conceptual review: What is the extern type specifier for? | Implemented |
 | `07_Example_1211.c` | Function-like parameterized macro MAX() | Implemented |
-| `08_Example_1212.c` | Using quotes in #include directive | Implemented |
-| `09_Example_1213.c` | Combining both forms of #include in a program | Implemented |
+| `08_Example_1212.c` | Using quotes in `#include` directive | Implemented |
+| `09_Example_1213.c` | Combining both forms of `#include` in a program | Implemented |
 | `10_Exercise_1211.c` | Corrected RANGE macro with parentheses | Implemented |
 | `11_Exercise_1212.c` | Parameterized macro ABS() to compute absolute value | Implemented |
 | `12_Exercise_1213.c` | Verification of quote include syntax | Implemented |
-| `13_Example_1221.c` | Conditional compilation using #if and #else | Implemented |
-| `14_Example_1222.c` | Conditional compilation using #ifdef for debugging | Implemented |
-| `15_Example_1223.c` | Conditional compilation using #ifndef | Implemented |
-| `16_Example_1224.c` | Conditional compilation using #elif | Implemented |
+| `13_Example_1221.c` | Conditional compilation using `#if` and `#else` | Implemented |
+| `14_Example_1222.c` | Conditional compilation using `#ifdef` for debugging | Implemented |
+| `15_Example_1223.c` | Conditional compilation using `#ifndef` | Implemented |
+| `16_Example_1224.c` | Conditional compilation using `#elif` | Implemented |
 | `17_Example_1225.c` | The defined preprocessor operator | Implemented |
 | `18_Exercise_1221.c` | Conditional compilation selecting INT or FLOAT power routine | Implemented |
-| `19_Exercise_1222.c` | Conceptual review: Is this fragment correct? If not, show one way to fix it: #if MAX < 10 / * ... * / #else MAX > 10 ... | Implemented |
-| `20_Example_1231.c` | Conceptual review: What does the #error directive do? | Implemented |
-| `21_Example_1232.c` | Demonstrating the #undef directive | Implemented |
-| `22_Example_1233.c` | Demonstrating the #line directive | Implemented |
-| `23_Example_1234.c` | Conceptual review: Check your compiler's user manual and learn about any #pragma directives supported by your system. | Implemented |
-| `24_Exercise_1231.c` | Verifying #undef and #line directives | Implemented |
+| `19_Exercise_1222.c` | Conceptual review: Is this fragment correct? If not, show one way to fix it: `#if` MAX < 10 / * ... * / `#else` MAX > 10 ... | Implemented |
+| `20_Example_1231.c` | Conceptual review: What does the `#error` directive do? | Implemented |
+| `21_Example_1232.c` | Demonstrating the `#undef` directive | Implemented |
+| `22_Example_1233.c` | Demonstrating the `#line` directive | Implemented |
+| `23_Example_1234.c` | Conceptual review: Check your compiler's user manual and learn about any `#pragma` directives supported by your system. | Implemented |
+| `24_Exercise_1231.c` | Verifying `#undef` and `#line` directives | Implemented |
 | `25_Example_1241.c` | Built-in macros __LINE__, __FILE__, __DATE__, __TIME__, __STDC__ | Implemented |
-| `26_Example_1242.c` | Using __LINE__ and __FILE__ with #line reset | Implemented |
+| `26_Example_1242.c` | Using __LINE__ and __FILE__ with `#line` reset | Implemented |
 | `27_Exercise_1241.c` | Displaying compilation environment using built-in macros | Implemented |
 | `28_Example_1251.c` | The # stringize operator | Implemented |
 | `29_Example_1252.c` | The ## token concatenation operator | Implemented |
@@ -65,8 +67,8 @@ Chapter 12 details the C preprocessor and advanced compiler controls: object-lik
 | `44_Exercise_1271.c` | Compiling dynamic allocation test | Implemented |
 | `45_Exercise_1272.c` | Ten-element dynamic integer array | Implemented |
 | `46_Exercise_1273.c` | Conceptual review: What is wrong with this fragment? char *p; *p = malloc(10); gets(p); | Implemented |
-| `47_MSC_1.c` | Conceptual review: What is the difference between using quotes and angle brackets with #include? | Implemented |
-| `48_MSC_2.c` | Conditionally compile fragment with #ifdef DEBUG | Implemented |
+| `47_MSC_1.c` | Conceptual review: What is the difference between using quotes and angle brackets with `#include`? | Implemented |
+| `48_MSC_2.c` | Conditionally compile fragment with `#ifdef` DEBUG | Implemented |
 | `49_MSC_3.c` | Conditionally compile when DEBUG == 1 | Implemented |
 | `50_MSC_4.c` | Conceptual review: How do you undefine a macro? | Implemented |
 | `51_MSC_5.c` | Conceptual review: What is __FILE__ and what does it represent? | Implemented |

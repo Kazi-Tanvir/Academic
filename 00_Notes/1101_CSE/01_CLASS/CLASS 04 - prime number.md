@@ -4,10 +4,12 @@ aliases:
   - prime number
   - 04_prime_number
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/math
-  - c/loops
-  - c/control-flow
+  - topic/control-flow
+  - topic/loops
+  - topic/math
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

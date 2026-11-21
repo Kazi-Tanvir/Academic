@@ -4,9 +4,11 @@ aliases:
   - password
   - 09_password
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/loops
-  - c/strings
+  - topic/loops
+  - topic/strings
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

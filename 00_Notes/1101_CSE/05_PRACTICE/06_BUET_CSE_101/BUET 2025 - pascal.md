@@ -4,10 +4,12 @@ aliases:
   - BUET pascal
   - 2025 pascal
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/recursion
-  - c/math
-  - c/loops
+  - topic/loops
+  - topic/math
+  - topic/recursion
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

@@ -4,10 +4,12 @@ aliases:
   - book reservation
   - book_reservation
 tags:
+  - course/1101-cse
+  - lang/c
   - type/assignment
-  - c/arrays
-  - c/strings
-  - c/control-flow
+  - topic/arrays
+  - topic/control-flow
+  - topic/strings
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

@@ -4,10 +4,12 @@ aliases:
   - calc menu switch
   - 06_calc_menu_switch
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/control-flow
-  - c/functions
-  - c/math
+  - topic/control-flow
+  - topic/functions
+  - topic/math
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

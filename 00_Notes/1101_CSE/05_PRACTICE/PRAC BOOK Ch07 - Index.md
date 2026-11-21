@@ -4,6 +4,8 @@ aliases:
   - C Book Chapter 7 Index
   - Chapter 7 Index
 tags:
+  - course/1101-cse
+  - lang/c
   - type/index
 course: "1101_CSE"
 semester: "1.1"

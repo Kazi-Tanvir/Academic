@@ -4,10 +4,12 @@ aliases:
   - red bmp
   - 06_red_bmp
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/bmp-format
-  - c/binary-io
-  - c/structs
+  - topic/binary-io
+  - topic/bmp-format
+  - topic/structs
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

@@ -4,10 +4,12 @@ aliases:
   - pointer array reverse
   - 23_pointer_array_reverse
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/pointers
-  - c/pointer-arithmetic
-  - c/recursion
+  - topic/pointer-arithmetic
+  - topic/pointers
+  - topic/recursion
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

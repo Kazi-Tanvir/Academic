@@ -4,9 +4,11 @@ aliases:
   - GUI build script
   - tutorial build
 tags:
+  - course/1101-cse
+  - lang/batch
   - type/practice
-  - c/testing
-  - c/cli-args
+  - topic/cli-args
+  - topic/testing
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

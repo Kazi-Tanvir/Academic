@@ -4,10 +4,12 @@ aliases:
   - TicTacToe no array
   - tictactoe_no_array
 tags:
+  - course/1101-cse
+  - lang/c
   - type/project
-  - c/game-logic
-  - c/control-flow
-  - c/functions
+  - topic/control-flow
+  - topic/functions
+  - topic/game-logic
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

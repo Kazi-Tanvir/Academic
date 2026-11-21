@@ -4,6 +4,8 @@ aliases:
   - BUET CSE 101 Index
   - BUET Practice Index
 tags:
+  - course/1101-cse
+  - lang/c
   - type/index
 course: "1101_CSE"
 semester: "1.1"

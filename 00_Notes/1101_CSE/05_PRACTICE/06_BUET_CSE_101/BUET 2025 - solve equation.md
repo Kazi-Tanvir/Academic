@@ -4,9 +4,11 @@ aliases:
   - BUET solve equation
   - solve_equation
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/math
-  - c/functions
+  - topic/functions
+  - topic/math
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

@@ -4,9 +4,11 @@ aliases:
   - pointer sum arr
   - 05_pointer_sum_arr
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/pointers
-  - c/arrays
+  - topic/arrays
+  - topic/pointers
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

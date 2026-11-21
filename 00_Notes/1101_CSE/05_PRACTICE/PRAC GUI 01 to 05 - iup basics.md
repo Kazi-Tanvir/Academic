@@ -4,9 +4,11 @@ aliases:
   - iup basics
   - gui 01 to 05
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/gui-iup
-  - c/functions
+  - topic/functions
+  - topic/gui-iup
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

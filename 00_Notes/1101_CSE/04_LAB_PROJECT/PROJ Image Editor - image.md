@@ -4,11 +4,13 @@ aliases:
   - Image Editor image
   - image.c
 tags:
+  - course/1101-cse
+  - lang/c
   - type/project
-  - c/bmp-format
-  - c/binary-io
-  - c/dynamic-memory
-  - c/structs
+  - topic/binary-io
+  - topic/bmp-format
+  - topic/dynamic-memory
+  - topic/structs
   - level/advanced
 course: "1101_CSE"
 semester: "1.1"

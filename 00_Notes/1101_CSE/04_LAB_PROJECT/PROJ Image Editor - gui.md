@@ -4,10 +4,12 @@ aliases:
   - Image Editor gui
   - gui.c
 tags:
+  - course/1101-cse
+  - lang/c
   - type/project
-  - c/gui-iup
-  - c/pointers
-  - c/structs
+  - topic/gui-iup
+  - topic/pointers
+  - topic/structs
   - level/advanced
 course: "1101_CSE"
 semester: "1.1"

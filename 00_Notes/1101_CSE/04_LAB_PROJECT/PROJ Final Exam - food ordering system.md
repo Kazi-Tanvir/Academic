@@ -4,11 +4,13 @@ aliases:
   - food ordering system
   - final exam code
 tags:
+  - course/1101-cse
+  - lang/c
   - type/project
-  - c/structs
-  - c/file-io
-  - c/strings
-  - c/control-flow
+  - topic/control-flow
+  - topic/file-io
+  - topic/strings
+  - topic/structs
   - level/advanced
 course: "1101_CSE"
 semester: "1.1"

@@ -4,10 +4,12 @@ aliases:
   - pointer strcpy
   - 13_pointer_strcpy
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/pointers
-  - c/strings
-  - c/pointer-arithmetic
+  - topic/pointer-arithmetic
+  - topic/pointers
+  - topic/strings
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

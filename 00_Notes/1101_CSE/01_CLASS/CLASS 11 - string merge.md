@@ -4,10 +4,12 @@ aliases:
   - string merge
   - 11_string_merge
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/strings
-  - c/arrays
-  - c/loops
+  - topic/arrays
+  - topic/loops
+  - topic/strings
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

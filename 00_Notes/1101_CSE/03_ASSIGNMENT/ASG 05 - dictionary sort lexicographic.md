@@ -4,9 +4,11 @@ aliases:
   - dictionary sort lexicographic
   - dictionary_sort_lexicographic
 tags:
+  - course/1101-cse
+  - lang/c
   - type/assignment
-  - c/strings
-  - c/searching
+  - topic/searching
+  - topic/strings
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

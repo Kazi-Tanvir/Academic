@@ -4,10 +4,12 @@ aliases:
   - Final Exam Overview
   - BSSE18 Final Exam
 tags:
+  - course/1101-cse
+  - lang/c
   - type/project
-  - c/structs
-  - c/file-io
-  - c/testing
+  - topic/file-io
+  - topic/structs
+  - topic/testing
   - level/advanced
 course: "1101_CSE"
 semester: "1.1"

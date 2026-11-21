@@ -4,9 +4,11 @@ aliases:
   - change var no temp
   - 02_change_var_no_temp
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/math
-  - c/functions
+  - topic/functions
+  - topic/math
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

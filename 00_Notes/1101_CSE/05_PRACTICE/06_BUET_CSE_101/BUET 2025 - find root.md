@@ -4,9 +4,11 @@ aliases:
   - BUET find root
   - find_root
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/math
-  - c/loops
+  - topic/loops
+  - topic/math
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

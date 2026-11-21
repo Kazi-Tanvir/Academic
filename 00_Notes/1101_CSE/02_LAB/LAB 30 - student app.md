@@ -4,10 +4,12 @@ aliases:
   - student app
   - 30_student_app
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/structs
-  - c/searching
-  - c/control-flow
+  - topic/control-flow
+  - topic/searching
+  - topic/structs
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

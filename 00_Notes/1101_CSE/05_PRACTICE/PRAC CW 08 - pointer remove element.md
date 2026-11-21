@@ -4,9 +4,11 @@ aliases:
   - pointer remove element
   - 08_pointer_remove_element
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/pointers
-  - c/arrays
+  - topic/arrays
+  - topic/pointers
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

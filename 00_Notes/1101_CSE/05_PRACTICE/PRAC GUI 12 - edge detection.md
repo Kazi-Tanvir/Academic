@@ -4,10 +4,12 @@ aliases:
   - edge detection
   - 12_edge_detection
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/image-processing
-  - c/math
-  - c/pointers
+  - topic/image-processing
+  - topic/math
+  - topic/pointers
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

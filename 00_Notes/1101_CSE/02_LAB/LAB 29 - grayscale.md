@@ -4,10 +4,12 @@ aliases:
   - grayscale
   - 29_grayscale
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/bmp-format
-  - c/image-processing
-  - c/binary-io
+  - topic/binary-io
+  - topic/bmp-format
+  - topic/image-processing
   - level/advanced
 course: "1101_CSE"
 semester: "1.1"

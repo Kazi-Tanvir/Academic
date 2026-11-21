@@ -4,10 +4,12 @@ aliases:
   - BUET Offline 4 p1
   - offline4_A1_p1
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/pointers
-  - c/sorting
-  - c/arrays
+  - topic/arrays
+  - topic/pointers
+  - topic/sorting
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

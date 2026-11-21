@@ -4,10 +4,12 @@ aliases:
   - final 23 7d
   - 02_Final_23_7d
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/file-io
-  - c/encryption
-  - c/cli-args
+  - topic/cli-args
+  - topic/encryption
+  - topic/file-io
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

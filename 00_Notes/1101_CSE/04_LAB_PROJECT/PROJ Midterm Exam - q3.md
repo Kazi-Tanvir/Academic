@@ -4,10 +4,12 @@ aliases:
   - Midterm Exam q3
   - q3
 tags:
+  - course/1101-cse
+  - lang/c
   - type/project
-  - c/recursion
-  - c/math
-  - c/functions
+  - topic/functions
+  - topic/math
+  - topic/recursion
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

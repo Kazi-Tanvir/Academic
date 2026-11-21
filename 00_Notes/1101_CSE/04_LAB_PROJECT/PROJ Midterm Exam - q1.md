@@ -4,10 +4,12 @@ aliases:
   - Midterm Exam q1
   - q1
 tags:
+  - course/1101-cse
+  - lang/c
   - type/project
-  - c/control-flow
-  - c/arrays
-  - c/math
+  - topic/arrays
+  - topic/control-flow
+  - topic/math
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

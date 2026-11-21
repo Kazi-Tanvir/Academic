@@ -4,10 +4,12 @@ aliases:
   - threshold
   - 13_threshold
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/image-processing
-  - c/control-flow
-  - c/bmp-format
+  - topic/bmp-format
+  - topic/control-flow
+  - topic/image-processing
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

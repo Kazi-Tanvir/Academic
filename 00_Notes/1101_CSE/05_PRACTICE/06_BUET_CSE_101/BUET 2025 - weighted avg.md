@@ -4,9 +4,11 @@ aliases:
   - BUET weighted avg
   - weighted_avg
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/math
-  - c/bit-manipulation
+  - topic/bit-manipulation
+  - topic/math
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

@@ -4,10 +4,12 @@ aliases:
   - sum array recursion
   - 15_sum_array_recursion
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/recursion
-  - c/arrays
-  - c/functions
+  - topic/arrays
+  - topic/functions
+  - topic/recursion
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

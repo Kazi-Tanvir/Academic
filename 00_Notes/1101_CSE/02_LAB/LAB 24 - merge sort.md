@@ -4,10 +4,12 @@ aliases:
   - merge sort
   - 24_merge_sort
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/sorting
-  - c/pointers
-  - c/recursion
+  - topic/pointers
+  - topic/recursion
+  - topic/sorting
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

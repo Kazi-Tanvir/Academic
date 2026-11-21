@@ -4,10 +4,12 @@ aliases:
   - Image editor bugs
   - BUGS.md
 tags:
+  - course/1101-cse
+  - lang/c
   - type/archive
-  - c/testing
-  - c/bmp-format
-  - c/image-processing
+  - topic/bmp-format
+  - topic/image-processing
+  - topic/testing
   - level/advanced
 course: "1101_CSE"
 semester: "1.1"

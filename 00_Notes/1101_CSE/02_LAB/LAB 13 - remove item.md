@@ -4,10 +4,12 @@ aliases:
   - remove item
   - 13_remove_item
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/arrays
-  - c/searching
-  - c/loops
+  - topic/arrays
+  - topic/loops
+  - topic/searching
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

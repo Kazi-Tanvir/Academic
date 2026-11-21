@@ -4,10 +4,12 @@ aliases:
   - pointer sort
   - 18_pointer_sort
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/pointers
-  - c/pointer-arithmetic
-  - c/sorting
+  - topic/pointer-arithmetic
+  - topic/pointers
+  - topic/sorting
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

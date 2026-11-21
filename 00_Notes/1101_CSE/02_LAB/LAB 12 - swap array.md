@@ -4,10 +4,12 @@ aliases:
   - swap array
   - 12_swap_array
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/arrays
-  - c/loops
-  - c/searching
+  - topic/arrays
+  - topic/loops
+  - topic/searching
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

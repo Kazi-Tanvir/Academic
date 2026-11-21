@@ -4,10 +4,12 @@ aliases:
   - sort student by cgpa
   - sort_student_by_cgpa
 tags:
+  - course/1101-cse
+  - lang/c
   - type/assignment
-  - c/arrays
-  - c/sorting
-  - c/functions
+  - topic/arrays
+  - topic/functions
+  - topic/sorting
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

@@ -4,9 +4,11 @@ aliases:
   - cgpa calculator
   - cgpa_calculator
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/arrays
-  - c/loops
+  - topic/arrays
+  - topic/loops
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

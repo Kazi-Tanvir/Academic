@@ -4,6 +4,8 @@ aliases:
   - Archive Index
   - Historical Archives Index
 tags:
+  - course/1101-cse
+  - lang/c
   - type/index
 course: "1101_CSE"
 semester: "1.1"

@@ -4,9 +4,11 @@ aliases:
   - grade
   - 02_grade
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/control-flow
-  - c/math
+  - topic/control-flow
+  - topic/math
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

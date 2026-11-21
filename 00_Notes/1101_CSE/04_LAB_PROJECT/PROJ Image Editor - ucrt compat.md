@@ -4,9 +4,11 @@ aliases:
   - Image Editor ucrt compat
   - ucrt_compat.c
 tags:
+  - course/1101-cse
+  - lang/c
   - type/project
-  - c/pointers
-  - c/cli-args
+  - topic/cli-args
+  - topic/pointers
   - level/advanced
 course: "1101_CSE"
 semester: "1.1"

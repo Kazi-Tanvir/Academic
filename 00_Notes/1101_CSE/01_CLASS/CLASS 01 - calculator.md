@@ -4,9 +4,11 @@ aliases:
   - calculator
   - 01_calculator
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/functions
-  - c/control-flow
+  - topic/control-flow
+  - topic/functions
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

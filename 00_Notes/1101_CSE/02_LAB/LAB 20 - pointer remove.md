@@ -4,10 +4,12 @@ aliases:
   - pointer remove
   - 20_pointer_remove
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/pointers
-  - c/pointer-arithmetic
-  - c/dynamic-memory
+  - topic/dynamic-memory
+  - topic/pointer-arithmetic
+  - topic/pointers
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

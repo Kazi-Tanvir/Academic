@@ -4,9 +4,11 @@ aliases:
   - pyramid patterns
   - pyramid1 to pyramid5
 tags:
+  - course/1101-cse
+  - lang/c
   - type/assignment
-  - c/loops
-  - c/control-flow
+  - topic/control-flow
+  - topic/loops
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

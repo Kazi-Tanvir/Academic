@@ -4,9 +4,11 @@ aliases:
   - prime number sqrt
   - prime_number_sqrt
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/math
-  - c/loops
+  - topic/loops
+  - topic/math
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

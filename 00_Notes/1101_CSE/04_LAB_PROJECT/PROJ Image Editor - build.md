@@ -4,9 +4,11 @@ aliases:
   - Image Editor build
   - build.bat
 tags:
+  - course/1101-cse
+  - lang/batch
   - type/project
-  - c/testing
-  - c/cli-args
+  - topic/cli-args
+  - topic/testing
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

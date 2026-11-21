@@ -4,9 +4,11 @@ aliases:
   - Image Editor main
   - main.c
 tags:
+  - course/1101-cse
+  - lang/c
   - type/project
-  - c/gui-iup
-  - c/cli-args
+  - topic/cli-args
+  - topic/gui-iup
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

@@ -4,9 +4,11 @@ aliases:
   - file char space newline counter
   - 09_file_char_space_newline_counter
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/file-io
-  - c/strings
+  - topic/file-io
+  - topic/strings
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

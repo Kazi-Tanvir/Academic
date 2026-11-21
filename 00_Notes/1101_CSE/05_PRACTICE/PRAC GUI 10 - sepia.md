@@ -4,10 +4,12 @@ aliases:
   - sepia
   - 10_sepia
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/image-processing
-  - c/math
-  - c/bmp-format
+  - topic/bmp-format
+  - topic/image-processing
+  - topic/math
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

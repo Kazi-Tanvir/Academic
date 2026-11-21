@@ -4,10 +4,12 @@ aliases:
   - Hangman
   - hangman
 tags:
+  - course/1101-cse
+  - lang/c
   - type/project
-  - c/game-logic
-  - c/strings
-  - c/arrays
+  - topic/arrays
+  - topic/game-logic
+  - topic/strings
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

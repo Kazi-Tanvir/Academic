@@ -4,10 +4,12 @@ aliases:
   - matrix
   - 28_matrix
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/arrays
-  - c/pointers
-  - c/dynamic-memory
+  - topic/arrays
+  - topic/dynamic-memory
+  - topic/pointers
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

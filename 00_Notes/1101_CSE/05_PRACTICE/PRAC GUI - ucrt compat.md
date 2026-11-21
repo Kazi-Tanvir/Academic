@@ -4,9 +4,11 @@ aliases:
   - GUI ucrt compat
   - tutorial ucrt compat
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/pointers
-  - c/cli-args
+  - topic/cli-args
+  - topic/pointers
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

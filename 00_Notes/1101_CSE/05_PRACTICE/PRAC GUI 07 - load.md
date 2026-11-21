@@ -4,10 +4,12 @@ aliases:
   - load
   - 07_load
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/gui-iup
-  - c/bmp-format
-  - c/binary-io
+  - topic/binary-io
+  - topic/bmp-format
+  - topic/gui-iup
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

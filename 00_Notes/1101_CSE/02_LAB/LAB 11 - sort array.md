@@ -4,10 +4,12 @@ aliases:
   - sort array
   - 11_sort_array
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/sorting
-  - c/arrays
-  - c/loops
+  - topic/arrays
+  - topic/loops
+  - topic/sorting
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

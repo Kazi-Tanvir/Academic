@@ -4,10 +4,12 @@ aliases:
   - file marksheet
   - file_marksheet
 tags:
+  - course/1101-cse
+  - lang/c
   - type/assignment
-  - c/file-io
-  - c/structs
-  - c/strings
+  - topic/file-io
+  - topic/strings
+  - topic/structs
   - level/advanced
 course: "1101_CSE"
 semester: "1.1"

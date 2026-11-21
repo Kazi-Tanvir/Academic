@@ -4,10 +4,12 @@ aliases:
   - pointer recursion array sum
   - 22_pointer_recursion_array_sum
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/pointers
-  - c/pointer-arithmetic
-  - c/recursion
+  - topic/pointer-arithmetic
+  - topic/pointers
+  - topic/recursion
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

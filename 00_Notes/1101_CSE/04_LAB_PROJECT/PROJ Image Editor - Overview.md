@@ -4,10 +4,12 @@ aliases:
   - Image Editor Overview
   - IUP Image Editor
 tags:
+  - course/1101-cse
+  - lang/c
   - type/project
-  - c/gui-iup
-  - c/image-processing
-  - c/bmp-format
+  - topic/bmp-format
+  - topic/gui-iup
+  - topic/image-processing
   - level/advanced
 course: "1101_CSE"
 semester: "1.1"

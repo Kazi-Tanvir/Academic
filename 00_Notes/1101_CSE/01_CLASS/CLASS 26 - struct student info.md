@@ -4,10 +4,12 @@ aliases:
   - struct student info
   - 26_struct_student_info
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/structs
-  - c/strings
-  - c/arrays
+  - topic/arrays
+  - topic/strings
+  - topic/structs
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

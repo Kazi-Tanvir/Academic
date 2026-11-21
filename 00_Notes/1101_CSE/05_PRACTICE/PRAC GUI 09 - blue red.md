@@ -4,10 +4,12 @@ aliases:
   - blue red
   - 09_blue_red
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/image-processing
-  - c/bmp-format
-  - c/binary-io
+  - topic/binary-io
+  - topic/bmp-format
+  - topic/image-processing
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

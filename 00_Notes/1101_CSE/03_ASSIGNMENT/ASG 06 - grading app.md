@@ -4,10 +4,12 @@ aliases:
   - grading app
   - grading_app
 tags:
+  - course/1101-cse
+  - lang/c
   - type/assignment
-  - c/arrays
-  - c/functions
-  - c/control-flow
+  - topic/arrays
+  - topic/control-flow
+  - topic/functions
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

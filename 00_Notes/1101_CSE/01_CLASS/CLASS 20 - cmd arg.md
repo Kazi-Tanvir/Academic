@@ -4,10 +4,12 @@ aliases:
   - cmd arg
   - 20_cmd_arg
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/cli-args
-  - c/strings
-  - c/arrays
+  - topic/arrays
+  - topic/cli-args
+  - topic/strings
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

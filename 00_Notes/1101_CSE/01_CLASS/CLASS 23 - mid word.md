@@ -4,10 +4,12 @@ aliases:
   - mid word
   - 23_mid_word
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/file-io
-  - c/strings
-  - c/searching
+  - topic/file-io
+  - topic/searching
+  - topic/strings
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

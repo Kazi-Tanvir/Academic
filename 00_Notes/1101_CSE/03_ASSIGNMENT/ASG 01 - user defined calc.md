@@ -4,9 +4,11 @@ aliases:
   - user defined calc
   - user_defined_calc
 tags:
+  - course/1101-cse
+  - lang/c
   - type/assignment
-  - c/functions
-  - c/math
+  - topic/functions
+  - topic/math
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

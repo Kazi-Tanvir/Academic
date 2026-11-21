@@ -4,10 +4,12 @@ aliases:
   - pointer row sum
   - 19_pointer_row_sum
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/pointers
-  - c/arrays
-  - c/math
+  - topic/arrays
+  - topic/math
+  - topic/pointers
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

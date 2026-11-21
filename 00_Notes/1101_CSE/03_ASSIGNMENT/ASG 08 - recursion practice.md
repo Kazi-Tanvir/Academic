@@ -4,10 +4,12 @@ aliases:
   - recursion practice
   - rec_fibonacci rec_prime rec_ptr_reverse_str
 tags:
+  - course/1101-cse
+  - lang/c
   - type/assignment
-  - c/recursion
-  - c/pointers
-  - c/math
+  - topic/math
+  - topic/pointers
+  - topic/recursion
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

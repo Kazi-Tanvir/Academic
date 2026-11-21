@@ -4,10 +4,12 @@ aliases:
   - Project documentation
   - Technical Documentation
 tags:
+  - course/1101-cse
+  - lang/c
   - type/archive
-  - c/gui-iup
-  - c/image-processing
-  - c/structs
+  - topic/gui-iup
+  - topic/image-processing
+  - topic/structs
   - level/advanced
 course: "1101_CSE"
 semester: "1.1"

@@ -4,9 +4,11 @@ aliases:
   - discount
   - 06_discount
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/control-flow
-  - c/math
+  - topic/control-flow
+  - topic/math
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

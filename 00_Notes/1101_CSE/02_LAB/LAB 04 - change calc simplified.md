@@ -4,9 +4,11 @@ aliases:
   - change calc simplified
   - 04_change_calc_simplified
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/math
-  - c/control-flow
+  - topic/control-flow
+  - topic/math
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

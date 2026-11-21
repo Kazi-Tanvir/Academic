@@ -4,9 +4,11 @@ aliases:
   - pointer min max
   - 02_pointer_min_max
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/pointers
-  - c/arrays
+  - topic/arrays
+  - topic/pointers
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

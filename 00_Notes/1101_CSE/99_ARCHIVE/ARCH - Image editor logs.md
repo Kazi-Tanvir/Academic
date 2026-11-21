@@ -4,10 +4,12 @@ aliases:
   - Image editor logs
   - logs.md
 tags:
+  - course/1101-cse
+  - lang/c
   - type/archive
-  - c/testing
-  - c/bmp-format
-  - c/image-processing
+  - topic/bmp-format
+  - topic/image-processing
+  - topic/testing
   - level/advanced
 course: "1101_CSE"
 semester: "1.1"
@@ -31,23 +33,23 @@ This change log documents the systematic resolution of all 11 defects found duri
 
 ## Key Fix Summaries
 
-### Fix #1: BUG-1 (BMP Row Padding Misplacement)
+### Fix `#1`: BUG-1 (BMP Row Padding Misplacement)
 - **Problem:** `bmp.c` skipped padding bytes *inside* the column loop (`for (w = 0; w < width; w++)`). For a 512x512 image requiring padding, this skipped bytes between individual pixels rather than at the end of the scanline.
 - **Resolution:** Moved `fseek(file, padding, SEEK_CUR)` strictly outside the inner width loop, executing once per scanline.
 
-### Fix #2: BUG-3 & BUG-4 (Double-Buffered Kernel Convolution)
+### Fix `#2`: BUG-3 & BUG-4 (Double-Buffered Kernel Convolution)
 - **Problem:** `blur()` and `sharpen()` modified `img->data` while still calculating neighbor averages, polluting subsequent pixel calculations, and failed to clamp neighbor coordinates at edges.
 - **Resolution:** Allocated an auxiliary buffer `Pixel *temp = malloc(...)`, read strictly from `img->data`, clamped boundary lookups with `clamp_coord(x, 0, width - 1)`, wrote to `temp`, and replaced the buffer atomically.
 
-### Fix #3: BUG-5 (UCRT Runtime Compatibility)
+### Fix `#3`: BUG-5 (UCRT Runtime Compatibility)
 - **Problem:** MinGW GCC linker failed on static IUP library references to `__imp___argc` and `__imp___argv`.
 - **Resolution:** Authored `ucrt_compat.c` exporting pointer shims referencing GCC's native `__argc` and `__argv`.
 
-### Fix #4: BUG-2 (GDI Resource Cleanup)
+### Fix `#4`: BUG-2 (GDI Resource Cleanup)
 - **Problem:** The canvas update routine allocated fresh `IupImageRGB` objects without destroying old instances, exhausting system GDI handles.
 - **Resolution:** Added `if (old_iup_img) IupDestroy(old_iup_img);` immediately prior to assigning new bitmap handles.
 
-### Fix #5: BUG-11 (Build Tooling Process Termination)
+### Fix `#5`: BUG-11 (Build Tooling Process Termination)
 - **Problem:** Re-running `build.bat` while `app.exe` was running failed with `Permission Denied`.
 - **Resolution:** Added `taskkill /F /IM ImageEditor.exe >nul 2>nul` to the start of `build.bat`.
 

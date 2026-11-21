@@ -4,9 +4,11 @@ aliases:
   - final 23 2d
   - 01_Final_23_2d
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/loops
-  - c/math
+  - topic/loops
+  - topic/math
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

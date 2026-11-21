@@ -4,10 +4,12 @@ aliases:
   - titanic p1
   - 25_titanic_p1
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lab
-  - c/csv-parsing
-  - c/file-io
-  - c/strings
+  - topic/csv-parsing
+  - topic/file-io
+  - topic/strings
   - level/advanced
 course: "1101_CSE"
 semester: "1.1"

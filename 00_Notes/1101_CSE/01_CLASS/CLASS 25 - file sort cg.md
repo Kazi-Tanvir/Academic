@@ -4,10 +4,12 @@ aliases:
   - file sort cg
   - 25_file_sort_cg
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/file-io
-  - c/sorting
-  - c/arrays
+  - topic/arrays
+  - topic/file-io
+  - topic/sorting
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

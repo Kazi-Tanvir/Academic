@@ -4,10 +4,12 @@ aliases:
   - number game
   - 03_number_game
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/game-logic
-  - c/loops
-  - c/control-flow
+  - topic/control-flow
+  - topic/game-logic
+  - topic/loops
   - level/basic
 course: "1101_CSE"
 semester: "1.1"

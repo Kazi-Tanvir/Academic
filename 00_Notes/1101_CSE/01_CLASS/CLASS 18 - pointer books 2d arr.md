@@ -4,10 +4,12 @@ aliases:
   - pointer books 2d arr
   - 18_pointer_books_2d_arr
 tags:
+  - course/1101-cse
+  - lang/c
   - type/lecture
-  - c/pointers
-  - c/arrays
-  - c/strings
+  - topic/arrays
+  - topic/pointers
+  - topic/strings
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"

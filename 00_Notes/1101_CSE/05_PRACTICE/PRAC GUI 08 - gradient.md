@@ -4,10 +4,12 @@ aliases:
   - gradient
   - 08_gradient
 tags:
+  - course/1101-cse
+  - lang/c
   - type/practice
-  - c/bmp-format
-  - c/math
-  - c/binary-io
+  - topic/binary-io
+  - topic/bmp-format
+  - topic/math
   - level/intermediate
 course: "1101_CSE"
 semester: "1.1"
