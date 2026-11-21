@@ -6,8 +6,5 @@
   "interfaceFontFamily": "JetBrains Mono",
   "textFontFamily": "JetBrains Mono",
   "monospaceFontFamily": "JetBrains Mono",
-  "showRibbon": true,
-  "enabledCssSnippets": [
-    "shin-tactical-console"
-  ]
+  "showRibbon": true
 }
