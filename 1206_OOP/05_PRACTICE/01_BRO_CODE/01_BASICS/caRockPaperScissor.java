@@ -34,7 +34,7 @@ public class caRockPaperScissor {
         scanner.close();
     }
     // ROCK PAPER SCISSOR
-    // DECALRE VARIABLES
+    // DECLARE VARIABLES
     // GET CHOICE FROM THE USER
     // CHECK WIN CONDITIONS
     // ASK TO PLAY AGAIN?

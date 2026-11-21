@@ -19,7 +19,7 @@ public class Main {
         } catch(IOException e){
             System.out.println("Io Exception");
         } catch(Exception e){
-            System.out.println("Somthing went wrong !");
+            System.out.println("Something went wrong !");
         }
     }    
 }

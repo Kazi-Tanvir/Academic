@@ -16,7 +16,7 @@ public class Main {
         } catch(Exception e){
             System.out.println("Something went wrong !");
         } finally{
-            System.out.println("This runs everytime");
+            System.out.println("This runs every time");
         }
     }    
 }

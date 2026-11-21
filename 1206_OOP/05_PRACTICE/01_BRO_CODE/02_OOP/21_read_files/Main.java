@@ -16,7 +16,7 @@ public class Main {
         } catch(IOException e){
             System.out.println("Unable to open file");
         } catch(Exception e){
-            System.out.println("Somthing went wrong");
+            System.out.println("Something went wrong");
         }
     }
 }
