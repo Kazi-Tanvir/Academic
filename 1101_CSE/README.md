@@ -16,115 +16,115 @@
     </thead>
     <tbody>
       <tr>
-        <td>📄 <a href="CLASS/01_calculator.c"><code>01_calculator.c</code></a></td>
+        <td>📄 <a href="01_CLASS/01_calculator.c"><code>01_calculator.c</code></a></td>
         <td align="center"><code>12/05/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/02_grade.c"><code>02_grade.c</code></a></td>
+        <td>📄 <a href="01_CLASS/02_grade.c"><code>02_grade.c</code></a></td>
         <td align="center"><code>12/05/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/03_number_game.c"><code>03_number_game.c</code></a></td>
+        <td>📄 <a href="01_CLASS/03_number_game.c"><code>03_number_game.c</code></a></td>
         <td align="center"><code>12/05/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/04_prime_number.c"><code>04_prime_number.c</code></a></td>
+        <td>📄 <a href="01_CLASS/04_prime_number.c"><code>04_prime_number.c</code></a></td>
         <td align="center"><code>12/05/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/05_vowel_switch.c"><code>05_vowel_switch.c</code></a></td>
+        <td>📄 <a href="01_CLASS/05_vowel_switch.c"><code>05_vowel_switch.c</code></a></td>
         <td align="center"><code>22/06/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/06_calc_menu_switch.c"><code>06_calc_menu_switch.c</code></a></td>
+        <td>📄 <a href="01_CLASS/06_calc_menu_switch.c"><code>06_calc_menu_switch.c</code></a></td>
         <td align="center"><code>22/06/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/07_avg_temperature_array.c"><code>07_avg_temperature_array.c</code></a></td>
+        <td>📄 <a href="01_CLASS/07_avg_temperature_array.c"><code>07_avg_temperature_array.c</code></a></td>
         <td align="center"><code>22/06/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/08_string_length.c"><code>08_string_length.c</code></a></td>
+        <td>📄 <a href="01_CLASS/08_string_length.c"><code>08_string_length.c</code></a></td>
         <td align="center"><code>06/07/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/09_string_copy.c"><code>09_string_copy.c</code></a></td>
+        <td>📄 <a href="01_CLASS/09_string_copy.c"><code>09_string_copy.c</code></a></td>
         <td align="center"><code>06/07/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/10_string_check_equal.c"><code>10_string_check_equal.c</code></a></td>
+        <td>📄 <a href="01_CLASS/10_string_check_equal.c"><code>10_string_check_equal.c</code></a></td>
         <td align="center"><code>06/07/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/11_string_merge.c"><code>11_string_merge.c</code></a></td>
+        <td>📄 <a href="01_CLASS/11_string_merge.c"><code>11_string_merge.c</code></a></td>
         <td align="center"><code>06/07/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/12_pointer_strlen.c"><code>12_pointer_strlen.c</code></a></td>
+        <td>📄 <a href="01_CLASS/12_pointer_strlen.c"><code>12_pointer_strlen.c</code></a></td>
         <td align="center"><code>29/07/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/13_pointer_strcpy.c"><code>13_pointer_strcpy.c</code></a></td>
+        <td>📄 <a href="01_CLASS/13_pointer_strcpy.c"><code>13_pointer_strcpy.c</code></a></td>
         <td align="center"><code>29/07/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/14_pointer_strcmp.c"><code>14_pointer_strcmp.c</code></a></td>
+        <td>📄 <a href="01_CLASS/14_pointer_strcmp.c"><code>14_pointer_strcmp.c</code></a></td>
         <td align="center"><code>29/07/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/15_pointer_strcat.c"><code>15_pointer_strcat.c</code></a></td>
+        <td>📄 <a href="01_CLASS/15_pointer_strcat.c"><code>15_pointer_strcat.c</code></a></td>
         <td align="center"><code>29/07/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/16_pointer_min_max.c"><code>16_pointer_min_max.c</code></a></td>
+        <td>📄 <a href="01_CLASS/16_pointer_min_max.c"><code>16_pointer_min_max.c</code></a></td>
         <td align="center"><code>30/07/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/17_pointer_string_reverse.c"><code>17_pointer_string_reverse.c</code></a></td>
+        <td>📄 <a href="01_CLASS/17_pointer_string_reverse.c"><code>17_pointer_string_reverse.c</code></a></td>
         <td align="center"><code>30/07/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/18_pointer_books_2d_arr.c"><code>18_pointer_books_2d_arr.c</code></a></td>
+        <td>📄 <a href="01_CLASS/18_pointer_books_2d_arr.c"><code>18_pointer_books_2d_arr.c</code></a></td>
         <td align="center"><code>30/07/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/19_pointer_row_sum.c"><code>19_pointer_row_sum.c</code></a></td>
+        <td>📄 <a href="01_CLASS/19_pointer_row_sum.c"><code>19_pointer_row_sum.c</code></a></td>
         <td align="center"><code>30/07/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/20_cmd_arg.c"><code>20_cmd_arg.c</code></a></td>
+        <td>📄 <a href="01_CLASS/20_cmd_arg.c"><code>20_cmd_arg.c</code></a></td>
         <td align="center"><code>03/08/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/21_file_basic.c"><code>21_file_basic.c</code></a></td>
+        <td>📄 <a href="01_CLASS/21_file_basic.c"><code>21_file_basic.c</code></a></td>
         <td align="center"><code>10/08/2026 &amp; 13/08/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/22_space_finder.c"><code>22_space_finder.c</code></a></td>
+        <td>📄 <a href="01_CLASS/22_space_finder.c"><code>22_space_finder.c</code></a></td>
         <td align="center"><code>17/08/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/23_mid_word.c"><code>23_mid_word.c</code></a></td>
+        <td>📄 <a href="01_CLASS/23_mid_word.c"><code>23_mid_word.c</code></a></td>
         <td align="center"><code>17/08/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/24_take_cg_file.c"><code>24_take_cg_file.c</code></a></td>
+        <td>📄 <a href="01_CLASS/24_take_cg_file.c"><code>24_take_cg_file.c</code></a></td>
         <td align="center"><code>16/08/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/25_file_sort_cg.c"><code>25_file_sort_cg.c</code></a></td>
+        <td>📄 <a href="01_CLASS/25_file_sort_cg.c"><code>25_file_sort_cg.c</code></a></td>
         <td align="center"><code>16/08/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/26_struct_student_info.c"><code>26_struct_student_info.c</code></a></td>
+        <td>📄 <a href="01_CLASS/26_struct_student_info.c"><code>26_struct_student_info.c</code></a></td>
         <td align="center"><code>24/08/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/27_binary_encryption.c"><code>27_binary_encryption.c</code></a></td>
+        <td>📄 <a href="01_CLASS/27_binary_encryption.c"><code>27_binary_encryption.c</code></a></td>
         <td align="center"><code>31/08/2026</code></td>
       </tr>
       <tr>
-        <td>📄 <a href="CLASS/28_shift_encryption.c"><code>28_shift_encryption.c</code></a></td>
+        <td>📄 <a href="01_CLASS/28_shift_encryption.c"><code>28_shift_encryption.c</code></a></td>
         <td align="center"><code>31/08/2026</code></td>
       </tr>
     </tbody>
@@ -145,123 +145,123 @@
     </thead>
     <tbody>
       <tr>
-        <td>🧪 <a href="LAB/01_change_var_temp.c"><code>01_change_var_temp.c</code></a></td>
+        <td>🧪 <a href="02_LAB/01_change_var_temp.c"><code>01_change_var_temp.c</code></a></td>
         <td align="center"><code>16/05/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/02_change_var_no_temp.c"><code>02_change_var_no_temp.c</code></a></td>
+        <td>🧪 <a href="02_LAB/02_change_var_no_temp.c"><code>02_change_var_no_temp.c</code></a></td>
         <td align="center"><code>16/05/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/03_age_calc_simple.c"><code>03_age_calc_simple.c</code></a></td>
+        <td>🧪 <a href="02_LAB/03_age_calc_simple.c"><code>03_age_calc_simple.c</code></a></td>
         <td align="center"><code>12/05/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/04_change_calc_simplified.c"><code>04_change_calc_simplified.c</code></a></td>
+        <td>🧪 <a href="02_LAB/04_change_calc_simplified.c"><code>04_change_calc_simplified.c</code></a></td>
         <td align="center"><code>12/05/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/05_cgpa.c"><code>05_cgpa.c</code></a></td>
+        <td>🧪 <a href="02_LAB/05_cgpa.c"><code>05_cgpa.c</code></a></td>
         <td align="center"><code>10/05/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/06_discount.c"><code>06_discount.c</code></a></td>
+        <td>🧪 <a href="02_LAB/06_discount.c"><code>06_discount.c</code></a></td>
         <td align="center"><code>10/05/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/07_hollow_triangle.c"><code>07_hollow_triangle.c</code></a></td>
+        <td>🧪 <a href="02_LAB/07_hollow_triangle.c"><code>07_hollow_triangle.c</code></a></td>
         <td align="center"><code>17/05/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/08_pascal.c"><code>08_pascal.c</code></a></td>
+        <td>🧪 <a href="02_LAB/08_pascal.c"><code>08_pascal.c</code></a></td>
         <td align="center"><code>17/05/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/09_password.c"><code>09_password.c</code></a></td>
+        <td>🧪 <a href="02_LAB/09_password.c"><code>09_password.c</code></a></td>
         <td align="center"><code>17/05/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/10_discount_budget.c"><code>10_discount_budget.c</code></a></td>
+        <td>🧪 <a href="02_LAB/10_discount_budget.c"><code>10_discount_budget.c</code></a></td>
         <td align="center"><code>17/05/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/11_sort_array.c"><code>11_sort_array.c</code></a></td>
+        <td>🧪 <a href="02_LAB/11_sort_array.c"><code>11_sort_array.c</code></a></td>
         <td align="center"><code>28/06/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/12_swap_array.c"><code>12_swap_array.c</code></a></td>
+        <td>🧪 <a href="02_LAB/12_swap_array.c"><code>12_swap_array.c</code></a></td>
         <td align="center"><code>28/06/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/13_remove_item.c"><code>13_remove_item.c</code></a></td>
+        <td>🧪 <a href="02_LAB/13_remove_item.c"><code>13_remove_item.c</code></a></td>
         <td align="center"><code>28/06/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/14_merge_array.c"><code>14_merge_array.c</code></a></td>
+        <td>🧪 <a href="02_LAB/14_merge_array.c"><code>14_merge_array.c</code></a></td>
         <td align="center"><code>28/06/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/15_sum_array_recursion.c"><code>15_sum_array_recursion.c</code></a></td>
+        <td>🧪 <a href="02_LAB/15_sum_array_recursion.c"><code>15_sum_array_recursion.c</code></a></td>
         <td align="center"><code>05/07/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/16_reverse_array_recursion.c"><code>16_reverse_array_recursion.c</code></a></td>
+        <td>🧪 <a href="02_LAB/16_reverse_array_recursion.c"><code>16_reverse_array_recursion.c</code></a></td>
         <td align="center"><code>05/07/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/17_merge_sort_recursion.c"><code>17_merge_sort_recursion.c</code></a></td>
+        <td>🧪 <a href="02_LAB/17_merge_sort_recursion.c"><code>17_merge_sort_recursion.c</code></a></td>
         <td align="center"><code>05/07/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/18_pointer_sort.c"><code>18_pointer_sort.c</code></a></td>
+        <td>🧪 <a href="02_LAB/18_pointer_sort.c"><code>18_pointer_sort.c</code></a></td>
         <td align="center"><code>02/08/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/19_pointer_swap.c"><code>19_pointer_swap.c</code></a></td>
+        <td>🧪 <a href="02_LAB/19_pointer_swap.c"><code>19_pointer_swap.c</code></a></td>
         <td align="center"><code>02/08/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/20_pointer_remove.c"><code>20_pointer_remove.c</code></a></td>
+        <td>🧪 <a href="02_LAB/20_pointer_remove.c"><code>20_pointer_remove.c</code></a></td>
         <td align="center"><code>02/08/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/21_pointer_merge.c"><code>21_pointer_merge.c</code></a></td>
+        <td>🧪 <a href="02_LAB/21_pointer_merge.c"><code>21_pointer_merge.c</code></a></td>
         <td align="center"><code>02/08/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/22_pointer_recursion_array_sum.c"><code>22_pointer_recursion_array_sum.c</code></a></td>
+        <td>🧪 <a href="02_LAB/22_pointer_recursion_array_sum.c"><code>22_pointer_recursion_array_sum.c</code></a></td>
         <td align="center"><code>02/08/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/23_pointer_array_reverse.c"><code>23_pointer_array_reverse.c</code></a></td>
+        <td>🧪 <a href="02_LAB/23_pointer_array_reverse.c"><code>23_pointer_array_reverse.c</code></a></td>
         <td align="center"><code>02/08/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/24_merge_sort.c"><code>24_merge_sort.c</code></a></td>
+        <td>🧪 <a href="02_LAB/24_merge_sort.c"><code>24_merge_sort.c</code></a></td>
         <td align="center"><code>02/08/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/25_titanic_p1.c"><code>25_titanic_p1.c</code></a></td>
+        <td>🧪 <a href="02_LAB/25_titanic_p1.c"><code>25_titanic_p1.c</code></a></td>
         <td align="center"><code>19/08/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/26_titanic_p2.c"><code>26_titanic_p2.c</code></a></td>
+        <td>🧪 <a href="02_LAB/26_titanic_p2.c"><code>26_titanic_p2.c</code></a></td>
         <td align="center"><code>19/08/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/27_titanic_p3.c"><code>27_titanic_p3.c</code></a></td>
+        <td>🧪 <a href="02_LAB/27_titanic_p3.c"><code>27_titanic_p3.c</code></a></td>
         <td align="center"><code>19/08/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/28_matrix.c"><code>28_matrix.c</code></a></td>
+        <td>🧪 <a href="02_LAB/28_matrix.c"><code>28_matrix.c</code></a></td>
         <td align="center"><code>09/08/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/29_grayscale.c"><code>29_grayscale.c</code></a></td>
+        <td>🧪 <a href="02_LAB/29_grayscale.c"><code>29_grayscale.c</code></a></td>
         <td align="center"><code>25/08/2026</code></td>
       </tr>
       <tr>
-        <td>🧪 <a href="LAB/30_student_app.c"><code>30_student_app.c</code></a></td>
+        <td>🧪 <a href="02_LAB/30_student_app.c"><code>30_student_app.c</code></a></td>
         <td align="center"><code>30/08/2026</code></td>
       </tr>
     </tbody>
@@ -283,27 +283,27 @@
     </thead>
     <tbody>
       <tr>
-        <td>🎮 <a href="LAB_PROJECT/TICTACTOE/"><code>Assignment 1 — Tic Tac Toe</code></a></td>
+        <td>🎮 <a href="04_LAB_PROJECT/01_TICTACTOE/"><code>Assignment 1 — Tic Tac Toe</code></a></td>
         <td>Console-based Player vs Computer Tic Tac Toe game</td>
         <td align="center"><code>09/06/2026</code></td>
       </tr>
       <tr>
-        <td>🔤 <a href="LAB_PROJECT/HANGMAN/"><code>Assignment 2 — Hangman</code></a></td>
+        <td>🔤 <a href="04_LAB_PROJECT/02_HANGMAN/"><code>Assignment 2 — Hangman</code></a></td>
         <td>Word guessing game with ASCII art</td>
         <td align="center"><code>29/07/2026</code></td>
       </tr>
       <tr>
-        <td>📝 <a href="LAB_PROJECT/MIDTERM_EXAM/"><code>Midterm Exam</code></a></td>
+        <td>📝 <a href="04_LAB_PROJECT/04_MIDTERM_EXAM/"><code>Midterm Exam</code></a></td>
         <td>3 questions — arrays, sorting, recursion</td>
         <td align="center"><code>29/07/2026</code></td>
       </tr>
       <tr>
-        <td>🏨 <a href="LAB_PROJECT/MIDTERM_PRACTICE/"><code>Midterm Practice</code></a></td>
+        <td>🏨 <a href="04_LAB_PROJECT/03_MIDTERM_PRACTICE/"><code>Midterm Practice</code></a></td>
         <td>Hotel Reservation System — menu-driven app</td>
         <td align="center"><code>29/07/2026</code></td>
       </tr>
       <tr>
-        <td>🖼️ <a href="LAB_PROJECT/FINAL_PROJECT/"><code>Final Project — Image Editor</code></a></td>
+        <td>🖼️ <a href="04_LAB_PROJECT/05_FINAL_PROJECT/"><code>Final Project — Image Editor</code></a></td>
         <td>GUI-based Image Manipulation Software (IUP 3.32, BMP Filters &amp; Undo)</td>
         <td align="center"><code>28/08/2026</code></td>
       </tr>
@@ -325,43 +325,43 @@
     </thead>
     <tbody>
       <tr>
-        <td>📌 <a href="ASSIGNMENT/ASSIGNMENT_01/"><strong>Assignment 1</strong></a> — User-Defined Calculator</td>
+        <td>📌 <a href="03_ASSIGNMENT/01_ASSIGNMENT/"><strong>Assignment 1</strong></a> — User-Defined Calculator</td>
         <td align="center"><code>12/05/2026</code></td>
       </tr>
       <tr>
-        <td>📌 <a href="ASSIGNMENT/ASSIGNMENT_02/"><strong>Assignment 2</strong></a> — Pyramid Patterns (5 Types)</td>
+        <td>📌 <a href="03_ASSIGNMENT/02_ASSIGNMENT/"><strong>Assignment 2</strong></a> — Pyramid Patterns (5 Types)</td>
         <td align="center"><code>11/05/2026</code></td>
       </tr>
       <tr>
-        <td>📌 <a href="ASSIGNMENT/ASSIGNMENT_03/"><strong>Assignment 3</strong></a> — Butterfly &amp; Hollow Box Patterns</td>
+        <td>📌 <a href="03_ASSIGNMENT/03_ASSIGNMENT/"><strong>Assignment 3</strong></a> — Butterfly &amp; Hollow Box Patterns</td>
         <td align="center"><code>14/05/2026</code></td>
       </tr>
       <tr>
-        <td>📌 <a href="ASSIGNMENT/ASSIGNMENT_04/"><strong>Assignment 4</strong></a> — Sort Students by CGPA</td>
+        <td>📌 <a href="03_ASSIGNMENT/04_ASSIGNMENT/"><strong>Assignment 4</strong></a> — Sort Students by CGPA</td>
         <td align="center"><code>25/06/2026</code></td>
       </tr>
       <tr>
-        <td>📌 <a href="ASSIGNMENT/ASSIGNMENT_05/"><strong>Assignment 5</strong></a> — Dictionary Sort (Lexicographic)</td>
+        <td>📌 <a href="03_ASSIGNMENT/05_ASSIGNMENT/"><strong>Assignment 5</strong></a> — Dictionary Sort (Lexicographic)</td>
         <td align="center"><code>—</code></td>
       </tr>
       <tr>
-        <td>📌 <a href="ASSIGNMENT/ASSIGNMENT_06/"><strong>Assignment 6</strong></a> — Student Grading System</td>
+        <td>📌 <a href="03_ASSIGNMENT/06_ASSIGNMENT/"><strong>Assignment 6</strong></a> — Student Grading System</td>
         <td align="center"><code>01/08/2026</code></td>
       </tr>
       <tr>
-        <td>📌 <a href="ASSIGNMENT/ASSIGNMENT_07/"><strong>Assignment 7</strong></a> — Library Book Reservation System</td>
+        <td>📌 <a href="03_ASSIGNMENT/07_ASSIGNMENT/"><strong>Assignment 7</strong></a> — Library Book Reservation System</td>
         <td align="center"><code>01/08/2026</code></td>
       </tr>
       <tr>
-        <td>📌 <a href="ASSIGNMENT/ASSIGNMENT_08/"><strong>Assignment 8</strong></a> — Recursion & Pointers</td>
+        <td>📌 <a href="03_ASSIGNMENT/08_ASSIGNMENT/"><strong>Assignment 8</strong></a> — Recursion & Pointers</td>
         <td align="center"><code>03/08/2026</code></td>
       </tr>
       <tr>
-        <td>📌 <a href="ASSIGNMENT/ASSIGNMENT_09/"><strong>Assignment 9</strong></a> — File I/O Marksheet System</td>
+        <td>📌 <a href="03_ASSIGNMENT/09_ASSIGNMENT/"><strong>Assignment 9</strong></a> — File I/O Marksheet System</td>
         <td align="center"><code>31/08/2026</code></td>
       </tr>
       <tr>
-        <td>📌 <a href="ASSIGNMENT/ASSIGNMENT_10/"><strong>Assignment 10</strong></a> — Self-Referential Struct Student System</td>
+        <td>📌 <a href="03_ASSIGNMENT/10_ASSIGNMENT/"><strong>Assignment 10</strong></a> — Self-Referential Struct Student System</td>
         <td align="center"><code>31/08/2026</code></td>
       </tr>
     </tbody>
@@ -381,22 +381,22 @@
     </thead>
     <tbody>
       <tr>
-        <td>⚡ <a href="PRACTICE/age_calculator.c"><code>age_calculator.c</code></a></td>
+        <td>⚡ <a href="05_PRACTICE/02_CONCEPT_WISE/age_calculator.c"><code>age_calculator.c</code></a></td>
       </tr>
       <tr>
-        <td>⚡ <a href="PRACTICE/prime_number_sqrt.c"><code>prime_number_sqrt.c</code></a></td>
+        <td>⚡ <a href="05_PRACTICE/02_CONCEPT_WISE/prime_number_sqrt.c"><code>prime_number_sqrt.c</code></a></td>
       </tr>
       <tr>
-        <td>⚡ <a href="PRACTICE/cgpa_calculator.c"><code>cgpa_calculator.c</code></a></td>
+        <td>⚡ <a href="05_PRACTICE/02_CONCEPT_WISE/cgpa_calculator.c"><code>cgpa_calculator.c</code></a></td>
       </tr>
       <tr>
-        <td>📁 <a href="PRACTICE/CONCEPT_WISE/"><code>CONCEPT_WISE/</code></a> — Pointers, Strings, Arrays &amp; File I/O (9 programs)</td>
+        <td>📁 <a href="05_PRACTICE/02_CONCEPT_WISE/"><code>02_CONCEPT_WISE/</code></a> — Pointers, Strings, Arrays &amp; File I/O (9 programs)</td>
       </tr>
       <tr>
-        <td>📁 <a href="PRACTICE/LEETCODE/"><code>LEETCODE/</code></a> — LeetCode problem solutions in C</td>
+        <td>📁 <a href="05_PRACTICE/04_LEETCODE/"><code>04_LEETCODE/</code></a> — LeetCode problem solutions in C</td>
       </tr>
       <tr>
-        <td>📁 <a href="PRACTICE/C_BOOK/"><code>C_BOOK/</code></a> — Herbert Schildt C Book exercises (Chapters 1–5)</td>
+        <td>📁 <a href="05_PRACTICE/01_C_BOOK/"><code>01_C_BOOK/</code></a> — Herbert Schildt C Book exercises (Chapters 1–5)</td>
       </tr>
     </tbody>
   </table>
@@ -415,25 +415,25 @@
     </thead>
     <tbody>
       <tr>
-        <td>🎓 <a href="00_BUET_CSE_101/2025/factorial.c"><code>factorial.c</code></a></td>
+        <td>🎓 <a href="05_PRACTICE/06_BUET_CSE_101/2025/factorial.c"><code>factorial.c</code></a></td>
       </tr>
       <tr>
-        <td>🎓 <a href="00_BUET_CSE_101/2025/find_root.c"><code>find_root.c</code></a></td>
+        <td>🎓 <a href="05_PRACTICE/06_BUET_CSE_101/2025/find_root.c"><code>find_root.c</code></a></td>
       </tr>
       <tr>
-        <td>🎓 <a href="00_BUET_CSE_101/2025/pascal.c"><code>pascal.c</code></a></td>
+        <td>🎓 <a href="05_PRACTICE/06_BUET_CSE_101/2025/pascal.c"><code>pascal.c</code></a></td>
       </tr>
       <tr>
-        <td>🎓 <a href="00_BUET_CSE_101/2025/prime_number.c"><code>prime_number.c</code></a></td>
+        <td>🎓 <a href="05_PRACTICE/06_BUET_CSE_101/2025/prime_number.c"><code>prime_number.c</code></a></td>
       </tr>
       <tr>
-        <td>🎓 <a href="00_BUET_CSE_101/2025/solve_equation.c"><code>solve_equation.c</code></a></td>
+        <td>🎓 <a href="05_PRACTICE/06_BUET_CSE_101/2025/solve_equation.c"><code>solve_equation.c</code></a></td>
       </tr>
       <tr>
-        <td>🎓 <a href="00_BUET_CSE_101/2025/weighted_average.c"><code>weighted_average.c</code></a></td>
+        <td>🎓 <a href="05_PRACTICE/06_BUET_CSE_101/2025/weighted_average.c"><code>weighted_average.c</code></a></td>
       </tr>
       <tr>
-        <td>🎓 <a href="00_BUET_CSE_101/2025/weighted_avg.c"><code>weighted_avg.c</code></a></td>
+        <td>🎓 <a href="05_PRACTICE/06_BUET_CSE_101/2025/weighted_avg.c"><code>weighted_avg.c</code></a></td>
       </tr>
     </tbody>
   </table>
