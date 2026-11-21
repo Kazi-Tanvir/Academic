@@ -16,7 +16,7 @@ up: "[[LAB - Index]]"
 prev: "[[LAB 02 - change var no temp]]"
 next: "[[LAB 04 - change calc simplified]]"
 related:
-  - "[[PRAC - age calculator]]"
+  - "[[PRAC CW - age calculator]]"
   - "[[LAB 04 - change calc simplified]]"
 created: 2026-10-29
 status: draft
@@ -108,5 +108,5 @@ Your Age is : 26 Years, 2 Months, and 14 Days
 > [!question]- My notes
 
 ## Related
-- [[PRAC - age calculator]] - Standalone practice age calculator
+- [[PRAC CW - age calculator]] - Standalone practice age calculator
 - [[LAB 04 - change calc simplified]] - Denomination decomposition logic

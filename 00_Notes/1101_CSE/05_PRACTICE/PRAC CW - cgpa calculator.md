@@ -1,5 +1,5 @@
 ---
-title: "PRAC - cgpa calculator"
+title: "PRAC CW - cgpa calculator"
 aliases:
   - cgpa calculator
   - cgpa_calculator

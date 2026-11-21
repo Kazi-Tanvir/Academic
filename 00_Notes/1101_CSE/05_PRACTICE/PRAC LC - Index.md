@@ -42,4 +42,4 @@ The `05_PRACTICE/04_LEETCODE/` directory contains solutions to standard competit
 
 ## 🧭 Navigation
 - [[PRAC - Index]]
-- [[00 - Index]]
+- [[CSE 1101 - Index]]

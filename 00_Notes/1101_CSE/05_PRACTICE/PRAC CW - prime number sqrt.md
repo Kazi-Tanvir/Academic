@@ -1,5 +1,5 @@
 ---
-title: "PRAC - prime number sqrt"
+title: "PRAC CW - prime number sqrt"
 aliases:
   - prime number sqrt
   - prime_number_sqrt

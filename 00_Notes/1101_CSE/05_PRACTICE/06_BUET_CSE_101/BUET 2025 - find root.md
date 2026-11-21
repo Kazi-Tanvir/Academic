@@ -14,7 +14,7 @@ source: "05_PRACTICE/06_BUET_CSE_101/2025/find_root.c"
 up: "[[BUET - Index]]"
 related:
   - "[[CLASS 04 - prime number]]"
-  - "[[PRAC - prime number sqrt]]"
+  - "[[PRAC CW - prime number sqrt]]"
 created: 2026-10-29
 status: draft
 ---
@@ -84,4 +84,4 @@ Enter your guess : 1.5
 
 ## Related
 - [[CLASS 04 - prime number]]
-- [[PRAC - prime number sqrt]]
+- [[PRAC CW - prime number sqrt]]

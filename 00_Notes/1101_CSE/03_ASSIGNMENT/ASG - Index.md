@@ -7,7 +7,7 @@ tags:
   - type/index
 course: "CSE 1101"
 semester: "1.1"
-up: "[[00 - Index]]"
+up: "[[CSE 1101 - Index]]"
 prev: "[[LAB - Index]]"
 next: "[[PROJ - Index]]"
 created: 2026-10-29
@@ -46,7 +46,7 @@ The `03_ASSIGNMENT/` directory contains 10 comprehensive programming assignments
 ---
 
 ## 🧭 Navigation
-- [[00 - Index]]
+- [[CSE 1101 - Index]]
 - [[CLASS - Index]]
 - [[LAB - Index]]
 - [[PROJ - Index]]

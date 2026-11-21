@@ -8,7 +8,7 @@ tags:
 course: "CSE 1101"
 semester: "1.1"
 source: "05_PRACTICE/06_BUET_CSE_101/"
-up: "[[00 - Index]]"
+up: "[[CSE 1101 - Index]]"
 prev: "[[PRAC - Index]]"
 next: "[[ARCH - Index]]"
 created: 2026-10-29
@@ -34,7 +34,7 @@ The `05_PRACTICE/06_BUET_CSE_101/` directory compiles benchmark programming prob
 ---
 
 ## 🧭 Navigation
-- [[00 - Index]]
+- [[CSE 1101 - Index]]
 - [[CLASS - Index]]
 - [[LAB - Index]]
 - [[ASG - Index]]

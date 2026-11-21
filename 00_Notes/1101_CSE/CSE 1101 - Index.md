@@ -1,5 +1,5 @@
 ---
-title: "00 - Index"
+title: "CSE 1101 - Index"
 aliases:
   - Master Index
   - Course Overview

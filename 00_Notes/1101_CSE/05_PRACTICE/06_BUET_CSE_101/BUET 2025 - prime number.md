@@ -14,7 +14,7 @@ source: "05_PRACTICE/06_BUET_CSE_101/2025/prime_number.c"
 up: "[[BUET - Index]]"
 related:
   - "[[CLASS 04 - prime number]]"
-  - "[[PRAC - prime number sqrt]]"
+  - "[[PRAC CW - prime number sqrt]]"
 created: 2026-10-29
 status: draft
 ---
@@ -78,4 +78,4 @@ IsPrime
 
 ## Related
 - [[CLASS 04 - prime number]]
-- [[PRAC - prime number sqrt]]
+- [[PRAC CW - prime number sqrt]]

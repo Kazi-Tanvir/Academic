@@ -14,7 +14,7 @@ source: "05_PRACTICE/03_PYG/01_Final_23_2d.c"
 up: "[[PRAC - Index]]"
 related:
   - "[[CLASS 04 - prime number]]"
-  - "[[PRAC - prime number sqrt]]"
+  - "[[PRAC CW - prime number sqrt]]"
 created: 2026-10-29
 status: draft
 ---
@@ -91,4 +91,4 @@ int main(void){
 
 ## Related
 - [[CLASS 04 - prime number]]
-- [[PRAC - prime number sqrt]]
+- [[PRAC CW - prime number sqrt]]

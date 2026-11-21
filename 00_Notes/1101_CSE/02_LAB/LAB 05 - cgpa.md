@@ -18,7 +18,7 @@ prev: "[[LAB 04 - change calc simplified]]"
 next: "[[LAB 06 - discount]]"
 related:
   - "[[CLASS 02 - grade]]"
-  - "[[PRAC - cgpa calculator]]"
+  - "[[PRAC CW - cgpa calculator]]"
 created: 2026-10-29
 status: draft
 ---
@@ -154,4 +154,4 @@ enter Your Marks : (Format is 110X)
 
 ## Related
 - [[CLASS 02 - grade]] - Letter grade classification
-- [[PRAC - cgpa calculator]] - Standalone practice CGPA script
+- [[PRAC CW - cgpa calculator]] - Standalone practice CGPA script

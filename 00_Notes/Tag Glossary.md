@@ -7,7 +7,7 @@ tags:
   - type/reference
 course: "CSE 1101"
 semester: "1.1"
-up: "[[00 - Index]]"
+up: "[[CSE 1101 - Index]]"
 created: 2026-10-29
 status: draft
 ---
