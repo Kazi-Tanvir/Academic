@@ -68,18 +68,21 @@ status: draft
 | 22 | [[OOP BRO 22 - audio file]] | Java Sound API concepts for opening, playing, looping, and controlling `.wav` audio playback. | `topic/audio`, `topic/file-io` |
 | 23 | [[OOP BRO 23 - hangman]] | Architecture of word-guessing games in Java, character masking, attempt counters, and ASCII art. | `topic/game-logic`, `topic/strings` |
 | 24 | [[OOP BRO 24 - date time]] | Modern temporal modeling using `LocalDateTime`, custom `DateTimeFormatter` parsing, and chronological comparison. | `topic/data-types`, `topic/date-time`, `topic/strings` |
+| 25 | [[OOP BRO 25 - anonymous class]] | Anonymous inner classes for inline method overriding and one-off subclass instantiation without named class files. | `topic/class-object`, `topic/inheritance`, `topic/method-overriding` |
+| 26 | [[OOP BRO 26 - timer tasks]] | Scheduling periodic background jobs with `Timer` and anonymous `TimerTask`, state tracking, and thread cancellation. | `topic/class-object`, `topic/control-flow`, `topic/method-overriding` |
+| 27 | [[OOP BRO 27 - countdown timer]] | Interactive countdown timer combining `Scanner` user input with recurring `TimerTask` scheduling and task termination. | `topic/class-object`, `topic/control-flow`, `topic/user-input` |
 
 ---
 
 ## 🧭 The Learning Architecture
 
-The 37 notes in this directory follow an intentional pedagogical progression:
+The 40 notes in this directory follow an intentional pedagogical progression:
 1. **Language Primitives (`Basics 01–08`)**: The developer masters Java syntax, I/O streams, operators, conditionals, iteration, modular functions, and array memory.
 2. **First-Principles OOP (`OOP 01–05`)**: Structuring applications around state and behavior (classes, objects, heap allocation, constructors, and class-level `static` members).
 3. **The Inheritance Chain (`OOP 06–09`)**: Code reuse via `extends`, constructor chaining via `super()`, specialized overriding, and readable string representations via `toString()`.
 4. **Polymorphic Abstraction (`OOP 10–13`)**: Eliminating brittle conditional branching via `abstract` classes, interfaces, static polymorphism, and late-binding dynamic polymorphism.
 5. **Structural Relationships (`OOP 14–16`)**: Data hiding with getters/setters, loose aggregation, and tightly coupled composition.
-6. **Enterprise Infrastructure (`OOP 17–24`)**: Object wrappers, dynamic memory lists, structured exception recovery, disk stream persistence, audio, and date-time manipulation.
+6. **Enterprise Infrastructure (`OOP 17–27`)**: Object wrappers, dynamic memory lists, structured exception recovery, disk stream persistence, audio, date-time manipulation, anonymous classes, and timer tasks.
 7. **Consolidation Projects (`Basics 09–13`, `OOP 23`)**: Synthesizing the entire stack into complete interactive console games and banking systems.
 
 ---

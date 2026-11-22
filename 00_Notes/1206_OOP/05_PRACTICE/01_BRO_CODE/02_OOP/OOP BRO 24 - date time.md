@@ -16,6 +16,7 @@ semester: "1.2"
 source: "1206_OOP/05_PRACTICE/01_BRO_CODE/02_OOP/24_date_time/Main.java"
 up: "[[OOP BRO - Index]]"
 prev: "[[OOP BRO 23 - hangman]]"
+next: "[[OOP BRO 25 - anonymous class]]"
 related:
   - "[[OOP BRO Basics 01 - output types and input]]"
   - "[[OOP BRO Basics 03 - strings]]"
