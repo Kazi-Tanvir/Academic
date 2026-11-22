@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setup/Setup - Build and run Java.md",
+                "file": "1101_CSE/01_CLASS/CLASS - Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Setup - Build and run Java"
+              "title": "CLASS - Index"
             }
           }
         ]
@@ -246,9 +246,10 @@
   },
   "active": "a53373045ff03980",
   "lastOpenFiles": [
-    "Setup/Setup - Build and run C.md",
-    "Tag Glossary.md",
     "00 - Home.md",
+    "Tag Glossary.md",
+    "Setup/Setup - Build and run Java.md",
+    "Setup/Setup - Build and run C.md",
     "_assets/image-editor/01_ui_overview.png",
     "1206_OOP/05_PRACTICE/01_BRO_CODE/OOP BRO - Index.md",
     "1101_CSE/05_PRACTICE/PRAC - Index.md",
@@ -273,7 +274,6 @@
     "04_PROJECTS/IoT/20-assumptions.md",
     "04_PROJECTS/IoT/05-module-M3-wifi-http-relay.md",
     "04_PROJECTS/IoT/04-module-M2-sensors-oled.md",
-    "04_PROJECTS/IoT/11-module-M9-demo-prep.md",
     "02_DU_IIT/1st Year/1-1/CSE 1101L - Structured Programming/Notes/PRACTICE",
     "02_DU_IIT/1st Year/1-1/CSE 1101L - Structured Programming/Notes/LAB_PROJECT",
     "02_DU_IIT/1st Year/1-1/CSE 1101L - Structured Programming/Notes/LAB",
