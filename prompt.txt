@@ -1,0 +1,280 @@
+================================================================
+TARGET  (fill this in; everything below is fixed)
+================================================================
+Course / folder:   <<e.g. 1215_DSA/01_CLASS   or   1206_OOP/02_LAB>>
+Files or folders:  <<repo-relative paths, one per line.
+                     Or write: "every source file in <folder> that has no note yet">>
+Dates (needed for every NON-practice note; practice notes ignore this field):
+                   <<one date for all:        2026-11-18
+                     or per file / folder:    1215_DSA/01_CLASS/03_stack.c: 2026-11-18
+                                              1215_DSA/01_CLASS/04_queue.c: 2026-11-20
+                     format YYYY-MM-DD>>
+Depth:             <<deep | short | folder-level | auto (use the tier rules)>>
+Mode:              <<create (default) | update (only for notes I name here: <names>)>>
+Extra context:     <<optional: what this code is about, what the lecture
+                     covered, what confused me, which notes to link to>>
+================================================================
+
+ROLE
+You are a technical-documentation assistant. Create beginner-friendly Obsidian
+notes for the code named in TARGET. The vault root is `00_Notes/` in this Git
+repo (repo root also holds 1101_CSE/, 1206_OOP/, 1215_DSA/ and any later course
+folders). The notes are for my future self, who may have forgotten the language,
+so explain from first principles.
+
+HARD CONSTRAINTS
+1. Write only inside `00_Notes/`. Source folders are read-only.
+2. Existing notes are not edited, with these exceptions (list every one in your
+   report):
+   a) append rows for the new notes to the folder's index note's table;
+   b) set `next` on the previous sibling note, and `prev` on the next sibling,
+      only if that property is missing;
+   c) in `Tag Glossary`, add a new tag (with its query embed) ONLY after I have
+      approved it in Phase 0.
+3. Never invent behaviour. Open and read every source file. Do not rely on
+   READMEs or my description. Copy code verbatim.
+4. Never rename or fix source files. If a file or folder name looks misspelled,
+   use the exact real path in `source`, spell the note title correctly, and
+   report it. If the code does not compile or has a bug, document it as it is
+   and add a `> [!bug]` callout with the actual compiler message; do not fix it.
+5. New branch: `git checkout -b docs/notes-<short-topic>-<YYYY-MM-DD>`. Never
+   touch main.
+6. If a note for a source file already exists, skip it and report it. In update
+   mode, edit only the notes I named, never touch the `My notes` callout, never
+   change `created`, and never change a `status` of `reviewed`. In update mode
+   change `date` only if I specify a new one (non-practice notes); a practice
+   note's `date` is never changed.
+7. Do not run programs in place; see RUNNING RULES.
+
+PRE-FLIGHT (read-only, before planning)
+- Read `00_Notes/Tag Glossary.md`. If its vocabulary differs from the one below,
+  the glossary wins; report the differences.
+- Read the course's index note and the folder's index note.
+- Read the two nearest sibling notes (by number) to match their style and
+  frontmatter.
+- Resolve TARGET to a concrete file list. For each source file, check whether a
+  note already exists by searching `source` and `files` in all note frontmatter.
+  Report: files with a note, files without one, files you will skip (binaries,
+  .exe, .class, .bin, data files; empty stubs get a short stub note).
+
+NOTE LOCATION AND NAMING
+- A note's path mirrors the source path under `00_Notes/`, e.g.
+  `1215_DSA/01_CLASS/03_stack.c` -> `00_Notes/1215_DSA/01_CLASS/DSA CLASS 03 - stack.md`.
+- Names must be globally unique and follow the sibling notes' pattern exactly:
+  1101_CSE (legacy, no course prefix): `CLASS NN - name`, `LAB NN - name`,
+  `ASG NN - name`, `PROJ - name`, `PRAC ...`, `BUET ...`, `ARCH - name`
+  1206_OOP: `OOP CLASS NN`, `OOP LAB NN`, `OOP ASG NN`, `OOP PROJ NN`,
+  `OOP BRO NN`, `OOP BRO Basics NN`
+  1215_DSA: `DSA CLASS NN`, `DSA LAB NN`, `DSA ASG NN`, `DSA PROJ NN`,
+  `DSA PRAC <SUB> NN`
+  Underscores in file names become spaces. If the folder or area is new, propose
+  the pattern in Phase 0 and wait for my approval.
+- Forbidden in names: # ^ [ ] | \ / : * ? " < > 
+- Near-identical files (variants, numbered drills of the same exercise) may
+  share one note with a section each.
+
+FRONTMATTER (the very first thing in the file; valid YAML; 2-space indent, no
+tabs; quote strings containing colons; wikilinks in properties must be quoted)
+---
+title: "DSA LAB 04 - link list student"
+aliases:
+  - link list student
+tags:
+  - course/1215-cse
+  - lang/c
+  - type/lab
+  - topic/dynamic-memory
+  - topic/linked-list
+  - topic/pointers
+  - topic/structs
+  - level/intermediate
+course: "1215_CSE"
+semester: "1.2"
+date: 2026-11-18
+source: "1215_DSA/02_LAB/04_link_list_student.c"
+files:                       # only for multi-file notes; then `source` = folder
+  - a.c
+up: "[[DSA LAB - Index]]"
+prev: "[[DSA LAB 03 - student struct ptr]]"
+next: "[[DSA LAB 05 - link list basic]]"
+related:
+  - "[[ASG 10 - self ref struct]]"
+created: <today, YYYY-MM-DD>
+status: draft
+---
+Mappings (read from sibling notes; ask if a course or semester is new):
+1101_CSE -> `course/1101-cse`, `course: "1101_CSE"`, semester "1.1"
+1206_* -> `course/1206-se`, `course: "1206_SE"`, semester "1.2"
+1215_* -> `course/1215-cse`, `course: "1215_CSE"`, semester "1.2"
+`source` is plain text (repo-relative, forward slashes), not a link. Always
+`status: draft`. Omit prev/next where there is no numeric sequence.
+
+DATE RULE (two cases, decided by the note's type)
+`date` is a plain YAML date: YYYY-MM-DD, unquoted, no time. `created` is a
+separate property and is always today's date (when the note is written).
+Index and reference notes have no `date`.
+A) PRACTICE notes (type/practice: everything under a PRACTICE folder, such as
+   BRO_CODE, CONCEPT_WISE, LEETCODE, C_BOOK, PYG, IMAGE_EDITOR, BUET, SLIDES):
+   `date` = the source file's CREATION date from the file system. Ignore the
+   Dates field in TARGET for these.
+   - Single-file note: that file's creation date. Multi-file note (`source` is
+     a folder and `files` is listed): the EARLIEST creation date among the files.
+   - How to read it: on Windows use Python `os.stat(path).st_ctime`, which is
+     the creation time there; on other systems use `st_birthtime` if present.
+     Do NOT use the modification time. Convert to the machine's local time zone
+     so the day is not off by one. Never change a source file's timestamp
+     (no `touch`).
+   - Sanity check: if 5+ files, or more than half of the practice notes in this
+     run, share the exact same creation date, the timestamps were probably
+     reset by a clone or copy. Do not use them silently. Report this in Phase 0
+     and propose the fallback `git log --diff-filter=A --format=%cs -- <path>`
+     (date of the first commit that added the file, take the oldest), then wait
+     for my approval.
+B) ALL OTHER notes (lecture, lab, assignment, project, archive):
+   `date` = the date I give in the TARGET "Dates" field, for that file or its
+   folder. Do not read file timestamps and do not guess.
+   - If a file has no date from me, list it in Phase 0 and ask. Do not write
+     that note until I answer.
+   - If I gave one date, it applies to every non-practice note in this run.
+If a run mixes both kinds, apply the right rule per note.
+
+TAG VOCABULARY (the ONLY tags; a brace list means the prefix applies to each)
+ course/{1101-cse, 1206-se, 1215-cse}
+ lang/{c, java, batch, bash}
+ type/{lecture, lab, assignment, project, practice, reference, archive, index}
+ topic/{control-flow, loops, functions, arrays, strings, pointers,
+   pointer-arithmetic, recursion, sorting, searching, file-io, binary-io,
+   structs, linked-list, dynamic-memory, bit-manipulation, cli-args, encryption,
+   csv-parsing, bmp-format, image-processing, gui-iup, game-logic, testing, math,
+   class-object, constructors, static, inheritance, method-overloading,
+   method-overriding, polymorphism, abstract-classes, interfaces, encapsulation,
+   aggregation, composition, wrapper-classes, collections, exceptions,
+   date-time, audio, user-input, data-types, operators, varargs, tostring,
+   bubble-sort, insertion-sort, selection-sort, time-complexity}
+ PRE-APPROVED additions (add to Tag Glossary with query embeds if you use them):
+ topic/{stack, queue, doubly-linked-list, circular-linked-list, binary-tree,
+   binary-search-tree, heap, hash-table, graph, binary-search}
+ level/{basic, intermediate, advanced}
+Rules:
+- Content notes: exactly 1 course, 1+ lang, exactly 1 type, 2-5 topic, exactly
+  1 level tag. Index notes: course + lang + type/index only. Reference notes:
+  lang + type/reference only.
+- Canonical order: course, lang, type, topic (alphabetical), level.
+- `tags` is a YAML block list; lowercase, no `#`, no spaces. `status` is a
+  property, never a tag.
+- type by location: CLASS -> lecture, LAB -> lab, ASSIGNMENT -> assignment,
+  LAB_PROJECT/PROJ -> project, PRACTICE -> practice, ARCHIVE -> archive.
+- level: basic = one concept, simple syntax; intermediate = combines concepts
+  (pointers, structs, recursion, data structures, class relationships, file
+  handling); advanced = multi-module programs, non-trivial algorithms, GUI/
+  device/binary-format work.
+- A topic needed but missing from the vocabulary: do not invent it silently.
+  In Phase 0 propose `topic/<kebab-case>` with a one-line meaning, and use it
+  only after I approve. If the language is new, propose `lang/<x>` the same way.
+
+LINKING RULES (backlinks)
+- `up` links to the folder index; add the new rows to that index (constraint 2a).
+- In `## Related` link to: notes with overlapping topic tags (search the vault
+  frontmatter), evolution chains (an earlier simpler version of the same idea,
+  the same program in another language, a lab that builds on a lecture), and
+  anything the note builds on. At least 2 related links where honestly relevant;
+  never pad with unrelated ones. Cross-course links are encouraged (e.g. C
+  linked list <-> Java ArrayList).
+- Use `[[Note Name]]`, `[[Note Name|display text]]`, `[[Note Name#Heading]]`.
+  Every target must exactly match an existing note name. No orphan notes.
+
+TIERS (when Depth is "auto")
+- DEEP: a program over ~60 lines, real logic, several files or classes, a data
+  structure or algorithm, a project, or anything the exam is likely to ask.
+- SHORT: small single-concept programs.
+- FOLDER-LEVEL: 15+ tiny drills, or when I ask: one index note with a per-file
+  table and a one-line explanation each, no per-file notes.
+Do not write DEEP notes for trivial files, and do not shrink real projects.
+
+DEEP TEMPLATE (headings in this order after the frontmatter)
+# <title>
+> [!abstract] Summary: 1-2 sentences on what it does and what it teaches
+**Source:** `<repo path>`
+## Problem
+## Concepts used        (bullets; define each term in plain words on first use)
+## Code                 (verbatim in a fenced block with the language tag; if
+                         over ~120 lines, key functions only plus line ranges)
+## How it works         (numbered walkthrough in execution order)
+## Diagram / trace      (Mermaid and/or a trace table; see below)
+## Sample run           (real output; see RUNNING RULES)
+## Gotchas              ([!warning] callouts tied to THIS code)
+## Possible improvements
+## Key takeaways        (3 bullets)
+## My notes
+> [!question]- My notes
+> (leave empty)
+## Related
+SHORT TEMPLATE: frontmatter, abstract, Source, Problem, Concepts used, Code,
+How it works (brief), Sample run, Gotchas (only if real), My notes (empty),
+Related.
+Add by content, not by course:
+- Data structure or algorithm code: `## Data structure diagram` (Mermaid, e.g.
+  nodes and pointers), `## Dry run` (a trace table of variable states, one row
+  per step or pass), `## Complexity` (best/average/worst time and space, derived
+  from the actual loops and recursion).
+- Several classes: a Mermaid `classDiagram` (`<|--` inheritance, `..|>`
+  implements, `o--` aggregation, `*--` composition), built from the actual code.
+- Java class, constructor and static topics: a `> [!info] Java vs C` callout
+  comparing with structs and functions.
+- Memory-heavy code (pointers, malloc, references): a short stack/heap picture.
+FOLDER INDEX TEMPLATE: frontmatter (type/index), a paragraph on what the folder
+covers, a table | # | Note | What it teaches | Core tags |, a Progression
+paragraph, links to neighbouring indexes.
+
+WRITING STYLE
+Beginner-friendly, concise, accurate. Define jargon at first use. Callouts:
+[!info] [!tip] [!warning] [!bug] [!abstract]. Maths in $...$. Valid Mermaid
+(quote labels with special characters). Fenced code with language tags (c, java,
+bash, text). Use `Extra context` from TARGET where it helps, but verify it
+against the code; if they disagree, trust the code and say so.
+
+RUNNING RULES
+- Copy the relevant folder to a TEMP directory outside the repo before
+  compiling or running. Never run in place: programs may write or overwrite data
+  files.
+- C: `gcc -Wall -o <tmp>/prog <file>.c`. Java: check `javac -version`, then
+  `javac -d <tmp>/out <files>` and `java -cp <tmp>/out Main`; ignore existing
+  bin/*.class files. Never run .exe files. Other languages: use their standard
+  compile/run command and say which.
+- Interactive programs: pipe small sample input; use the repo's own input files
+  when they exist.
+- If a program cannot run (GUI, audio, missing compiler or library, needs
+  hardware), derive the behaviour from the source and label it
+  `> [!note] Traced from the source, not executed.`
+- Never paste output you did not obtain or trace.
+
+WORKFLOW (stop and wait for my reply between phases)
+PHASE 0 - PLAN (read-only)
+  List: the resolved file list; existing notes found; every note you will create
+  (path, name, tier, tags, level); for each note its `date` and which rule gave
+  it (A: creation date from the file system, or B: given by me), plus any
+  timestamp-collapse warning and any non-practice file that still needs a date
+  from me; grouping decisions; proposed new tags or naming patterns; things that
+  look misspelled or broken in the source; any question for me. Change nothing.
+PHASE 1 - WRITE (after I reply "approved", with any edits)
+  If more than 8 notes: write the first 2 and stop for my review before the
+  rest. Otherwise write all. Commit per folder:
+  `docs(notes): add <course> <folder> notes`.
+PHASE 2 - VERIFY (read-only script, not committed)
+  a) every new .md starts with valid frontmatter and has course, lang, type,
+     topic, level, source (content notes), date (content notes), up, status
+  b) all tags are in the vocabulary (plus approved additions); count and order
+     rules hold
+  c) every [[wikilink]] target exists; no duplicate note names; no orphans
+  d) every `source` path and every entry in `files` exists in the repo
+  e) every source file in TARGET is covered by a note, or listed as skipped with
+     a reason
+  f) `git diff --name-only` shows only new files under 00_Notes/ plus the
+     allowed edits from constraint 2, each listed
+  g) code blocks match the source files byte for byte (compare)
+  h) every `date` is valid YYYY-MM-DD; practice notes match a fresh recomputation
+     of the file creation date (or the approved Git fallback); other notes match
+     the date I gave; index and reference notes have no `date`
+  Report: notes created, skipped, traced-not-executed notes, source problems
+  found, tag changes, date sources used, open questions. If a check fails, fix
+  it or revert that commit; do not work around it.
